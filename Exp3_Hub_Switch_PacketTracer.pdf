@@ -1,0 +1,431 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 5
+/Kids [ 4 0 R 13 0 R 15 0 R 17 0 R 19 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 7563
+>>
+stream
+q
+q BT/F3 9 Tf 295.3878 31.1811 TD (1)Tj ET q q 1 0 0 1 62.69291 764.1969 cm 0 0 0 rg BT/F2 11.5 Tf 0 .5 TD (Exp No: 3)Tj ET Q q 1 0 0 1 159.0709 763.1969 cm 0 0 0 rg BT/F2 11.5 Tf 0 2.5 TD (Experiments on CISCO PACKET TRACER - Hub and Switch)Tj ET Q q 1 0 0 1 56.69291 755.1969 cm 0 0 0 RG 1 J 1 j 0 30 m 481.8898 30 l S 0 0 m 481.8898 0 l S 0 0 m 0 30 l S 481.8898 0 m 481.8898 30 l S 96.37795 0 m 96.37795 30 l S Q Q q 1 0 0 1 56.69291 721.1969 cm 0 0 0 RG 0 1.375 m 31.044 1.375 l S 0 0 0 rg BT/F2 13 Tf 0 3 TD (AIM:)Tj ET Q q 1 0 0 1 56.69291 670.1969 cm 0 0 0 rg BT/F3 11 Tf 0 34 TD (To understand the environment of Cisco Packet Tracer, to design simple networks using a hub and a switch)Tj 0 -15 TD (with 4 to 6 hosts, and to analyse the behaviour of these devices by tracing the communication in simulation)Tj T* (mode.)Tj ET Q q 1 0 0 1 56.69291 644.1969 cm 0 0 0 RG 0 1.375 m 180.557 1.375 l S 0 0 0 rg BT/F2 13 Tf 0 3 TD (ALGORITHM / PROCEDURE:)Tj ET Q q 1 0 0 1 56.69291 608.1969 cm 0 0 0 rg BT/F1 10 Tf 6 19 TD (1.)Tj ET BT/F3 11 Tf 24 19 TD (Open Cisco Packet Tracer. Study the workspace: device selection box \(bottom left\), logical workspace)Tj 0 -15 TD (\(centre\), Realtime / Simulation switch \(bottom right\).)Tj ET Q q 1 0 0 1 56.69291 590.1969 cm 0 0 0 rg BT/F1 10 Tf 6 4 TD (2.)Tj ET BT/F3 11 Tf 24 4 TD (Select )Tj/F2 11 Tf (End Devices)Tj/F3 11 Tf ( and drag 5 PCs and a Hub on to the workspace.)Tj ET Q q 1 0 0 1 56.69291 557.1969 cm 0 0 0 rg BT/F1 10 Tf 6 19 TD (3.)Tj ET BT/F3 11 Tf 24 19 TD (Select )Tj/F2 11 Tf (Connections)Tj/F3 11 Tf ( and use the )Tj/F2 11 Tf (Automatically Choose Connection Type)Tj/F3 11 Tf ( \(copper straight-through\) to)Tj 0 -15 TD (connect each PC to the hub.)Tj ET Q q 1 0 0 1 56.69291 524.1969 cm 0 0 0 rg BT/F1 10 Tf 6 19 TD (4.)Tj ET BT/F3 11 Tf 24 19 TD (Click a PC, go to )Tj/F2 11 Tf (Desktop > IP Configuration)Tj/F3 11 Tf ( and set the IP address )Tj/F4 9.5 Tf (192.168.1.1)Tj/F3 11 Tf ( to )Tj/F4 9.5 Tf (192.168.1.5)Tj/F3 11 Tf 0 -15 TD (with subnet mask )Tj/F4 9.5 Tf (255.255.255.0)Tj/F3 11 Tf (.)Tj ET Q q 1 0 0 1 56.69291 506.1969 cm 0 0 0 rg BT/F1 10 Tf 6 4 TD (5.)Tj ET BT/F3 11 Tf 24 4 TD (Open )Tj/F2 11 Tf (Desktop > Command Prompt)Tj/F3 11 Tf ( of PC0 and ping the other PCs to check the connectivity.)Tj ET Q q 1 0 0 1 56.69291 473.1969 cm 0 0 0 rg BT/F1 10 Tf 6 19 TD (6.)Tj ET BT/F3 11 Tf 24 19 TD (Switch to )Tj/F2 11 Tf (Simulation)Tj/F3 11 Tf ( mode, click )Tj/F2 11 Tf (Add Simple PDU)Tj/F3 11 Tf ( \(envelope\) and click PC0 then PC3. Press)Tj/F2 11 Tf 0 -15 TD (Capture / Forward)Tj/F3 11 Tf ( and watch how the packet moves.)Tj ET Q q 1 0 0 1 56.69291 455.1969 cm 0 0 0 rg BT/F1 10 Tf 6 4 TD (7.)Tj ET BT/F3 11 Tf 24 4 TD (Repeat steps 2 to 6 by replacing the hub with a )Tj/F2 11 Tf (Switch)Tj/F3 11 Tf ( \(Experiment 2\).)Tj ET Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg BT/F1 10 Tf 6 19 TD (8.)Tj ET BT/F3 11 Tf 24 19 TD (Build a network that has both a hub and a switch \(Experiment 3\), connect hub and switch with a)Tj 0 -15 TD (crossover cable, send a PDU from a hub PC to a switch PC and compare the behaviour.)Tj ET Q q 1 0 0 1 56.69291 404.1969 cm 0 0 0 rg BT/F1 10 Tf 6 4 TD (9.)Tj ET BT/F3 11 Tf 24 4 TD (Observe the event list and the MAC address table of the switch )Tj/F4 9.5 Tf (show mac-address-table)Tj/F3 11 Tf (.)Tj ET Q q 1 0 0 1 56.69291 378.1969 cm 0 0 0 RG 0 1.375 m 69.316 1.375 l S 0 0 0 rg BT/F2 13 Tf 0 3 TD (DIAGRAM:)Tj ET Q q[]0 d q[]0 d 1 0 0 1 56.69291 202.1969 cm 0 0 0 RG 235 128 m 45 45 l S Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 0 0 0 RG 235 128 m 135 45 l S Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 0 0 0 RG 235 128 m 235 45 l S Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 0 0 0 RG 235 128 m 335 45 l S Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 0 0 0 RG 235 128 m 425 45 l S Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 1 1 1 rg 0 0 0 RG 212 121 46 14 re B* Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG 0 w 215 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG 0 w 220 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG 0 w 225 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG 0 w 230 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG 0 w 235 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG 0 w 240 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG 0 w 245 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG 0 w 250 123 3 3 re B* Q q 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG BT/F5 6.5 Tf 227.9605 127 TD (HUB)Tj ET Q q 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 226.0375 102 TD (Hub0)Tj ET Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 1 1 1 rg 0 0 0 RG 32 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 1 1 1 rg 0 0 0 RG .5 w 34.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 1 1 1 rg 0 0 0 RG 36 36 18 6 re B* Q q 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6 Tf 41.331 49 TD (PC)Tj ET Q q 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 38.12625 23 TD (PC0)Tj ET Q q 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 29.5625 14 TD (192.168.1.1)Tj ET Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 1 1 1 rg 0 0 0 RG 122 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 1 1 1 rg 0 0 0 RG .5 w 124.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 1 1 1 rg 0 0 0 RG 126 36 18 6 re B* Q q 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6 Tf 131.331 49 TD (PC)Tj ET Q q 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 128.1262 23 TD (PC1)Tj ET Q q 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 119.5625 14 TD (192.168.1.2)Tj ET Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 1 1 1 rg 0 0 0 RG 222 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 1 1 1 rg 0 0 0 RG .5 w 224.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 1 1 1 rg 0 0 0 RG 226 36 18 6 re B* Q q 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6 Tf 231.331 49 TD (PC)Tj ET Q q 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 228.1262 23 TD (PC2)Tj ET Q q 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 219.5625 14 TD (192.168.1.3)Tj ET Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 1 1 1 rg 0 0 0 RG 322 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 1 1 1 rg 0 0 0 RG .5 w 324.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 1 1 1 rg 0 0 0 RG 326 36 18 6 re B* Q q 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6 Tf 331.331 49 TD (PC)Tj ET Q q 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 328.1263 23 TD (PC3)Tj ET Q q 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 319.5625 14 TD (192.168.1.4)Tj ET Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 1 1 1 rg 0 0 0 RG 412 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 1 1 1 rg 0 0 0 RG .5 w 414.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 202.1969 cm 1 1 1 rg 0 0 0 RG 416 36 18 6 re B* Q q 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6 Tf 421.331 49 TD (PC)Tj ET Q q 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 418.1263 23 TD (PC4)Tj ET Q q 1 0 0 1 56.69291 202.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 409.5625 14 TD (192.168.1.5)Tj ET Q Q q 1 0 0 1 56.69291 187.1969 cm 0 0 0 rg BT/F2 10 Tf 150.6649 2 TD (Fig 1: Network using only a HUB \(5 hosts\))Tj ET Q Q
+
+q
+453.2427 800.62948 122.03287 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F5
+>>
+endobj
+13 0 obj
+<<
+/Type /Page
+/Contents 14 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 15201
+>>
+stream
+q
+q BT/F3 9 Tf 295.3878 31.1811 TD (2)Tj ET q[]0 d q[]0 d 1 0 0 1 56.69291 615.1969 cm 0 0 0 RG 235 128 m 45 45 l S Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 0 0 0 RG 235 128 m 135 45 l S Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 0 0 0 RG 235 128 m 235 45 l S Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 0 0 0 RG 235 128 m 335 45 l S Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 0 0 0 RG 235 128 m 425 45 l S Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 1 1 1 rg 0 0 0 RG 212 121 46 14 re B* Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG 0 w 215 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG 0 w 220 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG 0 w 225 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG 0 w 230 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG 0 w 235 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG 0 w 240 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG 0 w 245 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG 0 w 250 123 3 3 re B* Q q 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG BT/F5 6.5 Tf 229.7643 127 TD (SW)Tj ET Q q 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 222.2912 102 TD (Switch0)Tj ET Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 1 1 1 rg 0 0 0 RG 32 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 1 1 1 rg 0 0 0 RG .5 w 34.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 1 1 1 rg 0 0 0 RG 36 36 18 6 re B* Q q 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6 Tf 41.331 49 TD (PC)Tj ET Q q 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 38.12625 23 TD (PC0)Tj ET Q q 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 29.5625 14 TD (192.168.1.1)Tj ET Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 1 1 1 rg 0 0 0 RG 122 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 1 1 1 rg 0 0 0 RG .5 w 124.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 1 1 1 rg 0 0 0 RG 126 36 18 6 re B* Q q 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6 Tf 131.331 49 TD (PC)Tj ET Q q 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 128.1262 23 TD (PC1)Tj ET Q q 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 119.5625 14 TD (192.168.1.2)Tj ET Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 1 1 1 rg 0 0 0 RG 222 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 1 1 1 rg 0 0 0 RG .5 w 224.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 1 1 1 rg 0 0 0 RG 226 36 18 6 re B* Q q 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6 Tf 231.331 49 TD (PC)Tj ET Q q 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 228.1262 23 TD (PC2)Tj ET Q q 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 219.5625 14 TD (192.168.1.3)Tj ET Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 1 1 1 rg 0 0 0 RG 322 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 1 1 1 rg 0 0 0 RG .5 w 324.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 1 1 1 rg 0 0 0 RG 326 36 18 6 re B* Q q 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6 Tf 331.331 49 TD (PC)Tj ET Q q 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 328.1263 23 TD (PC3)Tj ET Q q 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 319.5625 14 TD (192.168.1.4)Tj ET Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 1 1 1 rg 0 0 0 RG 412 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 1 1 1 rg 0 0 0 RG .5 w 414.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 615.1969 cm 1 1 1 rg 0 0 0 RG 416 36 18 6 re B* Q q 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6 Tf 421.331 49 TD (PC)Tj ET Q q 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 418.1263 23 TD (PC4)Tj ET Q q 1 0 0 1 56.69291 615.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 409.5625 14 TD (192.168.1.5)Tj ET Q Q q 1 0 0 1 56.69291 600.1969 cm 0 0 0 rg BT/F2 10 Tf 140.9399 2 TD (Fig 2: Network using only a SWITCH \(5 hosts\))Tj ET Q q[]0 d q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 RG 30 45 m 90 128 l S Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 RG 90 45 m 90 128 l S Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 RG 150 45 m 90 128 l S Q q[3 2]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 RG 90 128 m 330 128 l S Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 RG 270 45 m 330 128 l S Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 RG 330 45 m 330 128 l S Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 RG 390 45 m 330 128 l S Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG 67 121 46 14 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG 0 w 70 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG 0 w 75 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG 0 w 80 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG 0 w 85 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG 0 w 90 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG 0 w 95 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG 0 w 100 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG 0 w 105 123 3 3 re B* Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F5 6.5 Tf 82.9605 127 TD (HUB)Tj ET Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 81.0375 102 TD (Hub0)Tj ET Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG 307 121 46 14 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG 0 w 310 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG 0 w 315 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG 0 w 320 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG 0 w 325 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG 0 w 330 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG 0 w 335 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG 0 w 340 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG 0 w 345 123 3 3 re B* Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F5 6.5 Tf 324.7643 127 TD (SW)Tj ET Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 317.2912 102 TD (Switch0)Tj ET Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG 17 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG .5 w 19.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG 21 36 18 6 re B* Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6 Tf 26.331 49 TD (PC)Tj ET Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 23.12625 23 TD (PC0)Tj ET Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 14.5625 14 TD (192.168.1.1)Tj ET Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG 77 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG .5 w 79.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG 81 36 18 6 re B* Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6 Tf 86.331 49 TD (PC)Tj ET Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 83.12625 23 TD (PC1)Tj ET Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 74.5625 14 TD (192.168.1.2)Tj ET Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG 137 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG .5 w 139.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG 141 36 18 6 re B* Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6 Tf 146.331 49 TD (PC)Tj ET Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 143.1262 23 TD (PC2)Tj ET Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 134.5625 14 TD (192.168.1.3)Tj ET Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG 257 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG .5 w 259.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG 261 36 18 6 re B* Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6 Tf 266.331 49 TD (PC)Tj ET Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 263.1263 23 TD (PC3)Tj ET Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 254.5625 14 TD (192.168.1.4)Tj ET Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG 317 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG .5 w 319.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG 321 36 18 6 re B* Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6 Tf 326.331 49 TD (PC)Tj ET Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 323.1263 23 TD (PC4)Tj ET Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 314.5625 14 TD (192.168.1.5)Tj ET Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG 377 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG .5 w 379.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 422.1969 cm 1 1 1 rg 0 0 0 RG 381 36 18 6 re B* Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6 Tf 386.331 49 TD (PC)Tj ET Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 383.1263 23 TD (PC5)Tj ET Q q 1 0 0 1 56.69291 422.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 374.5625 14 TD (192.168.1.6)Tj ET Q Q q 1 0 0 1 56.69291 407.1969 cm 0 0 0 rg BT/F2 10 Tf 122.7399 2 TD (Fig 3: Network using both HUB and SWITCH \(6 hosts\))Tj ET Q q 1 0 0 1 56.69291 385.1969 cm 0 0 0 rg BT/F2 11.5 Tf 0 2.5 TD (Network topology implemented in our college)Tj ET Q q 1 0 0 1 56.69291 336.1969 cm 0 0 0 rg BT/F3 11 Tf 0 34 TD (The college network follows an )Tj/F2 11 Tf (extended star \(hierarchical\) topology)Tj/F3 11 Tf (. The computers of each lab are)Tj 0 -15 TD (connected to a lab switch with straight-through UTP cables \(star\). All lab switches are connected to the core)Tj T* (switch kept in the server room and the core switch goes to the router / firewall and then to the ISP.)Tj ET Q q[]0 d q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 RG 235 168 m 235 120 l S Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 RG 235 120 m 235 78 l S Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 RG 235 78 m 70 78 l S Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 RG 235 78 m 400 78 l S Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 RG 235 78 m 235 20 l S Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 1 1 1 rg 0 0 0 RG 232 168 m 232 174.0751 227.0751 179 221 179 c 214.9249 179 210 174.0751 210 168 c 210 161.9249 214.9249 157 221 157 c 227.0751 157 232 161.9249 232 168 c B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 1 1 1 rg 0 0 0 RG 248 174 m 248 181.1797 242.1797 187 235 187 c 227.8203 187 222 181.1797 222 174 c 222 166.8203 227.8203 161 235 161 c 242.1797 161 248 166.8203 248 174 c B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 1 1 1 rg 0 0 0 RG 260 168 m 260 174.0751 255.0751 179 249 179 c 242.9249 179 238 174.0751 238 168 c 238 161.9249 242.9249 157 249 157 c 255.0751 157 260 161.9249 260 168 c B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 1 1 1 rg 0 0 0 RG 247 165 m 247 171.6274 241.6274 177 235 177 c 228.3726 177 223 171.6274 223 165 c 223 158.3726 228.3726 153 235 153 c 241.6274 153 247 158.3726 247 165 c B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 1 1 1 rg 0 0 0 RG 0 w 213 156 44 14 re B* Q q 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 7.5 Tf 223.3375 167 TD (Internet)Tj ET Q q 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 229.165 138 TD (ISP)Tj ET Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 1 1 1 rg 0 0 0 RG 250 120 m 250 128.2843 243.2843 135 235 135 c 226.7157 135 220 128.2843 220 120 c 220 111.7157 226.7157 105 235 105 c 243.2843 105 250 111.7157 250 120 c B* Q q 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 10 Tf 231.39 117 TD (R)Tj ET Q q 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 207.505 90 TD (Router / Firewall)Tj ET Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 1 1 1 rg 0 0 0 RG 212 71 46 14 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 215 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 220 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 225 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 230 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 235 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 240 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 245 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 250 73 3 3 re B* Q q 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG BT/F5 6.5 Tf 229.7643 77 TD (SW)Tj ET Q q 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 215.3162 52 TD (Core Switch)Tj ET Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 1 1 1 rg 0 0 0 RG 47 71 46 14 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 50 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 55 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 60 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 65 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 70 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 75 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 80 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 85 73 3 3 re B* Q q 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG BT/F5 6.5 Tf 64.76425 77 TD (SW)Tj ET Q q 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 48.64375 52 TD (Lab-1 Switch)Tj ET Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 1 1 1 rg 0 0 0 RG 377 71 46 14 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 380 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 385 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 390 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 395 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 400 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 405 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 410 73 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG 0 w 415 73 3 3 re B* Q q 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG BT/F5 6.5 Tf 394.7643 77 TD (SW)Tj ET Q q 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 378.6438 52 TD (Lab-2 Switch)Tj ET Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 1 1 1 rg 0 0 0 RG 225 5 20 30 re B* Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 RG 228 28 m 242 28 l S Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 RG 228 21 m 242 21 l S Q q[]0 d 1 0 0 1 56.69291 142.1969 cm 0 0 0 RG 228 14 m 242 14 l S Q q 1 0 0 1 56.69291 142.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 224.38 -8 TD (Server)Tj ET Q Q q 1 0 0 1 56.69291 127.1969 cm 0 0 0 rg BT/F2 10 Tf 159.2849 2 TD (Fig 4: Topology of the college network)Tj ET Q q 1 0 0 1 56.69291 101.1969 cm 0 0 0 RG 0 1.375 m 58.5 1.375 l S 0 0 0 rg BT/F2 13 Tf 0 3 TD (OUTPUT:)Tj ET Q Q
+
+q
+453.2427 800.62948 122.03287 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+15 0 obj
+<<
+/Type /Page
+/Contents 16 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 13644
+>>
+stream
+q
+q BT/F3 9 Tf 295.3878 31.1811 TD (3)Tj ET q[]0 d q[]0 d 1 0 0 1 56.69291 599.1969 cm 1 1 1 rg .333333 .333333 .333333 RG 0 0 470 186 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .121569 .372549 .658824 rg 0 0 0 RG 0 w 0 170 470 16 re B* Q q 1 0 0 1 56.69291 599.1969 cm 1 1 1 rg 0 0 0 RG BT/F5 8 Tf 8 175 TD (Cisco Packet Tracer - hub_network.pkt)Tj ET Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .956863 .964706 .980392 rg 0 0 0 RG 0 w 1 1 468 169 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .129412 .129412 .129412 RG 1.2 w 235 128 m 45 45 l S Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 214.4 118.04 m 214.4 119.255 213.415 120.24 212.2 120.24 c 210.985 120.24 210 119.255 210 118.04 c 210 116.825 210.985 115.84 212.2 115.84 c 213.415 115.84 214.4 116.825 214.4 118.04 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 70 54.96 m 70 56.17503 69.01503 57.16 67.8 57.16 c 66.58497 57.16 65.6 56.17503 65.6 54.96 c 65.6 53.74497 66.58497 52.76 67.8 52.76 c 69.01503 52.76 70 53.74497 70 54.96 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .129412 .129412 .129412 RG 1.2 w 235 128 m 135 45 l S Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 225.2 118.04 m 225.2 119.255 224.215 120.24 223 120.24 c 221.785 120.24 220.8 119.255 220.8 118.04 c 220.8 116.825 221.785 115.84 223 115.84 c 224.215 115.84 225.2 116.825 225.2 118.04 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 149.2 54.96 m 149.2 56.17503 148.215 57.16 147 57.16 c 145.785 57.16 144.8 56.17503 144.8 54.96 c 144.8 53.74497 145.785 52.76 147 52.76 c 148.215 52.76 149.2 53.74497 149.2 54.96 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .129412 .129412 .129412 RG 1.2 w 235 128 m 235 45 l S Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 237.2 118.04 m 237.2 119.255 236.215 120.24 235 120.24 c 233.785 120.24 232.8 119.255 232.8 118.04 c 232.8 116.825 233.785 115.84 235 115.84 c 236.215 115.84 237.2 116.825 237.2 118.04 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 237.2 54.96 m 237.2 56.17503 236.215 57.16 235 57.16 c 233.785 57.16 232.8 56.17503 232.8 54.96 c 232.8 53.74497 233.785 52.76 235 52.76 c 236.215 52.76 237.2 53.74497 237.2 54.96 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .129412 .129412 .129412 RG 1.2 w 235 128 m 335 45 l S Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 249.2 118.04 m 249.2 119.255 248.215 120.24 247 120.24 c 245.785 120.24 244.8 119.255 244.8 118.04 c 244.8 116.825 245.785 115.84 247 115.84 c 248.215 115.84 249.2 116.825 249.2 118.04 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 325.2 54.96 m 325.2 56.17503 324.215 57.16 323 57.16 c 321.785 57.16 320.8 56.17503 320.8 54.96 c 320.8 53.74497 321.785 52.76 323 52.76 c 324.215 52.76 325.2 53.74497 325.2 54.96 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .129412 .129412 .129412 RG 1.2 w 235 128 m 425 45 l S Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 260 118.04 m 260 119.255 259.015 120.24 257.8 120.24 c 256.585 120.24 255.6 119.255 255.6 118.04 c 255.6 116.825 256.585 115.84 257.8 115.84 c 259.015 115.84 260 116.825 260 118.04 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 404.4 54.96 m 404.4 56.17503 403.415 57.16 402.2 57.16 c 400.985 57.16 400 56.17503 400 54.96 c 400 53.74497 400.985 52.76 402.2 52.76 c 403.415 52.76 404.4 53.74497 404.4 54.96 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm 1 .717647 .301961 rg 0 0 0 RG 212 121 46 14 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 215 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 220 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 225 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 230 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 235 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 240 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 245 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 250 123 3 3 re B* Q q 1 0 0 1 56.69291 599.1969 cm 1 1 1 rg 0 0 0 RG BT/F5 6.5 Tf 227.9605 129 TD (HUB)Tj ET Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 226.0375 102 TD (Hub0)Tj ET Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .215686 .278431 .309804 rg 0 0 0 RG 32 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .309804 .764706 .968627 rg 0 0 0 RG .5 w 34.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .690196 .745098 .772549 rg 0 0 0 RG 36 36 18 6 re B* Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 37.70625 23 TD (PC0)Tj ET Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 27.8335 14 TD (192.168.1.1)Tj ET Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .215686 .278431 .309804 rg 0 0 0 RG 122 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .309804 .764706 .968627 rg 0 0 0 RG .5 w 124.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .690196 .745098 .772549 rg 0 0 0 RG 126 36 18 6 re B* Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 127.7062 23 TD (PC1)Tj ET Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 117.8335 14 TD (192.168.1.2)Tj ET Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .215686 .278431 .309804 rg 0 0 0 RG 222 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .309804 .764706 .968627 rg 0 0 0 RG .5 w 224.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .690196 .745098 .772549 rg 0 0 0 RG 226 36 18 6 re B* Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 227.7063 23 TD (PC2)Tj ET Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 217.8335 14 TD (192.168.1.3)Tj ET Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .215686 .278431 .309804 rg 0 0 0 RG 322 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .309804 .764706 .968627 rg 0 0 0 RG .5 w 324.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .690196 .745098 .772549 rg 0 0 0 RG 326 36 18 6 re B* Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 327.7063 23 TD (PC3)Tj ET Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 317.8335 14 TD (192.168.1.4)Tj ET Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .215686 .278431 .309804 rg 0 0 0 RG 412 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .309804 .764706 .968627 rg 0 0 0 RG .5 w 414.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .690196 .745098 .772549 rg 0 0 0 RG 416 36 18 6 re B* Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 417.7063 23 TD (PC4)Tj ET Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 407.8335 14 TD (192.168.1.5)Tj ET Q Q q 1 0 0 1 56.69291 584.1969 cm 0 0 0 rg BT/F2 10 Tf 97.75488 2 TD (Experiment 1 : hub network in Packet Tracer \(all link lights green\))Tj ET Q q 1 0 0 1 56.69291 286.5969 cm .047059 .047059 .047059 rg .533333 .533333 .533333 RG .8 w 0 0 481.8898 289.6 re B* 1 1 1 rg 0 274.6 481.8898 15 re f* 0 0 0 rg BT/F5 8 Tf 8 279.1 TD (PC0 - Command Prompt)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 6 264.2 TD (C:\\>)Tj ET 1 1 1 rg BT/F4 7.6 Tf 24.24 264.2 TD (ping 192.168.1.4)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 6 244.6 TD (Pinging 192.168.1.4 with 32 bytes of data:)Tj ET 1 .419608 .419608 rg BT/F4 7.6 Tf 6 225 TD (Request timed out)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 83.52 225 TD (.)Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 6 215.2 TD (Reply from 192.168.1.4: bytes)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 138.24 215.2 TD (=32 time=6ms TTL=128)Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 6 205.4 TD (Reply from 192.168.1.4: bytes)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 138.24 205.4 TD (=32 time<1ms TTL=128)Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 6 195.6 TD (Reply from 192.168.1.4: bytes)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 138.24 195.6 TD (=32 time<1ms TTL=128)Tj ET BT/F4 7.6 Tf 6 176 TD (Ping statistics for 192.168.1.4:)Tj ET BT/F4 7.6 Tf 6 166.2 TD (    Packets: Sent = 4, Received = 3, Lost = 1 \(25% loss\),)Tj ET BT/F4 7.6 Tf 6 156.4 TD (Approximate round trip times in milli-seconds:)Tj ET BT/F4 7.6 Tf 6 146.6 TD (    Minimum = 0ms, Maximum = 6ms, Average = 2ms)Tj ET BT/F4 7.6 Tf 6 127 TD (C:\\>)Tj ET 1 1 1 rg BT/F4 7.6 Tf 24.24 127 TD (ping 192.168.1.4)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 6 107.4 TD (Pinging 192.168.1.4 with 32 bytes of data:)Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 6 87.8 TD (Reply from 192.168.1.4: bytes)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 138.24 87.8 TD (=32 time<1ms TTL=128)Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 6 78 TD (Reply from 192.168.1.4: bytes)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 138.24 78 TD (=32 time<1ms TTL=128)Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 6 68.2 TD (Reply from 192.168.1.4: bytes)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 138.24 68.2 TD (=32 time<1ms TTL=128)Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 6 58.4 TD (Reply from 192.168.1.4: bytes)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 138.24 58.4 TD (=32 time<1ms TTL=128)Tj ET BT/F4 7.6 Tf 6 38.8 TD (Ping statistics for 192.168.1.4:)Tj ET BT/F4 7.6 Tf 6 29 TD (    Packets: Sent = 4, Received = 4, Lost = 0 )Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 215.76 29 TD (\(0% loss\))Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 256.8 29 TD (,)Tj ET BT/F4 7.6 Tf 6 19.2 TD (Approximate round trip times in milli-seconds:)Tj ET BT/F4 7.6 Tf 6 9.4 TD (    Minimum = 0ms, Maximum = 0ms, Average = 0ms)Tj ET Q q 1 0 0 1 56.69291 247.5969 cm 0 0 0 rg BT/F3 11 Tf 0 19 TD (The first ping loses one packet because the ARP request has to be resolved first. The second ping shows 0%)Tj 0 -15 TD (loss.)Tj ET Q q 1 0 0 1 56.69291 225.5969 cm 0 0 0 rg BT/F2 11.5 Tf 0 2.5 TD (Simulation mode - Hub \(PC0 to PC3\))Tj ET Q q 1 0 0 1 90.4252 117.5969 cm .85098 .886275 .952941 rg 0 104 414.4252 -13 re f* .784314 .901961 .788235 rg 24.09449 91 57.826776 -13 re f* 1 .756863 .027451 rg 231.3071 91 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 78 57.826776 -13 re f* 1 .756863 .027451 rg 231.3071 78 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 65 57.826776 -13 re f* 1 .756863 .027451 rg 231.3071 65 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 52 57.826776 -13 re f* 1 .756863 .027451 rg 231.3071 52 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 39 57.826776 -13 re f* 1 .756863 .027451 rg 231.3071 39 38.551179 -13 re f* 1 .803922 .823529 rg 24.09449 26 57.826776 -13 re f* .298039 .686275 .313725 rg 231.3071 26 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 13 57.826776 -13 re f* .298039 .686275 .313725 rg 231.3071 13 38.551179 -13 re f* 0 0 0 rg BT/F5 7.5 Tf 3 94.5 TD (Fire)Tj ET BT 27.09449 94.5 TD (Last Status)Tj ET BT 84.92126 94.5 TD (Source)Tj ET BT 133.1102 94.5 TD (Destination)Tj ET BT 195.7559 94.5 TD (Type)Tj ET BT 234.3071 94.5 TD (Color)Tj ET BT 272.8583 94.5 TD (Time\(sec\))Tj ET BT 330.685 94.5 TD (Periodic)Tj ET BT 378.874 94.5 TD (Num)Tj ET BT/F1 7.5 Tf 27.09449 81.5 TD (Successful)Tj ET BT 84.92126 81.5 TD (PC0)Tj ET BT 133.1102 81.5 TD (Hub0)Tj ET BT 195.7559 81.5 TD (ARP)Tj ET BT 272.8583 81.5 TD (0.000)Tj ET BT 330.685 81.5 TD (N)Tj ET BT 378.874 81.5 TD (0)Tj ET BT 27.09449 68.5 TD (Successful)Tj ET BT 84.92126 68.5 TD (Hub0)Tj ET BT 133.1102 68.5 TD (PC1)Tj ET BT 195.7559 68.5 TD (ARP)Tj ET BT 272.8583 68.5 TD (0.001)Tj ET BT 330.685 68.5 TD (N)Tj ET BT 378.874 68.5 TD (1)Tj ET BT 27.09449 55.5 TD (Successful)Tj ET BT 84.92126 55.5 TD (Hub0)Tj ET BT 133.1102 55.5 TD (PC2)Tj ET BT 195.7559 55.5 TD (ARP)Tj ET BT 272.8583 55.5 TD (0.001)Tj ET BT 330.685 55.5 TD (N)Tj ET BT 378.874 55.5 TD (2)Tj ET BT 27.09449 42.5 TD (Successful)Tj ET BT 84.92126 42.5 TD (Hub0)Tj ET BT 133.1102 42.5 TD (PC3)Tj ET BT 195.7559 42.5 TD (ARP)Tj ET BT 272.8583 42.5 TD (0.001)Tj ET BT 330.685 42.5 TD (N)Tj ET BT 378.874 42.5 TD (3)Tj ET BT 27.09449 29.5 TD (Successful)Tj ET BT 84.92126 29.5 TD (Hub0)Tj ET BT 133.1102 29.5 TD (PC4)Tj ET BT 195.7559 29.5 TD (ARP)Tj ET BT 272.8583 29.5 TD (0.001)Tj ET BT 330.685 29.5 TD (N)Tj ET BT 378.874 29.5 TD (4)Tj ET BT 27.09449 16.5 TD (Failed)Tj ET BT 84.92126 16.5 TD (PC1)Tj ET BT 133.1102 16.5 TD (---)Tj ET BT 195.7559 16.5 TD (ICMP)Tj ET BT 272.8583 16.5 TD (0.002)Tj ET BT 330.685 16.5 TD (N)Tj ET BT 378.874 16.5 TD (5)Tj ET BT 27.09449 3.5 TD (Successful)Tj ET BT 84.92126 3.5 TD (PC0)Tj ET BT 133.1102 3.5 TD (Hub0)Tj ET BT 195.7559 3.5 TD (ICMP)Tj ET BT 272.8583 3.5 TD (0.003)Tj ET BT 330.685 3.5 TD (N)Tj ET BT 378.874 3.5 TD (6)Tj ET q .533333 .533333 .533333 RG 1 J 1 j .4 w 0 104 m 414.4252 104 l S 0 0 m 414.4252 0 l S 0 0 m 0 104 l S 414.4252 0 m 414.4252 104 l S 0 91 m 414.4252 91 l S 0 78 m 414.4252 78 l S 0 65 m 414.4252 65 l S 0 52 m 414.4252 52 l S 0 39 m 414.4252 39 l S 0 26 m 414.4252 26 l S 0 13 m 414.4252 13 l S 24.09449 0 m 24.09449 104 l S 81.92126 0 m 81.92126 104 l S 130.1102 0 m 130.1102 104 l S 192.7559 0 m 192.7559 104 l S 231.3071 0 m 231.3071 104 l S 269.8583 0 m 269.8583 104 l S 327.685 0 m 327.685 104 l S 375.874 0 m 375.874 104 l S Q Q q 1 0 0 1 56.69291 83.59685 cm 0 0 0 rg BT/F3 11 Tf 0 19 TD (The hub repeats every frame on all ports. PC1, PC2 and PC4 receive the frame and drop it because it is not)Tj 0 -15 TD (meant for them.)Tj ET Q Q
+
+q
+453.2427 800.62948 122.03287 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/Type /Page
+/Contents 18 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 22680
+>>
+stream
+q
+q BT/F3 9 Tf 295.3878 31.1811 TD (4)Tj ET q[]0 d q[]0 d 1 0 0 1 56.69291 599.1969 cm 1 1 1 rg .333333 .333333 .333333 RG 0 0 470 186 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .121569 .372549 .658824 rg 0 0 0 RG 0 w 0 170 470 16 re B* Q q 1 0 0 1 56.69291 599.1969 cm 1 1 1 rg 0 0 0 RG BT/F5 8 Tf 8 175 TD (Cisco Packet Tracer - switch_network.pkt)Tj ET Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .956863 .964706 .980392 rg 0 0 0 RG 0 w 1 1 468 169 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .129412 .129412 .129412 RG 1.2 w 235 128 m 45 45 l S Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 214.4 118.04 m 214.4 119.255 213.415 120.24 212.2 120.24 c 210.985 120.24 210 119.255 210 118.04 c 210 116.825 210.985 115.84 212.2 115.84 c 213.415 115.84 214.4 116.825 214.4 118.04 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 70 54.96 m 70 56.17503 69.01503 57.16 67.8 57.16 c 66.58497 57.16 65.6 56.17503 65.6 54.96 c 65.6 53.74497 66.58497 52.76 67.8 52.76 c 69.01503 52.76 70 53.74497 70 54.96 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .129412 .129412 .129412 RG 1.2 w 235 128 m 135 45 l S Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 225.2 118.04 m 225.2 119.255 224.215 120.24 223 120.24 c 221.785 120.24 220.8 119.255 220.8 118.04 c 220.8 116.825 221.785 115.84 223 115.84 c 224.215 115.84 225.2 116.825 225.2 118.04 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 149.2 54.96 m 149.2 56.17503 148.215 57.16 147 57.16 c 145.785 57.16 144.8 56.17503 144.8 54.96 c 144.8 53.74497 145.785 52.76 147 52.76 c 148.215 52.76 149.2 53.74497 149.2 54.96 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .129412 .129412 .129412 RG 1.2 w 235 128 m 235 45 l S Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 237.2 118.04 m 237.2 119.255 236.215 120.24 235 120.24 c 233.785 120.24 232.8 119.255 232.8 118.04 c 232.8 116.825 233.785 115.84 235 115.84 c 236.215 115.84 237.2 116.825 237.2 118.04 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 237.2 54.96 m 237.2 56.17503 236.215 57.16 235 57.16 c 233.785 57.16 232.8 56.17503 232.8 54.96 c 232.8 53.74497 233.785 52.76 235 52.76 c 236.215 52.76 237.2 53.74497 237.2 54.96 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .129412 .129412 .129412 RG 1.2 w 235 128 m 335 45 l S Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 249.2 118.04 m 249.2 119.255 248.215 120.24 247 120.24 c 245.785 120.24 244.8 119.255 244.8 118.04 c 244.8 116.825 245.785 115.84 247 115.84 c 248.215 115.84 249.2 116.825 249.2 118.04 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 325.2 54.96 m 325.2 56.17503 324.215 57.16 323 57.16 c 321.785 57.16 320.8 56.17503 320.8 54.96 c 320.8 53.74497 321.785 52.76 323 52.76 c 324.215 52.76 325.2 53.74497 325.2 54.96 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .129412 .129412 .129412 RG 1.2 w 235 128 m 425 45 l S Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 260 118.04 m 260 119.255 259.015 120.24 257.8 120.24 c 256.585 120.24 255.6 119.255 255.6 118.04 c 255.6 116.825 256.585 115.84 257.8 115.84 c 259.015 115.84 260 116.825 260 118.04 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 404.4 54.96 m 404.4 56.17503 403.415 57.16 402.2 57.16 c 400.985 57.16 400 56.17503 400 54.96 c 400 53.74497 400.985 52.76 402.2 52.76 c 403.415 52.76 404.4 53.74497 404.4 54.96 c B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .14902 .65098 .603922 rg 0 0 0 RG 212 121 46 14 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 215 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 220 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 225 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 230 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 235 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 240 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 245 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 250 123 3 3 re B* Q q 1 0 0 1 56.69291 599.1969 cm 1 1 1 rg 0 0 0 RG BT/F5 6.5 Tf 229.7643 129 TD (SW)Tj ET Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 221.8713 102 TD (Switch0)Tj ET Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .215686 .278431 .309804 rg 0 0 0 RG 32 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .309804 .764706 .968627 rg 0 0 0 RG .5 w 34.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .690196 .745098 .772549 rg 0 0 0 RG 36 36 18 6 re B* Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 37.70625 23 TD (PC0)Tj ET Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 27.8335 14 TD (192.168.1.1)Tj ET Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .215686 .278431 .309804 rg 0 0 0 RG 122 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .309804 .764706 .968627 rg 0 0 0 RG .5 w 124.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .690196 .745098 .772549 rg 0 0 0 RG 126 36 18 6 re B* Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 127.7062 23 TD (PC1)Tj ET Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 117.8335 14 TD (192.168.1.2)Tj ET Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .215686 .278431 .309804 rg 0 0 0 RG 222 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .309804 .764706 .968627 rg 0 0 0 RG .5 w 224.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .690196 .745098 .772549 rg 0 0 0 RG 226 36 18 6 re B* Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 227.7063 23 TD (PC2)Tj ET Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 217.8335 14 TD (192.168.1.3)Tj ET Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .215686 .278431 .309804 rg 0 0 0 RG 322 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .309804 .764706 .968627 rg 0 0 0 RG .5 w 324.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .690196 .745098 .772549 rg 0 0 0 RG 326 36 18 6 re B* Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 327.7063 23 TD (PC3)Tj ET Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 317.8335 14 TD (192.168.1.4)Tj ET Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .215686 .278431 .309804 rg 0 0 0 RG 412 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .309804 .764706 .968627 rg 0 0 0 RG .5 w 414.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 599.1969 cm .690196 .745098 .772549 rg 0 0 0 RG 416 36 18 6 re B* Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 417.7063 23 TD (PC4)Tj ET Q q 1 0 0 1 56.69291 599.1969 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 407.8335 14 TD (192.168.1.5)Tj ET Q Q q 1 0 0 1 56.69291 584.1969 cm 0 0 0 rg BT/F2 10 Tf 138.0449 2 TD (Experiment 2 : switch network in Packet Tracer)Tj ET Q q 1 0 0 1 56.69291 443.3969 cm 0 0 0 rg 0 0 481.8898 132.8 re f* .172549 .435294 .733333 rg 0 117.8 481.8898 15 re f* 1 1 1 rg 0 0 0 RG BT/F5 8 Tf 8 122.3 TD (Switch0 - CLI)Tj ET BT/F4 7.6 Tf 6 107.4 TD (Switch>)Tj ET 1 1 .4 scn BT/F4 7.6 Tf 37.92 107.4 TD (enable)Tj ET 1 1 1 scn BT/F4 7.6 Tf 6 97.6 TD (Switch#)Tj ET 1 1 .4 scn BT/F4 7.6 Tf 37.92 97.6 TD (show mac-address-table)Tj ET .909804 .909804 .909804 rg BT/F4 7.6 Tf 6 87.8 TD (          Mac Address Table)Tj ET BT/F4 7.6 Tf 6 78 TD (-------------------------------------------)Tj ET BT/F4 7.6 Tf 6 58.4 TD (Vlan    Mac Address       Type        Ports)Tj ET BT/F4 7.6 Tf 6 48.6 TD (----    -----------       --------    -----)Tj ET BT/F4 7.6 Tf 6 38.8 TD (   1    0001.4382.a3c1    DYNAMIC     Fa0/1)Tj ET BT/F4 7.6 Tf 6 29 TD (   1    0002.1779.b4d2    DYNAMIC     Fa0/4)Tj ET BT/F4 7.6 Tf 6 19.2 TD (   1    0060.2fa1.0c55    DYNAMIC     Fa0/2)Tj ET 1 1 1 rg BT/F4 7.6 Tf 6 9.4 TD (Switch#)Tj ET Q q 1 0 0 1 90.4252 330.3969 cm .85098 .886275 .952941 rg 0 104 414.4252 -13 re f* .784314 .901961 .788235 rg 24.09449 91 57.826776 -13 re f* 1 .756863 .027451 rg 231.3071 91 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 78 57.826776 -13 re f* 1 .756863 .027451 rg 231.3071 78 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 65 57.826776 -13 re f* 1 .756863 .027451 rg 231.3071 65 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 52 57.826776 -13 re f* 1 .756863 .027451 rg 231.3071 52 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 39 57.826776 -13 re f* 1 .756863 .027451 rg 231.3071 39 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 26 57.826776 -13 re f* .298039 .686275 .313725 rg 231.3071 26 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 13 57.826776 -13 re f* .298039 .686275 .313725 rg 231.3071 13 38.551179 -13 re f* 0 0 0 rg BT/F5 7.5 Tf 3 94.5 TD (Fire)Tj ET BT 27.09449 94.5 TD (Last Status)Tj ET BT 84.92126 94.5 TD (Source)Tj ET BT 133.1102 94.5 TD (Destination)Tj ET BT 195.7559 94.5 TD (Type)Tj ET BT 234.3071 94.5 TD (Color)Tj ET BT 272.8583 94.5 TD (Time\(sec\))Tj ET BT 330.685 94.5 TD (Periodic)Tj ET BT 378.874 94.5 TD (Num)Tj ET BT/F1 7.5 Tf 27.09449 81.5 TD (Successful)Tj ET BT 84.92126 81.5 TD (PC0)Tj ET BT 133.1102 81.5 TD (Switch0)Tj ET BT 195.7559 81.5 TD (ARP)Tj ET BT 272.8583 81.5 TD (0.000)Tj ET BT 330.685 81.5 TD (N)Tj ET BT 378.874 81.5 TD (0)Tj ET BT 27.09449 68.5 TD (Successful)Tj ET BT 84.92126 68.5 TD (Switch0)Tj ET BT 133.1102 68.5 TD (PC1)Tj ET BT 195.7559 68.5 TD (ARP)Tj ET BT 272.8583 68.5 TD (0.001)Tj ET BT 330.685 68.5 TD (N)Tj ET BT 378.874 68.5 TD (1)Tj ET BT 27.09449 55.5 TD (Successful)Tj ET BT 84.92126 55.5 TD (Switch0)Tj ET BT 133.1102 55.5 TD (PC2)Tj ET BT 195.7559 55.5 TD (ARP)Tj ET BT 272.8583 55.5 TD (0.001)Tj ET BT 330.685 55.5 TD (N)Tj ET BT 378.874 55.5 TD (2)Tj ET BT 27.09449 42.5 TD (Successful)Tj ET BT 84.92126 42.5 TD (Switch0)Tj ET BT 133.1102 42.5 TD (PC3)Tj ET BT 195.7559 42.5 TD (ARP)Tj ET BT 272.8583 42.5 TD (0.001)Tj ET BT 330.685 42.5 TD (N)Tj ET BT 378.874 42.5 TD (3)Tj ET BT 27.09449 29.5 TD (Successful)Tj ET BT 84.92126 29.5 TD (PC3)Tj ET BT 133.1102 29.5 TD (Switch0)Tj ET BT 195.7559 29.5 TD (ARP)Tj ET BT 272.8583 29.5 TD (0.002)Tj ET BT 330.685 29.5 TD (N)Tj ET BT 378.874 29.5 TD (4)Tj ET BT 27.09449 16.5 TD (Successful)Tj ET BT 84.92126 16.5 TD (PC0)Tj ET BT 133.1102 16.5 TD (Switch0)Tj ET BT 195.7559 16.5 TD (ICMP)Tj ET BT 272.8583 16.5 TD (0.003)Tj ET BT 330.685 16.5 TD (N)Tj ET BT 378.874 16.5 TD (5)Tj ET BT 27.09449 3.5 TD (Successful)Tj ET BT 84.92126 3.5 TD (Switch0)Tj ET BT 133.1102 3.5 TD (PC3)Tj ET BT 195.7559 3.5 TD (ICMP)Tj ET BT 272.8583 3.5 TD (0.004)Tj ET BT 330.685 3.5 TD (N)Tj ET BT 378.874 3.5 TD (6)Tj ET q .533333 .533333 .533333 RG 1 J 1 j .4 w 0 104 m 414.4252 104 l S 0 0 m 414.4252 0 l S 0 0 m 0 104 l S 414.4252 0 m 414.4252 104 l S 0 91 m 414.4252 91 l S 0 78 m 414.4252 78 l S 0 65 m 414.4252 65 l S 0 52 m 414.4252 52 l S 0 39 m 414.4252 39 l S 0 26 m 414.4252 26 l S 0 13 m 414.4252 13 l S 24.09449 0 m 24.09449 104 l S 81.92126 0 m 81.92126 104 l S 130.1102 0 m 130.1102 104 l S 192.7559 0 m 192.7559 104 l S 231.3071 0 m 231.3071 104 l S 269.8583 0 m 269.8583 104 l S 327.685 0 m 327.685 104 l S 375.874 0 m 375.874 104 l S Q Q q 1 0 0 1 56.69291 296.3969 cm 0 0 0 rg BT/F3 11 Tf 0 19 TD (Only the first ARP broadcast is flooded. After the switch has learnt the MAC addresses, the ICMP frame)Tj 0 -15 TD (goes only to the port of PC3.)Tj ET Q q[]0 d q[]0 d 1 0 0 1 56.69291 102.3969 cm 1 1 1 rg .333333 .333333 .333333 RG 0 0 470 186 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .121569 .372549 .658824 rg 0 0 0 RG 0 w 0 170 470 16 re B* Q q 1 0 0 1 56.69291 102.3969 cm 1 1 1 rg 0 0 0 RG BT/F5 8 Tf 8 175 TD (Cisco Packet Tracer - hub_switch.pkt)Tj ET Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .956863 .964706 .980392 rg 0 0 0 RG 0 w 1 1 468 169 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .129412 .129412 .129412 RG 1.2 w 30 45 m 90 128 l S Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 39.4 54.96 m 39.4 56.17503 38.41503 57.16 37.2 57.16 c 35.98497 57.16 35 56.17503 35 54.96 c 35 53.74497 35.98497 52.76 37.2 52.76 c 38.41503 52.76 39.4 53.74497 39.4 54.96 c B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 85 118.04 m 85 119.255 84.01503 120.24 82.8 120.24 c 81.58497 120.24 80.6 119.255 80.6 118.04 c 80.6 116.825 81.58497 115.84 82.8 115.84 c 84.01503 115.84 85 116.825 85 118.04 c B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .129412 .129412 .129412 RG 1.2 w 90 45 m 90 128 l S Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 92.2 54.96 m 92.2 56.17503 91.21503 57.16 90 57.16 c 88.78497 57.16 87.8 56.17503 87.8 54.96 c 87.8 53.74497 88.78497 52.76 90 52.76 c 91.21503 52.76 92.2 53.74497 92.2 54.96 c B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 92.2 118.04 m 92.2 119.255 91.21503 120.24 90 120.24 c 88.78497 120.24 87.8 119.255 87.8 118.04 c 87.8 116.825 88.78497 115.84 90 115.84 c 91.21503 115.84 92.2 116.825 92.2 118.04 c B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .129412 .129412 .129412 RG 1.2 w 150 45 m 90 128 l S Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 145 54.96 m 145 56.17503 144.015 57.16 142.8 57.16 c 141.585 57.16 140.6 56.17503 140.6 54.96 c 140.6 53.74497 141.585 52.76 142.8 52.76 c 144.015 52.76 145 53.74497 145 54.96 c B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 99.4 118.04 m 99.4 119.255 98.41503 120.24 97.2 120.24 c 95.98497 120.24 95 119.255 95 118.04 c 95 116.825 95.98497 115.84 97.2 115.84 c 98.41503 115.84 99.4 116.825 99.4 118.04 c B* Q q[3 2]0 d 1 0 0 1 56.69291 102.3969 cm .129412 .129412 .129412 RG 1.2 w 90 128 m 330 128 l S Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 121 128 m 121 129.215 120.015 130.2 118.8 130.2 c 117.585 130.2 116.6 129.215 116.6 128 c 116.6 126.785 117.585 125.8 118.8 125.8 c 120.015 125.8 121 126.785 121 128 c B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 303.4 128 m 303.4 129.215 302.415 130.2 301.2 130.2 c 299.985 130.2 299 129.215 299 128 c 299 126.785 299.985 125.8 301.2 125.8 c 302.415 125.8 303.4 126.785 303.4 128 c B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .129412 .129412 .129412 RG 1.2 w 270 45 m 330 128 l S Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 279.4 54.96 m 279.4 56.17503 278.415 57.16 277.2 57.16 c 275.985 57.16 275 56.17503 275 54.96 c 275 53.74497 275.985 52.76 277.2 52.76 c 278.415 52.76 279.4 53.74497 279.4 54.96 c B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 325 118.04 m 325 119.255 324.015 120.24 322.8 120.24 c 321.585 120.24 320.6 119.255 320.6 118.04 c 320.6 116.825 321.585 115.84 322.8 115.84 c 324.015 115.84 325 116.825 325 118.04 c B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .129412 .129412 .129412 RG 1.2 w 330 45 m 330 128 l S Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 332.2 54.96 m 332.2 56.17503 331.215 57.16 330 57.16 c 328.785 57.16 327.8 56.17503 327.8 54.96 c 327.8 53.74497 328.785 52.76 330 52.76 c 331.215 52.76 332.2 53.74497 332.2 54.96 c B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 332.2 118.04 m 332.2 119.255 331.215 120.24 330 120.24 c 328.785 120.24 327.8 119.255 327.8 118.04 c 327.8 116.825 328.785 115.84 330 115.84 c 331.215 115.84 332.2 116.825 332.2 118.04 c B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .129412 .129412 .129412 RG 1.2 w 390 45 m 330 128 l S Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 385 54.96 m 385 56.17503 384.015 57.16 382.8 57.16 c 381.585 57.16 380.6 56.17503 380.6 54.96 c 380.6 53.74497 381.585 52.76 382.8 52.76 c 384.015 52.76 385 53.74497 385 54.96 c B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 339.4 118.04 m 339.4 119.255 338.415 120.24 337.2 120.24 c 335.985 120.24 335 119.255 335 118.04 c 335 116.825 335.985 115.84 337.2 115.84 c 338.415 115.84 339.4 116.825 339.4 118.04 c B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm 1 .717647 .301961 rg 0 0 0 RG 67 121 46 14 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 70 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 75 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 80 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 85 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 90 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 95 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 100 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 105 123 3 3 re B* Q q 1 0 0 1 56.69291 102.3969 cm 1 1 1 rg 0 0 0 RG BT/F5 6.5 Tf 82.9605 129 TD (HUB)Tj ET Q q 1 0 0 1 56.69291 102.3969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 81.0375 102 TD (Hub0)Tj ET Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .14902 .65098 .603922 rg 0 0 0 RG 307 121 46 14 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 310 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 315 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 320 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 325 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 330 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 335 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 340 123 3 3 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .14902 .196078 .219608 rg 0 0 0 RG 0 w 345 123 3 3 re B* Q q 1 0 0 1 56.69291 102.3969 cm 1 1 1 rg 0 0 0 RG BT/F5 6.5 Tf 324.7643 129 TD (SW)Tj ET Q q 1 0 0 1 56.69291 102.3969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 316.8712 102 TD (Switch0)Tj ET Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .215686 .278431 .309804 rg 0 0 0 RG 17 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .309804 .764706 .968627 rg 0 0 0 RG .5 w 19.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .690196 .745098 .772549 rg 0 0 0 RG 21 36 18 6 re B* Q q 1 0 0 1 56.69291 102.3969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 22.70625 23 TD (PC0)Tj ET Q q 1 0 0 1 56.69291 102.3969 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 12.8335 14 TD (192.168.1.1)Tj ET Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .215686 .278431 .309804 rg 0 0 0 RG 77 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .309804 .764706 .968627 rg 0 0 0 RG .5 w 79.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .690196 .745098 .772549 rg 0 0 0 RG 81 36 18 6 re B* Q q 1 0 0 1 56.69291 102.3969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 82.70625 23 TD (PC1)Tj ET Q q 1 0 0 1 56.69291 102.3969 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 72.8335 14 TD (192.168.1.2)Tj ET Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .215686 .278431 .309804 rg 0 0 0 RG 137 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .309804 .764706 .968627 rg 0 0 0 RG .5 w 139.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .690196 .745098 .772549 rg 0 0 0 RG 141 36 18 6 re B* Q q 1 0 0 1 56.69291 102.3969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 142.7063 23 TD (PC2)Tj ET Q q 1 0 0 1 56.69291 102.3969 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 132.8335 14 TD (192.168.1.3)Tj ET Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .215686 .278431 .309804 rg 0 0 0 RG 257 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .309804 .764706 .968627 rg 0 0 0 RG .5 w 259.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .690196 .745098 .772549 rg 0 0 0 RG 261 36 18 6 re B* Q q 1 0 0 1 56.69291 102.3969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 262.7063 23 TD (PC3)Tj ET Q q 1 0 0 1 56.69291 102.3969 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 252.8335 14 TD (192.168.1.4)Tj ET Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .215686 .278431 .309804 rg 0 0 0 RG 317 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .309804 .764706 .968627 rg 0 0 0 RG .5 w 319.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .690196 .745098 .772549 rg 0 0 0 RG 321 36 18 6 re B* Q q 1 0 0 1 56.69291 102.3969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 322.7063 23 TD (PC4)Tj ET Q q 1 0 0 1 56.69291 102.3969 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 312.8335 14 TD (192.168.1.5)Tj ET Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .215686 .278431 .309804 rg 0 0 0 RG 377 43 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .309804 .764706 .968627 rg 0 0 0 RG .5 w 379.5 45.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 102.3969 cm .690196 .745098 .772549 rg 0 0 0 RG 381 36 18 6 re B* Q q 1 0 0 1 56.69291 102.3969 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 382.7063 23 TD (PC5)Tj ET Q q 1 0 0 1 56.69291 102.3969 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 372.8335 14 TD (192.168.1.6)Tj ET Q Q q 1 0 0 1 56.69291 87.39685 cm 0 0 0 rg BT/F2 10 Tf 130.8049 2 TD (Experiment 3 : hub and switch in the same network)Tj ET Q q 1 0 0 1 90.4252 53.39685 cm .85098 .886275 .952941 rg 0 26 414.4252 -13 re f* .784314 .901961 .788235 rg 24.09449 13 57.826776 -13 re f* .298039 .686275 .313725 rg 231.3071 13 38.551179 -13 re f* 0 0 0 rg BT/F5 7.5 Tf 3 16.5 TD (Fire)Tj ET BT 27.09449 16.5 TD (Last Status)Tj ET BT 84.92126 16.5 TD (Source)Tj ET BT 133.1102 16.5 TD (Destination)Tj ET BT 195.7559 16.5 TD (Type)Tj ET BT 234.3071 16.5 TD (Color)Tj ET BT 272.8583 16.5 TD (Time\(sec\))Tj ET BT 330.685 16.5 TD (Periodic)Tj ET BT 378.874 16.5 TD (Num)Tj ET BT/F1 7.5 Tf 27.09449 3.5 TD (Successful)Tj ET BT 84.92126 3.5 TD (PC0)Tj ET BT 133.1102 3.5 TD (Hub0)Tj ET BT 195.7559 3.5 TD (ICMP)Tj ET BT 272.8583 3.5 TD (0.000)Tj ET BT 330.685 3.5 TD (N)Tj ET BT 378.874 3.5 TD (0)Tj ET q .533333 .533333 .533333 RG 1 J 1 j .4 w 0 26 m 414.4252 26 l S 0 0 m 0 26 l S 414.4252 0 m 414.4252 26 l S 0 0 m 414.4252 0 l S 0 13 m 414.4252 13 l S 24.09449 0 m 24.09449 26 l S 81.92126 0 m 81.92126 26 l S 130.1102 0 m 130.1102 26 l S 192.7559 0 m 192.7559 26 l S 231.3071 0 m 231.3071 26 l S 269.8583 0 m 269.8583 26 l S 327.685 0 m 327.685 26 l S 375.874 0 m 375.874 26 l S Q Q Q
+
+q
+453.2427 800.62948 122.03287 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+19 0 obj
+<<
+/Type /Page
+/Contents 20 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 5832
+>>
+stream
+q
+q BT/F3 9 Tf 295.3878 31.1811 TD (5)Tj ET q 1 0 0 1 90.4252 707.1969 cm .784314 .901961 .788235 rg 24.09449 78 57.826776 -13 re f* .298039 .686275 .313725 rg 231.3071 78 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 65 57.826776 -13 re f* .298039 .686275 .313725 rg 231.3071 65 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 52 57.826776 -13 re f* .298039 .686275 .313725 rg 231.3071 52 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 39 57.826776 -13 re f* .298039 .686275 .313725 rg 231.3071 39 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 26 57.826776 -13 re f* .298039 .686275 .313725 rg 231.3071 26 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 13 57.826776 -13 re f* .298039 .686275 .313725 rg 231.3071 13 38.551179 -13 re f* 0 0 0 rg BT/F1 7.5 Tf 27.09449 68.5 TD (Successful)Tj ET BT 84.92126 68.5 TD (Hub0)Tj ET BT 133.1102 68.5 TD (PC1)Tj ET BT 195.7559 68.5 TD (ICMP)Tj ET BT 272.8583 68.5 TD (0.001)Tj ET BT 330.685 68.5 TD (N)Tj ET BT 378.874 68.5 TD (1)Tj ET BT 27.09449 55.5 TD (Successful)Tj ET BT 84.92126 55.5 TD (Hub0)Tj ET BT 133.1102 55.5 TD (PC2)Tj ET BT 195.7559 55.5 TD (ICMP)Tj ET BT 272.8583 55.5 TD (0.001)Tj ET BT 330.685 55.5 TD (N)Tj ET BT 378.874 55.5 TD (2)Tj ET BT 27.09449 42.5 TD (Successful)Tj ET BT 84.92126 42.5 TD (Hub0)Tj ET BT 133.1102 42.5 TD (Switch0)Tj ET BT 195.7559 42.5 TD (ICMP)Tj ET BT 272.8583 42.5 TD (0.001)Tj ET BT 330.685 42.5 TD (N)Tj ET BT 378.874 42.5 TD (3)Tj ET BT 27.09449 29.5 TD (Successful)Tj ET BT 84.92126 29.5 TD (Switch0)Tj ET BT 133.1102 29.5 TD (PC3)Tj ET BT 195.7559 29.5 TD (ICMP)Tj ET BT 272.8583 29.5 TD (0.002)Tj ET BT 330.685 29.5 TD (N)Tj ET BT 378.874 29.5 TD (4)Tj ET BT 27.09449 16.5 TD (Successful)Tj ET BT 84.92126 16.5 TD (PC3)Tj ET BT 133.1102 16.5 TD (Switch0)Tj ET BT 195.7559 16.5 TD (ICMP)Tj ET BT 272.8583 16.5 TD (0.003)Tj ET BT 330.685 16.5 TD (N)Tj ET BT 378.874 16.5 TD (5)Tj ET BT 27.09449 3.5 TD (Successful)Tj ET BT 84.92126 3.5 TD (Switch0)Tj ET BT 133.1102 3.5 TD (Hub0)Tj ET BT 195.7559 3.5 TD (ICMP)Tj ET BT 272.8583 3.5 TD (0.004)Tj ET BT 330.685 3.5 TD (N)Tj ET BT 378.874 3.5 TD (6)Tj ET q .533333 .533333 .533333 RG 1 J 1 j .4 w 0 0 m 0 78 l S 414.4252 0 m 414.4252 78 l S 0 0 m 414.4252 0 l S 0 78 m 414.4252 78 l S 0 65 m 414.4252 65 l S 0 52 m 414.4252 52 l S 0 39 m 414.4252 39 l S 0 26 m 414.4252 26 l S 0 13 m 414.4252 13 l S 24.09449 0 m 24.09449 78 l S 81.92126 0 m 81.92126 78 l S 130.1102 0 m 130.1102 78 l S 192.7559 0 m 192.7559 78 l S 231.3071 0 m 231.3071 78 l S 269.8583 0 m 269.8583 78 l S 327.685 0 m 327.685 78 l S 375.874 0 m 375.874 78 l S Q Q q 1 0 0 1 56.69291 522.6969 cm .933333 .933333 .933333 rg 0 176.5 481.8898 -20.5 re f* q 1 0 0 1 6 160 cm 0 0 0 rg BT/F2 10 Tf 0 2.5 TD (Point)Tj ET Q q 1 0 0 1 112.0157 160 cm 0 0 0 rg BT/F2 10 Tf 0 2.5 TD (Hub)Tj ET Q q 1 0 0 1 299.9528 160 cm 0 0 0 rg BT/F2 10 Tf 0 2.5 TD (Switch)Tj ET Q q 1 0 0 1 6 139.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (OSI layer)Tj ET Q q 1 0 0 1 112.0157 139.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Physical layer \(Layer 1\))Tj ET Q q 1 0 0 1 299.9528 139.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Data link layer \(Layer 2\))Tj ET Q q 1 0 0 1 6 112.75 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Forwarding)Tj ET Q q 1 0 0 1 112.0157 112.75 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Repeats the signal to all ports)Tj ET Q q 1 0 0 1 299.9528 106.5 cm 0 0 0 rg BT/F3 10 Tf 0 15 TD (Forwards the frame only to the destination)Tj 0 -12.5 TD (port)Tj ET Q q 1 0 0 1 6 86 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Address table)Tj ET Q q 1 0 0 1 112.0157 86 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (None)Tj ET Q q 1 0 0 1 299.9528 86 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (MAC address table \(learning\))Tj ET Q q 1 0 0 1 6 65.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Collision domain)Tj ET Q q 1 0 0 1 112.0157 65.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (One for all the ports)Tj ET Q q 1 0 0 1 299.9528 65.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (One for each port)Tj ET Q q 1 0 0 1 6 45 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Bandwidth)Tj ET Q q 1 0 0 1 112.0157 45 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Shared among all hosts)Tj ET Q q 1 0 0 1 299.9528 45 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Dedicated to each port)Tj ET Q q 1 0 0 1 6 24.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Duplex)Tj ET Q q 1 0 0 1 112.0157 24.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Half duplex)Tj ET Q q 1 0 0 1 299.9528 24.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Full duplex)Tj ET Q q 1 0 0 1 6 4 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Security / traffic)Tj ET Q q 1 0 0 1 112.0157 4 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Anyone can capture the traffic)Tj ET Q q 1 0 0 1 299.9528 4 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Traffic is limited to the two hosts)Tj ET Q q 0 0 0 RG 1 J 1 j .6 w 0 176.5 m 481.8898 176.5 l S 0 0 m 481.8898 0 l S 0 0 m 0 176.5 l S 481.8898 0 m 481.8898 176.5 l S 0 156 m 481.8898 156 l S 0 135.5 m 481.8898 135.5 l S 0 102.5 m 481.8898 102.5 l S 0 82 m 481.8898 82 l S 0 61.5 m 481.8898 61.5 l S 0 41 m 481.8898 41 l S 0 20.5 m 481.8898 20.5 l S 106.0157 0 m 106.0157 176.5 l S 293.9528 0 m 293.9528 176.5 l S Q Q q 1 0 0 1 56.69291 488.6969 cm 0 0 0 RG 0 1.375 m 56.342 1.375 l S 0 0 0 rg BT/F2 13 Tf 0 3 TD (RESULT:)Tj ET Q q 1 0 0 1 56.69291 422.6969 cm 0 0 0 rg BT/F3 11 Tf 0 49 TD (Thus the Cisco Packet Tracer environment was studied. Networks using only a hub, only a switch, and both a)Tj 0 -15 TD (hub and a switch were designed and the packet flow was traced in simulation mode. The hub broadcasts)Tj T* (every frame to all ports whereas the switch learns MAC addresses and forwards the frame only to the)Tj T* (destination port.)Tj ET Q Q
+
+q
+453.2427 800.62948 122.03287 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000141 00000 n 
+0000000190 00000 n 
+0000000478 00000 n 
+0000008093 00000 n 
+0000008200 00000 n 
+0000008307 00000 n 
+0000008415 00000 n 
+0000008527 00000 n 
+0000008637 00000 n 
+0000008743 00000 n 
+0000008856 00000 n 
+0000009123 00000 n 
+0000024378 00000 n 
+0000024668 00000 n 
+0000038366 00000 n 
+0000038656 00000 n 
+0000061390 00000 n 
+0000061658 00000 n 
+trailer
+<<
+/Size 21
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+67543
+%%EOF

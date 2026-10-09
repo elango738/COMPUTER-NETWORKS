@@ -1,0 +1,408 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 3
+/Kids [ 4 0 R 11 0 R 15 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 7031
+>>
+stream
+q
+q q BT/F3 10 Tf 295.1378 36 TD (1)Tj ET Q q q 1 0 0 1 64.2378 749.5898 cm 0 0 0 rg BT/F2 12 Tf (Exp No: 6)Tj ET Q q 1 0 0 1 154.2378 748.0898 cm 0 0 0 rg BT/F2 12 Tf 0 3 TD (Error Correction at Data Link Layer using Hamming Code)Tj ET Q q 1 0 0 1 58.2378 740.0898 cm 0 0 0 RG 1 J 1 j 0 31 m 478.8 31 l S 0 0 m 478.8 0 l S 0 0 m 0 31 l S 478.8 0 m 478.8 31 l S 90 0 m 90 31 l S Q Q q 1 0 0 1 70.8 704.0898 cm 0 0 0 RG 0 1.9375 m 29.85 1.9375 l S 0 0 0 rg BT/F2 12.5 Tf 0 3.5 TD (AIM:)Tj ET Q q 1 0 0 1 70.8 669.0898 cm 0 0 0 rg BT -.100689 Tw/F3 11 Tf 0 19 TD (To write a program that detects and corrects a single-bit error in a data stream using the Hamming \(7,4\))Tj 0 Tw 0 -15 TD (code, and to verify the error correction feature with a test run.)Tj ET Q q 1 0 0 1 70.8 643.0898 cm 0 0 0 RG 0 1.9375 m 173.6125 1.9375 l S 0 0 0 rg BT/F2 12.5 Tf 0 3.5 TD (ALGORITHM / PROCEDURE:)Tj ET Q q 1 0 0 1 70.8 623.0898 cm 0 0 0 rg BT/F1 10 Tf 4 4 TD (1.)Tj ET BT/F3 11 Tf 22 4 TD (Take the 4 data bits d1 d2 d3 d4 as input from the user.)Tj ET Q q 1 0 0 1 70.8 590.0898 cm 0 0 0 rg BT/F1 10 Tf 4 19 TD (2.)Tj ET BT -.131877 Tw/F3 11 Tf 22 19 TD (Place the bits in a 7-bit codeword. Positions 1, 2 and 4 \(powers of 2\) are kept for the parity bits p1,)Tj 0 Tw 0 -15 TD (p2, p3 and the rest hold the data bits.)Tj ET Q q 1 0 0 1 70.8 572.0898 cm 0 0 0 rg BT/F1 10 Tf 4 4 TD (3.)Tj ET BT/F3 11 Tf 22 4 TD (Calculate the even parity bits: p1 = d1 ^ d2 ^ d4, p2 = d1 ^ d3 ^ d4, p3 = d2 ^ d3 ^ d4.)Tj ET Q q 1 0 0 1 70.8 554.0898 cm 0 0 0 rg BT/F1 10 Tf 4 4 TD (4.)Tj ET BT/F3 11 Tf 22 4 TD (Send the 7-bit codeword. Flip one bit \(by user input\) to act as a transmission error.)Tj ET Q q 1 0 0 1 70.8 536.0898 cm 0 0 0 rg BT/F1 10 Tf 4 4 TD (5.)Tj ET BT/F3 11 Tf 22 4 TD (At the receiver, recompute the three parity checks s1, s2 and s3 using the received bits.)Tj ET Q q 1 0 0 1 70.8 503.0898 cm 0 0 0 rg BT/F1 10 Tf 4 19 TD (6.)Tj ET BT/F3 11 Tf 22 19 TD (The binary number s3 s2 s1 is the syndrome. If it is 000 there is no error, otherwise it is the)Tj 0 -15 TD (position of the wrong bit.)Tj ET Q q 1 0 0 1 70.8 485.0898 cm 0 0 0 rg BT/F1 10 Tf 4 4 TD (7.)Tj ET BT/F3 11 Tf 22 4 TD (Flip the bit at that position to correct it and extract the original data bits.)Tj ET Q q 1 0 0 1 70.8 467.0898 cm 0 0 0 rg BT/F1 10 Tf 4 4 TD (8.)Tj ET BT/F3 11 Tf 22 4 TD (Compare the recovered data with the original data and display the result.)Tj ET Q q 1 0 0 1 70.8 443.0898 cm 0 0 0 rg BT/F2 10 Tf 144.3428 2 TD (Fig 1: Hamming \(7,4\) codeword layout)Tj ET Q q[]0 d q[]0 d 1 0 0 1 70.8 305.0898 cm .909804 .909804 .909804 rg 0 0 0 RG 40 70 50 26 re B* Q q 1 0 0 1 70.8 305.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 11 Tf 59.192 79.7 TD (p1)Tj ET Q q 1 0 0 1 70.8 305.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 62.75 102 TD (1)Tj ET Q q[]0 d 1 0 0 1 70.8 305.0898 cm .909804 .909804 .909804 rg 0 0 0 RG 95 70 50 26 re B* Q q 1 0 0 1 70.8 305.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 11 Tf 114.192 79.7 TD (p2)Tj ET Q q 1 0 0 1 70.8 305.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 117.75 102 TD (2)Tj ET Q q[]0 d 1 0 0 1 70.8 305.0898 cm 1 1 1 rg 0 0 0 RG 150 70 50 26 re B* Q q 1 0 0 1 70.8 305.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 11 Tf 169.192 79.7 TD (d1)Tj ET Q q 1 0 0 1 70.8 305.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 172.75 102 TD (3)Tj ET Q q[]0 d 1 0 0 1 70.8 305.0898 cm .909804 .909804 .909804 rg 0 0 0 RG 205 70 50 26 re B* Q q 1 0 0 1 70.8 305.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 11 Tf 224.192 79.7 TD (p3)Tj ET Q q 1 0 0 1 70.8 305.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 227.75 102 TD (4)Tj ET Q q[]0 d 1 0 0 1 70.8 305.0898 cm 1 1 1 rg 0 0 0 RG 260 70 50 26 re B* Q q 1 0 0 1 70.8 305.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 11 Tf 279.192 79.7 TD (d2)Tj ET Q q 1 0 0 1 70.8 305.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 282.75 102 TD (5)Tj ET Q q[]0 d 1 0 0 1 70.8 305.0898 cm 1 1 1 rg 0 0 0 RG 315 70 50 26 re B* Q q 1 0 0 1 70.8 305.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 11 Tf 334.192 79.7 TD (d3)Tj ET Q q 1 0 0 1 70.8 305.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 337.75 102 TD (6)Tj ET Q q[]0 d 1 0 0 1 70.8 305.0898 cm 1 1 1 rg 0 0 0 RG 370 70 50 26 re B* Q q 1 0 0 1 70.8 305.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 11 Tf 389.192 79.7 TD (d4)Tj ET Q q 1 0 0 1 70.8 305.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 392.75 102 TD (7)Tj ET Q q 1 0 0 1 70.8 305.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 6.4965 80 TD (Bit)Tj ET Q q 1 0 0 1 70.8 305.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf -.5025 105 TD (Pos)Tj ET Q q 1 0 0 1 70.8 305.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 117.2625 50 TD (p1 checks positions 1,3,5,7     p2 checks 2,3,6,7     p3 checks 4,5,6,7)Tj ET Q q 1 0 0 1 70.8 305.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 117.0555 32 TD (Shaded boxes = parity bits \(positions 1, 2, 4\).  Unshaded = data bits.)Tj ET Q Q q 1 0 0 1 70.8 290.0898 cm 0 0 0 rg BT/F2 10 Tf 110.4678 2 TD (Fig 2: Block diagram of error detection and correction)Tj ET Q q[]0 d q[]0 d 1 0 0 1 70.8 212.0898 cm 1 1 1 rg 0 0 0 RG 5 15 76 40 re B* Q q 1 0 0 1 70.8 212.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 34.504 37.7 TD (Data)Tj ET Q q 1 0 0 1 70.8 212.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 30.1255 26.7 TD (\(4 bits\))Tj ET Q q[]0 d 1 0 0 1 70.8 212.0898 cm 1 1 1 rg 0 0 0 RG 101 15 76 40 re B* Q q 1 0 0 1 70.8 212.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 121 37.7 TD (Hamming)Tj ET Q q 1 0 0 1 70.8 212.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 124.006 26.7 TD (Encoder)Tj ET Q q[]0 d 1 0 0 1 70.8 212.0898 cm 0 0 0 RG 81 35 m 101 35 l S Q q[]0 d 1 0 0 1 70.8 212.0898 cm 0 0 0 rg 0 0 0 RG 101 35 m 95.47363 37.33651 l 95.47363 32.66349 l h B* Q q[]0 d 1 0 0 1 70.8 212.0898 cm 1 1 1 rg 0 0 0 RG 197 15 76 40 re B* Q q 1 0 0 1 70.8 212.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 224.2495 37.7 TD (Noisy)Tj ET Q q 1 0 0 1 70.8 212.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 220.0015 26.7 TD (Channel)Tj ET Q q[]0 d 1 0 0 1 70.8 212.0898 cm 0 0 0 RG 177 35 m 197 35 l S Q q[]0 d 1 0 0 1 70.8 212.0898 cm 0 0 0 rg 0 0 0 RG 197 35 m 191.4736 37.33651 l 191.4736 32.66349 l h B* Q q[]0 d 1 0 0 1 70.8 212.0898 cm 1 1 1 rg 0 0 0 RG 293 15 76 40 re B* Q q 1 0 0 1 70.8 212.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 312.5005 37.7 TD (Syndrome)Tj ET Q q 1 0 0 1 70.8 212.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 310.2505 26.7 TD (Calculation)Tj ET Q q[]0 d 1 0 0 1 70.8 212.0898 cm 0 0 0 RG 273 35 m 293 35 l S Q q[]0 d 1 0 0 1 70.8 212.0898 cm 0 0 0 rg 0 0 0 RG 293 35 m 287.4736 37.33651 l 287.4736 32.66349 l h B* Q q[]0 d 1 0 0 1 70.8 212.0898 cm 1 1 1 rg 0 0 0 RG 389 15 76 40 re B* Q q 1 0 0 1 70.8 212.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 413.5045 37.7 TD (Correct)Tj ET Q q 1 0 0 1 70.8 212.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 415.624 26.7 TD (the bit)Tj ET Q q[]0 d 1 0 0 1 70.8 212.0898 cm 0 0 0 RG 369 35 m 389 35 l S Q q[]0 d 1 0 0 1 70.8 212.0898 cm 0 0 0 rg 0 0 0 RG 389 35 m 383.4736 37.33651 l 383.4736 32.66349 l h B* Q Q Q
+
+q
+445.1356 797.8798 130.13999 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Contents 12 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 13 0 R
+/cour 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 7710
+>>
+stream
+q
+q q BT/F3 10 Tf 295.1378 36 TD (2)Tj ET Q q 1 0 0 1 70.8 755.0898 cm 0 0 0 RG 0 1.9375 m 70.125 1.9375 l S 0 0 0 rg BT/F2 12.5 Tf 0 3.5 TD (PROGRAM:)Tj ET Q q q 1 0 0 1 66.2378 369.6898 cm 0 0 0 rg BT/F4 8.3 Tf 0 366.1 TD (# Hamming \(7,4\) error detection and correction)Tj 0 -10.399994 TD (def encode\(d\):                      # d = [d1, d2, d3, d4])Tj T* (    d1, d2, d3, d4 = d)Tj T* (    p1 = d1 ^ d2 ^ d4)Tj T* (    p2 = d1 ^ d3 ^ d4)Tj T* (    p3 = d2 ^ d3 ^ d4)Tj T* (    return [p1, p2, d1, p3, d2, d3, d4]   # positions 1..7)Tj 0 -20.799988 TD (def decode\(c\):)Tj 0 -10.399994 TD (    s1 = c[0] ^ c[2] ^ c[4] ^ c[6])Tj T* (    s2 = c[1] ^ c[2] ^ c[5] ^ c[6])Tj T* (    s3 = c[3] ^ c[4] ^ c[5] ^ c[6])Tj T* (    pos = s3 * 4 + s2 * 2 + s1           # 0 means no error)Tj T* (    if pos != 0:)Tj T* (        c[pos - 1] ^= 1                  # correct the bit)Tj T* (    return pos, [c[2], c[4], c[5], c[6]])Tj 0 -20.799988 TD (data = [int\(b\) for b in input\("Enter 4 data bits: "\)])Tj 0 -10.399994 TD (code = encode\(data\))Tj T* (print\("Data bits        :", *data\))Tj T* (print\("Hamming codeword :", *code\))Tj 0 -20.799988 TD (recv = code[:])Tj 0 -10.400002 TD (p = int\(input\("Enter bit position \(1-7\) to corrupt, 0 for none: "\)\))Tj T* (if p:)Tj T* (    recv[p - 1] ^= 1)Tj T* (print\("Received word    :", *recv\))Tj 0 -20.800004 TD (pos, corrected = decode\(recv\))Tj 0 -10.400002 TD (if pos == 0:)Tj T* (    print\("No error detected."\))Tj T* (else:)Tj T* (    print\("Error detected at position", pos\))Tj 0 -10.4 TD (    print\("Corrected word   :", *recv\))Tj T* (print\("Recovered data   :", *corrected\))Tj T* (print\("Verification     :", "SUCCESS" if corrected == data else "FAILED"\))Tj ET Q q 1 0 0 1 58.2378 363.6898 cm 0 0 0 RG 1 J 1 j .8 w 0 386.4 m 478.8 386.4 l S 0 0 m 478.8 0 l S 0 0 m 0 386.4 l S 478.8 0 m 478.8 386.4 l S Q Q q 1 0 0 1 70.8 337.6898 cm 0 0 0 RG 0 1.9375 m 56.25 1.9375 l S 0 0 0 rg BT/F2 12.5 Tf 0 3.5 TD (OUTPUT:)Tj ET Q q 1 0 0 1 70.8 203.6898 cm .047059 .047059 .047059 rg 4 0 m 474.8 0 l 477.0112 0 478.8 1.7888 478.8 4 c 478.8 125 l 478.8 127.2112 477.0112 129 474.8 129 c 4 129 l 1.7888 129 0 127.2112 0 125 c 0 4 l 0 1.7888 1.7888 0 4 0 c h f* .176471 .176471 .176471 rg 4 114 m 474.8 114 l 477.0112 114 478.8 115.7888 478.8 118 c 478.8 125 l 478.8 127.2112 477.0112 129 474.8 129 c 4 129 l 1.7888 129 0 127.2112 0 125 c 0 118 l 0 115.7888 1.7888 114 4 114 c h f* 0 114 478.8 4 re f* 1 .372549 .337255 rg 12 121.5 m 12 123.1569 10.65685 124.5 9 124.5 c 7.343146 124.5 6 123.1569 6 121.5 c 6 119.8431 7.343146 118.5 9 118.5 c 10.65685 118.5 12 119.8431 12 121.5 c f* 1 .741176 .180392 rg 23 121.5 m 23 123.1569 21.65685 124.5 20 124.5 c 18.34315 124.5 17 123.1569 17 121.5 c 17 119.8431 18.34315 118.5 20 118.5 c 21.65685 118.5 23 119.8431 23 121.5 c f* .152941 .788235 .247059 rg 34 121.5 m 34 123.1569 32.65685 124.5 31 124.5 c 29.34315 124.5 28 123.1569 28 121.5 c 28 119.8431 29.34315 118.5 31 118.5 c 32.65685 118.5 34 119.8431 34 121.5 c f* .94902 .94902 .94902 rg BT/F1 7.5 Tf 181.0538 118.5 TD (Terminal - Test run 1 \(error in bit 6\))Tj ET .305882 .878431 .419608 rg BT/F4 7.6 Tf 8 103 TD[-3600]TJ (@)Tj[-3600]TJ (-VirtualBox)Tj ET .372549 .701961 1 rg BT/F4 7.6 Tf 117.44 103 TD (:~$ )Tj ET .94902 .94902 .94902 rg BT/F4 7.6 Tf 135.68 103 TD (python3 exp6.py)Tj ET .247059 .835294 .878431 rg BT/F4 7.6 Tf 8 92.8 TD (Enter 4 data bits: 1011)Tj ET BT/F4 7.6 Tf 8 82.6 TD (Data bits        : 1 0 1 1)Tj ET BT/F4 7.6 Tf 8 72.4 TD (Hamming codeword : 0 1 1 0 0 1 1)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 8 62.2 TD (Enter bit position \(1-7\) to corrupt, 0 for none: 6)Tj ET .247059 .835294 .878431 rg BT/F4 7.6 Tf 8 52 TD (Received word    : 0 1 1 0 0 0 1)Tj ET 1 .372549 .372549 rg BT/F4 7.6 Tf 8 41.8 TD (Error detected at position 6)Tj ET .94902 .827451 .294118 rg BT/F4 7.6 Tf 8 31.6 TD (Corrected word   : 0 1 1 0 0 1 1)Tj ET .305882 .878431 .419608 rg BT/F4 7.6 Tf 8 21.4 TD (Recovered data   : 1 0 1 1)Tj ET BT/F4 7.6 Tf 8 11.2 TD (Verification     : SUCCESS)Tj ET Q q 1 0 0 1 70.8 76.88976 cm .047059 .047059 .047059 rg 4 0 m 474.8 0 l 477.0112 0 478.8 1.7888 478.8 4 c 478.8 114.8 l 478.8 117.0112 477.0112 118.8 474.8 118.8 c 4 118.8 l 1.7888 118.8 0 117.0112 0 114.8 c 0 4 l 0 1.7888 1.7888 0 4 0 c h f* .176471 .176471 .176471 rg 4 103.8 m 474.8 103.8 l 477.0112 103.8 478.8 105.5888 478.8 107.8 c 478.8 114.8 l 478.8 117.0112 477.0112 118.8 474.8 118.8 c 4 118.8 l 1.7888 118.8 0 117.0112 0 114.8 c 0 107.8 l 0 105.5888 1.7888 103.8 4 103.8 c h f* 0 103.8 478.8 4 re f* 1 .372549 .337255 rg 12 111.3 m 12 112.9569 10.65685 114.3 9 114.3 c 7.343146 114.3 6 112.9569 6 111.3 c 6 109.6431 7.343146 108.3 9 108.3 c 10.65685 108.3 12 109.6431 12 111.3 c f* 1 .741176 .180392 rg 23 111.3 m 23 112.9569 21.65685 114.3 20 114.3 c 18.34315 114.3 17 112.9569 17 111.3 c 17 109.6431 18.34315 108.3 20 108.3 c 21.65685 108.3 23 109.6431 23 111.3 c f* .152941 .788235 .247059 rg 34 111.3 m 34 112.9569 32.65685 114.3 31 114.3 c 29.34315 114.3 28 112.9569 28 111.3 c 28 109.6431 29.34315 108.3 31 108.3 c 32.65685 108.3 34 109.6431 34 111.3 c f* .94902 .94902 .94902 rg BT/F1 7.5 Tf 187.9313 108.3 TD (Terminal - Test run 2 \(no error\))Tj ET .305882 .878431 .419608 rg BT/F4 7.6 Tf 8 92.8 TD[-3600]TJ (@)Tj[-3600]TJ (-VirtualBox)Tj ET .372549 .701961 1 rg BT/F4 7.6 Tf 117.44 92.8 TD (:~$ )Tj ET .94902 .94902 .94902 rg BT/F4 7.6 Tf 135.68 92.8 TD (python3 exp6.py)Tj ET .247059 .835294 .878431 rg BT/F4 7.6 Tf 8 82.6 TD (Enter 4 data bits: 0110)Tj ET BT/F4 7.6 Tf 8 72.4 TD (Data bits        : 0 1 1 0)Tj ET BT/F4 7.6 Tf 8 62.2 TD (Hamming codeword : 1 1 0 0 1 1 0)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 8 52 TD (Enter bit position \(1-7\) to corrupt, 0 for none: 0)Tj ET .247059 .835294 .878431 rg BT/F4 7.6 Tf 8 41.8 TD (Received word    : 1 1 0 0 1 1 0)Tj ET 1 .372549 .372549 rg BT/F4 7.6 Tf 8 31.6 TD (No error detected.)Tj ET .305882 .878431 .419608 rg BT/F4 7.6 Tf 8 21.4 TD (Recovered data   : 0 1 1 0)Tj ET BT/F4 7.6 Tf 8 11.2 TD (Verification     : SUCCESS)Tj ET Q Q
+
+q
+445.1356 797.8798 130.13999 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+q
+BT
+1 0 0 1 78.8 308.3676 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 110.72 308.3676 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 78.8 171.36757 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 110.72 171.36757 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 78.8 308.3676 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 110.72 308.3676 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 78.8 171.36757 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 110.72 171.36757 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 78.8 308.3676 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 110.72 308.3676 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 78.8 171.36757 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 110.72 171.36757 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<55534552>]TJ
+ET
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+13 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+>>
+endobj
+15 0 obj
+<<
+/Type /Page
+/Contents 16 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 13 0 R
+/cour 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 3458
+>>
+stream
+q
+q q BT/F3 10 Tf 295.1378 36 TD (3)Tj ET Q q 1 0 0 1 70.8 642.0898 cm .047059 .047059 .047059 rg 4 0 m 474.8 0 l 477.0112 0 478.8 1.7888 478.8 4 c 478.8 125 l 478.8 127.2112 477.0112 129 474.8 129 c 4 129 l 1.7888 129 0 127.2112 0 125 c 0 4 l 0 1.7888 1.7888 0 4 0 c h f* .176471 .176471 .176471 rg 4 114 m 474.8 114 l 477.0112 114 478.8 115.7888 478.8 118 c 478.8 125 l 478.8 127.2112 477.0112 129 474.8 129 c 4 129 l 1.7888 129 0 127.2112 0 125 c 0 118 l 0 115.7888 1.7888 114 4 114 c h f* 0 114 478.8 4 re f* 1 .372549 .337255 rg 12 121.5 m 12 123.1569 10.65685 124.5 9 124.5 c 7.343146 124.5 6 123.1569 6 121.5 c 6 119.8431 7.343146 118.5 9 118.5 c 10.65685 118.5 12 119.8431 12 121.5 c f* 1 .741176 .180392 rg 23 121.5 m 23 123.1569 21.65685 124.5 20 124.5 c 18.34315 124.5 17 123.1569 17 121.5 c 17 119.8431 18.34315 118.5 20 118.5 c 21.65685 118.5 23 119.8431 23 121.5 c f* .152941 .788235 .247059 rg 34 121.5 m 34 123.1569 32.65685 124.5 31 124.5 c 29.34315 124.5 28 123.1569 28 121.5 c 28 119.8431 29.34315 118.5 31 118.5 c 32.65685 118.5 34 119.8431 34 121.5 c f* .94902 .94902 .94902 rg BT/F1 7.5 Tf 181.0538 118.5 TD (Terminal - Test run 3 \(error in bit 3\))Tj ET .305882 .878431 .419608 rg BT/F4 7.6 Tf 8 103 TD[-3600]TJ (@)Tj[-3600]TJ (-VirtualBox)Tj ET .372549 .701961 1 rg BT/F4 7.6 Tf 117.44 103 TD (:~$ )Tj ET .94902 .94902 .94902 rg BT/F4 7.6 Tf 135.68 103 TD (python3 exp6.py)Tj ET .247059 .835294 .878431 rg BT/F4 7.6 Tf 8 92.8 TD (Enter 4 data bits: 1101)Tj ET BT/F4 7.6 Tf 8 82.6 TD (Data bits        : 1 1 0 1)Tj ET BT/F4 7.6 Tf 8 72.4 TD (Hamming codeword : 1 0 1 0 1 0 1)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 8 62.2 TD (Enter bit position \(1-7\) to corrupt, 0 for none: 3)Tj ET .247059 .835294 .878431 rg BT/F4 7.6 Tf 8 52 TD (Received word    : 1 0 0 0 1 0 1)Tj ET 1 .372549 .372549 rg BT/F4 7.6 Tf 8 41.8 TD (Error detected at position 3)Tj ET .94902 .827451 .294118 rg BT/F4 7.6 Tf 8 31.6 TD (Corrected word   : 1 0 1 0 1 0 1)Tj ET .305882 .878431 .419608 rg BT/F4 7.6 Tf 8 21.4 TD (Recovered data   : 1 1 0 1)Tj ET BT/F4 7.6 Tf 8 11.2 TD (Verification     : SUCCESS)Tj ET Q q 1 0 0 1 70.8 616.0898 cm 0 0 0 RG 0 1.9375 m 54.175 1.9375 l S 0 0 0 rg BT/F2 12.5 Tf 0 3.5 TD (RESULT:)Tj ET Q q 1 0 0 1 70.8 581.0898 cm 0 0 0 rg BT 1.115114 Tw/F3 11 Tf 0 19 TD (Thus the program for error detection and correction using Hamming code was written and executed)Tj 0 Tw 0 -15 TD (successfully. A single-bit error was found at the correct position and corrected in every test run.)Tj ET Q Q
+
+q
+445.1356 797.8798 130.13999 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+q
+BT
+1 0 0 1 78.8 746.7676 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 110.72 746.7676 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 78.8 746.7676 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 110.72 746.7676 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 78.8 746.7676 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 110.72 746.7676 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<55534552>]TJ
+ET
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000127 00000 n 
+0000000176 00000 n 
+0000000442 00000 n 
+0000007525 00000 n 
+0000007632 00000 n 
+0000007739 00000 n 
+0000007847 00000 n 
+0000007959 00000 n 
+0000008069 00000 n 
+0000008361 00000 n 
+0000016124 00000 n 
+0000016230 00000 n 
+0000016326 00000 n 
+0000016618 00000 n 
+trailer
+<<
+/Size 17
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+20129
+%%EOF

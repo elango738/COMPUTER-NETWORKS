@@ -1,0 +1,502 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 12 0 R 15 0 R 18 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5449
+>>
+stream
+q
+q BT/F3 9 Tf 295.3878 31.1811 TD (1)Tj ET q q 1 0 0 1 62.69291 764.1969 cm 0 0 0 rg BT/F2 11.5 Tf 0 .5 TD (Exp No: 13)Tj ET Q q 1 0 0 1 159.0709 763.1969 cm 0 0 0 rg BT/F2 11.5 Tf 0 2.5 TD (Implement your own ping program)Tj ET Q q 1 0 0 1 56.69291 755.1969 cm 0 0 0 RG 1 J 1 j 0 30 m 481.8898 30 l S 0 0 m 481.8898 0 l S 0 0 m 0 30 l S 481.8898 0 m 481.8898 30 l S 96.37795 0 m 96.37795 30 l S Q Q q 1 0 0 1 56.69291 721.1969 cm 0 0 0 RG 0 1.375 m 31.044 1.375 l S 0 0 0 rg BT/F2 13 Tf 0 3 TD (AIM:)Tj ET Q q 1 0 0 1 56.69291 685.1969 cm 0 0 0 rg BT/F3 11 Tf 0 19 TD (To implement our own ping program using raw sockets in Python, which sends ICMP Echo Request)Tj 0 -15 TD (messages to a host, receives the ICMP Echo Replies and displays the round trip time and the packet loss.)Tj ET Q q 1 0 0 1 56.69291 659.1969 cm 0 0 0 RG 0 1.375 m 180.557 1.375 l S 0 0 0 rg BT/F2 13 Tf 0 3 TD (ALGORITHM / PROCEDURE:)Tj ET Q q 1 0 0 1 56.69291 623.1969 cm 0 0 0 rg BT/F1 10 Tf 6 19 TD (1.)Tj ET BT/F3 11 Tf 24 19 TD (Read the host name given in the command line and convert it into an IP address using)Tj/F4 9.5 Tf 0 -15 TD (socket.gethostbyname\(\))Tj/F3 11 Tf (.)Tj ET Q q 1 0 0 1 56.69291 590.1969 cm 0 0 0 rg BT/F1 10 Tf 6 19 TD (2.)Tj ET BT/F3 11 Tf 24 19 TD (Create a )Tj/F2 11 Tf (raw socket)Tj/F3 11 Tf ( using )Tj/F4 9.5 Tf (socket\(AF_INET, SOCK_RAW, IPPROTO_ICMP\))Tj/F3 11 Tf (. Raw sockets need)Tj 0 -15 TD (administrator rights, so the program is run with )Tj/F4 9.5 Tf (sudo)Tj/F3 11 Tf (.)Tj ET Q q 1 0 0 1 56.69291 557.1969 cm 0 0 0 rg BT/F1 10 Tf 6 19 TD (3.)Tj ET BT/F3 11 Tf 24 19 TD (Build the ICMP Echo Request: )Tj/F2 11 Tf (Type)Tj/F3 11 Tf ( = 8, )Tj/F2 11 Tf (Code)Tj/F3 11 Tf ( = 0, )Tj/F2 11 Tf (Checksum)Tj/F3 11 Tf ( = 0 \(for now\), )Tj/F2 11 Tf (Identifier)Tj/F3 11 Tf ( = process id,)Tj/F2 11 Tf 0 -15 TD (Sequence number)Tj/F3 11 Tf ( = 1, 2, 3 ... followed by the data \(current time + 16 bytes of text\).)Tj ET Q q 1 0 0 1 56.69291 524.1969 cm 0 0 0 rg BT/F1 10 Tf 6 19 TD (4.)Tj ET BT -.03414 Tw/F3 11 Tf 24 19 TD (Calculate the )Tj/F2 11 Tf (Internet checksum)Tj/F3 11 Tf ( \(16 bit one's complement sum of the whole ICMP message\) and put it)Tj 0 Tw 0 -15 TD (in the checksum field.)Tj ET Q q 1 0 0 1 56.69291 491.1969 cm 0 0 0 rg BT/F1 10 Tf 6 19 TD (5.)Tj ET BT/F3 11 Tf 24 19 TD (Send the packet with )Tj/F4 9.5 Tf (sendto\(\))Tj/F3 11 Tf ( and note the time. Wait for the reply with )Tj/F4 9.5 Tf (recvfrom\(\))Tj/F3 11 Tf ( \(time out = 2)Tj 0 -15 TD (seconds\).)Tj ET Q q 1 0 0 1 56.69291 458.1969 cm 0 0 0 rg BT/F1 10 Tf 6 19 TD (6.)Tj ET BT/F3 11 Tf 24 19 TD (The received data has a 20 byte IP header in front. Skip it, read the ICMP header and check that the)Tj/F2 11 Tf 0 -15 TD (type)Tj/F3 11 Tf ( is 0 \(Echo Reply\) and the )Tj/F2 11 Tf (identifier)Tj/F3 11 Tf ( is our id. Read the TTL from byte 8 of the IP header.)Tj ET Q q 1 0 0 1 56.69291 425.1969 cm 0 0 0 rg BT/F1 10 Tf 6 19 TD (7.)Tj ET BT/F3 11 Tf 24 19 TD (Round trip time = time of receiving - time of sending. Display the reply line. If no reply comes, display)Tj/F4 9.5 Tf 0 -15 TD (Request timed out)Tj/F3 11 Tf (.)Tj ET Q q 1 0 0 1 56.69291 407.1969 cm 0 0 0 rg BT/F1 10 Tf 6 4 TD (8.)Tj ET BT/F3 11 Tf 24 4 TD (Repeat steps 3 to 7 four times with a gap of one second.)Tj ET Q q 1 0 0 1 56.69291 374.1969 cm 0 0 0 rg BT/F1 10 Tf 6 19 TD (9.)Tj ET BT/F3 11 Tf 24 19 TD (Finally display the number of packets sent, received, % loss and the minimum / average / maximum)Tj 0 -15 TD (round trip time.)Tj ET Q q 1 0 0 1 56.69291 352.1969 cm 0 0 0 rg BT/F2 11.5 Tf 0 2.5 TD (Header and functions used)Tj ET Q q 1 0 0 1 56.69291 200.1969 cm .933333 .933333 .933333 rg 0 148 481.8898 -20.5 re f* q 1 0 0 1 6 131.5 cm 0 0 0 rg BT/F2 10 Tf 0 2.5 TD (Item)Tj ET Q q 1 0 0 1 169.8425 131.5 cm 0 0 0 rg BT/F2 10 Tf 0 2.5 TD (Meaning)Tj ET Q q 1 0 0 1 6 105.5 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (struct.pack\("!BBHHH", ...\))Tj ET Q q 1 0 0 1 169.8425 98.5 cm 0 0 0 rg BT/F3 10 Tf 0 15 TD (Packs type, code, checksum, identifier and sequence into 8 bytes in network)Tj 0 -12.5 TD (byte order)Tj ET Q q 1 0 0 1 6 78.75 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (socket.SOCK_RAW)Tj ET Q q 1 0 0 1 169.8425 78 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Gives direct access to the IP packets \(we build the ICMP part ourselves\))Tj ET Q q 1 0 0 1 6 52 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (IPPROTO_ICMP)Tj ET Q q 1 0 0 1 169.8425 45 cm 0 0 0 rg BT/F3 10 Tf 0 15 TD (Tells the kernel that this raw socket handles ICMP messages \(IP protocol)Tj 0 -12.5 TD (number 1\))Tj ET Q q 1 0 0 1 6 25.25 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (checksum\(\))Tj ET Q q 1 0 0 1 169.8425 24.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Adds all 16 bit words, adds the carry back and takes the one's complement)Tj ET Q q 1 0 0 1 6 4.75 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (data[8])Tj ET Q q 1 0 0 1 169.8425 4 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (TTL value inside the received IP header)Tj ET Q q 0 0 0 RG 1 J 1 j .6 w 0 148 m 481.8898 148 l S 0 0 m 481.8898 0 l S 0 0 m 0 148 l S 481.8898 0 m 481.8898 148 l S 0 127.5 m 481.8898 127.5 l S 0 94.5 m 481.8898 94.5 l S 0 74 m 481.8898 74 l S 0 41 m 481.8898 41 l S 0 20.5 m 481.8898 20.5 l S 163.8425 0 m 163.8425 148 l S Q Q Q
+
+q
+453.2427 800.62948 122.03287 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+>>
+endobj
+12 0 obj
+<<
+/Type /Page
+/Contents 13 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F5 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 4078
+>>
+stream
+q
+q BT/F3 9 Tf 295.3878 31.1811 TD (2)Tj ET q 1 0 0 1 56.69291 769.1969 cm 0 0 0 RG 0 1.375 m 69.316 1.375 l S 0 0 0 rg BT/F2 13 Tf 0 3 TD (DIAGRAM:)Tj ET Q q[]0 d q 1 0 0 1 56.69291 613.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 7.5 Tf 68.125 138 TD (0)Tj ET Q q 1 0 0 1 56.69291 613.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 7.5 Tf 148.125 138 TD (8)Tj ET Q q 1 0 0 1 56.69291 613.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 7.5 Tf 226.25 138 TD (16)Tj ET Q q 1 0 0 1 56.69291 613.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 7.5 Tf 386.25 138 TD (31)Tj ET Q q[]0 d 1 0 0 1 56.69291 613.1969 cm 1 1 1 rg 0 0 0 RG 70 105 80 24 re B* Q q 1 0 0 1 56.69291 613.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 8.5 Tf 95.24825 114 TD (Type \(8\))Tj ET Q q[]0 d 1 0 0 1 56.69291 613.1969 cm 1 1 1 rg 0 0 0 RG 150 105 80 24 re B* Q q 1 0 0 1 56.69291 613.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 8.5 Tf 175.0102 114 TD (Code \(8\))Tj ET Q q[]0 d 1 0 0 1 56.69291 613.1969 cm 1 1 1 rg 0 0 0 RG 230 105 160 24 re B* Q q 1 0 0 1 56.69291 613.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 8.5 Tf 283.9135 114 TD (Checksum \(16\))Tj ET Q q[]0 d 1 0 0 1 56.69291 613.1969 cm 1 1 1 rg 0 0 0 RG 70 81 160 24 re B* Q q 1 0 0 1 56.69291 613.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 8.5 Tf 126.0427 90 TD (Identifier \(16\))Tj ET Q q[]0 d 1 0 0 1 56.69291 613.1969 cm 1 1 1 rg 0 0 0 RG 230 81 160 24 re B* Q q 1 0 0 1 56.69291 613.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 8.5 Tf 271.5247 90 TD (Sequence number \(16\))Tj ET Q q[]0 d 1 0 0 1 56.69291 613.1969 cm 1 1 1 rg 0 0 0 RG 70 57 320 24 re B* Q q 1 0 0 1 56.69291 613.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 8.5 Tf 131.4723 66 TD (Data : timestamp \(8 bytes\) + payload "abcdefghijklmnop")Tj ET Q q 1 0 0 1 56.69291 613.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 7.5 Tf 20.10375 112 TD (Byte 0)Tj ET Q q 1 0 0 1 56.69291 613.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 7.5 Tf 20.10375 88 TD (Byte 4)Tj ET Q q 1 0 0 1 56.69291 613.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 7.5 Tf 20.10375 64 TD (Byte 8)Tj ET Q q 1 0 0 1 56.69291 613.1969 cm 0 0 0 rg 0 0 0 RG BT/F5 9 Tf 113.6894 22 TD (Echo Request: Type = 8, Code = 0     Echo Reply: Type = 0, Code = 0)Tj ET Q Q q 1 0 0 1 56.69291 598.1969 cm 0 0 0 rg BT/F2 10 Tf 132.3499 2 TD (Fig 1: ICMP Echo Request / Reply message format)Tj ET Q q[]0 d q 1 0 0 1 56.69291 446.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 8.5 Tf -4.34675 132 TD (My ping program)Tj ET Q q 1 0 0 1 56.69291 446.1969 cm 0 0 0 rg 0 0 0 RG BT/F2 8.5 Tf 272.6028 132 TD (Destination host)Tj ET Q q[]0 d 1 0 0 1 56.69291 446.1969 cm 0 0 0 RG 28 126 m 28 6 l S Q q[]0 d 1 0 0 1 56.69291 446.1969 cm 0 0 0 RG 302 126 m 302 6 l S Q q[]0 d 1 0 0 1 56.69291 446.1969 cm 0 0 0 RG 28 112 m 302 112 l S Q q[]0 d 1 0 0 1 56.69291 446.1969 cm 0 0 0 rg 0 0 0 RG .5 w 302 112 m 297.3947 113.9471 l 297.3947 110.0529 l h B* Q q 1 0 0 1 56.69291 446.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 7.5 Tf 111.7763 115 TD (ICMP Echo Request \(type 8, seq 1\))Tj ET Q q[]0 d 1 0 0 1 56.69291 446.1969 cm 0 0 0 RG 302 86 m 28 86 l S Q q[]0 d 1 0 0 1 56.69291 446.1969 cm 0 0 0 rg 0 0 0 RG .5 w 28 86 m 32.6053 84.05291 l 32.6053 87.94709 l h B* Q q 1 0 0 1 56.69291 446.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 7.5 Tf 114.9 89 TD (ICMP Echo Reply \(type 0, seq 1\))Tj ET Q q[]0 d 1 0 0 1 56.69291 446.1969 cm 0 0 0 RG 28 60 m 302 60 l S Q q[]0 d 1 0 0 1 56.69291 446.1969 cm 0 0 0 rg 0 0 0 RG .5 w 302 60 m 297.3947 61.94709 l 297.3947 58.05291 l h B* Q q 1 0 0 1 56.69291 446.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 7.5 Tf 111.7763 63 TD (ICMP Echo Request \(type 8, seq 2\))Tj ET Q q[]0 d 1 0 0 1 56.69291 446.1969 cm 0 0 0 RG 302 34 m 28 34 l S Q q[]0 d 1 0 0 1 56.69291 446.1969 cm 0 0 0 rg 0 0 0 RG .5 w 28 34 m 32.6053 32.05291 l 32.6053 35.94709 l h B* Q q 1 0 0 1 56.69291 446.1969 cm 0 0 0 rg 0 0 0 RG BT/F3 7.5 Tf 114.9 37 TD (ICMP Echo Reply \(type 0, seq 2\))Tj ET Q Q q 1 0 0 1 56.69291 431.1969 cm 0 0 0 rg BT/F2 10 Tf 163.9999 2 TD (Fig 2: Working of the ping program)Tj ET Q Q
+
+q
+453.2427 800.62948 122.03287 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Times-Italic
+/Encoding /WinAnsiEncoding
+/Name /F5
+>>
+endobj
+15 0 obj
+<<
+/Type /Page
+/Contents 16 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F6 17 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 4189
+>>
+stream
+q
+q BT/F3 9 Tf 295.3878 31.1811 TD (3)Tj ET q 1 0 0 1 56.69291 769.1969 cm 0 0 0 RG 0 1.375 m 72.93 1.375 l S 0 0 0 rg BT/F2 13 Tf 0 3 TD (PROGRAM:)Tj ET Q q 1 0 0 1 56.69291 208.9969 cm 1 1 1 rg 0 0 0 RG .8 w 0 0 481.8898 554.2 re B* 0 539.2 481.8898 15 re f* 0 539.2 m 481.8898 539.2 l S 0 0 0 rg BT/F6 8.5 Tf 8 543.7 TD (myping.py)Tj ET BT/F4 7.8 Tf 6 528.8 TD (# Own ping program using RAW sockets \(ICMP\) - run as root)Tj ET BT/F4 7.8 Tf 6 519 TD (import socket, struct, time, sys, os)Tj ET BT/F4 7.8 Tf 6 499.4 TD (def checksum\(data\):)Tj ET BT/F4 7.8 Tf 6 489.6 TD (    if len\(data\) % 2:)Tj ET BT/F4 7.8 Tf 6 479.8 TD (        data += b'\\x00')Tj ET BT/F4 7.8 Tf 6 470 TD (    s = sum\(struct.unpack\("!%dH" % \(len\(data\) // 2\), data\)\))Tj ET BT/F4 7.8 Tf 6 460.2 TD (    s = \(s >> 16\) + \(s & 0xffff\))Tj ET BT/F4 7.8 Tf 6 450.4 TD (    s += s >> 16)Tj ET BT/F4 7.8 Tf 6 440.6 TD (    return ~s & 0xffff)Tj ET BT/F4 7.8 Tf 6 421 TD (def make_packet\(seq, pid\):)Tj ET BT/F4 7.8 Tf 6 411.2 TD (    header = struct.pack\("!BBHHH", 8, 0, 0, pid, seq\)      # type 8 = echo request)Tj ET BT/F4 7.8 Tf 6 401.4 TD (    payload = struct.pack\("!d", time.time\(\)\) + b"abcdefghijklmnop")Tj ET BT/F4 7.8 Tf 6 391.6 TD (    chk = checksum\(header + payload\))Tj ET BT/F4 7.8 Tf 6 381.8 TD (    header = struct.pack\("!BBHHH", 8, 0, chk, pid, seq\))Tj ET BT/F4 7.8 Tf 6 372 TD (    return header + payload)Tj ET BT/F4 7.8 Tf 6 352.4 TD (def ping\(host, count=4\):)Tj ET BT/F4 7.8 Tf 6 342.6 TD (    try:)Tj ET BT/F4 7.8 Tf 6 332.8 TD (        ip = socket.gethostbyname\(host\))Tj ET BT/F4 7.8 Tf 6 323 TD (    except socket.gaierror:)Tj ET BT/F4 7.8 Tf 6 313.2 TD (        print\(f"ping: {host}: Name or service not known"\))Tj ET BT/F4 7.8 Tf 6 303.4 TD (        return)Tj ET BT/F4 7.8 Tf 6 293.6 TD (    s = socket.socket\(socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_ICMP\))Tj ET BT/F4 7.8 Tf 6 283.8 TD (    s.settimeout\(2\))Tj ET BT/F4 7.8 Tf 6 274 TD (    pid = os.getpid\(\) & 0xffff)Tj ET BT/F4 7.8 Tf 6 264.2 TD (    print\(f"PING {host} \({ip}\) 32 bytes of data."\))Tj ET BT/F4 7.8 Tf 6 254.4 TD (    times = [])Tj ET BT/F4 7.8 Tf 6 244.6 TD (    for seq in range\(1, count + 1\):)Tj ET BT/F4 7.8 Tf 6 234.8 TD (        s.sendto\(make_packet\(seq, pid\), \(ip, 0\)\))Tj ET BT/F4 7.8 Tf 6 225 TD (        t1 = time.time\(\))Tj ET BT/F4 7.8 Tf 6 215.2 TD (        try:)Tj ET BT/F4 7.8 Tf 6 205.4 TD (            while True:)Tj ET BT/F4 7.8 Tf 6 195.6 TD (                data, addr = s.recvfrom\(1024\))Tj ET BT/F4 7.8 Tf 6 185.8 TD (                typ, code, _, rid, rseq = struct.unpack\("!BBHHH", data[20:28]\))Tj ET BT/F4 7.8 Tf 6 176 TD (                if typ == 0 and rid == pid:)Tj ET BT/F4 7.8 Tf 6 166.2 TD (                    break)Tj ET BT/F4 7.8 Tf 6 156.4 TD (            rtt = \(time.time\(\) - t1\) * 1000)Tj ET BT/F4 7.8 Tf 6 146.6 TD (            ttl = data[8])Tj ET BT/F4 7.8 Tf 6 136.8 TD (            times.append\(rtt\))Tj ET BT/F4 7.8 Tf 6 127 TD (            print\(f"{len\(data\)-20} bytes from {addr[0]}: icmp_seq={rseq} ttl={ttl} time={rtt:.3f} ms)Tj ET BT/F4 7.8 Tf 6 117.2 TD (              "\))Tj ET BT/F4 7.8 Tf 6 107.4 TD (        except socket.timeout:)Tj ET BT/F4 7.8 Tf 6 97.6 TD (            print\(f"Request timed out for icmp_seq={seq}"\))Tj ET BT/F4 7.8 Tf 6 87.8 TD (        time.sleep\(1\))Tj ET BT/F4 7.8 Tf 6 78 TD (    s.close\(\))Tj ET BT/F4 7.8 Tf 6 68.2 TD (    lost = count - len\(times\))Tj ET BT/F4 7.8 Tf 6 58.4 TD (    print\(f"\\n--- {host} ping statistics ---"\))Tj ET BT/F4 7.8 Tf 6 48.6 TD (    print\(f"{count} packets transmitted, {len\(times\)} received, {lost*100//count}% packet loss"\))Tj ET BT/F4 7.8 Tf 6 38.8 TD (    if times:)Tj ET BT/F4 7.8 Tf 6 29 TD (        print\(f"rtt min/avg/max = {min\(times\):.3f}/{sum\(times\)/len\(times\):.3f}/{max\(times\):.3f} ms"\))Tj ET BT/F4 7.8 Tf 6 9.4 TD (ping\(sys.argv[1] if len\(sys.argv\) > 1 else "127.0.0.1"\))Tj ET Q Q
+
+q
+453.2427 800.62948 122.03287 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F6
+>>
+endobj
+18 0 obj
+<<
+/Type /Page
+/Contents 19 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F7 20 0 R
+/cour 21 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+19 0 obj
+<<
+/Length 6609
+>>
+stream
+q
+q BT/F3 9 Tf 295.3878 31.1811 TD (4)Tj ET q 1 0 0 1 56.69291 769.1969 cm 0 0 0 RG 0 1.375 m 58.5 1.375 l S 0 0 0 rg BT/F2 13 Tf 0 3 TD (OUTPUT:)Tj ET Q q 1 0 0 1 56.69291 620.5969 cm .188235 .039216 .141176 rg 0 0 481.8898 142.6 re f* .235294 .231373 .215686 rg 0 127.6 481.8898 15.000008 re f* .87451 .858824 .823529 rg .188235 .039216 .141176 RG BT/F7 8 Tf 8 132.1 TD[-2557.0006]TJ (@)Tj[-2557.0006]TJ (-VirtualBox: ~)Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 6 117.2 TD[-3600]TJ (@)Tj[-3600]TJ (-VirtualBox)Tj ET .933333 .933333 .933333 rg BT/F4 7.6 Tf 115.44 117.2 TD (:)Tj ET .447059 .623529 .811765 rg BT/F4 7.6 Tf 120 117.2 TD (~)Tj ET .933333 .933333 .933333 rg BT/F4 7.6 Tf 124.56 117.2 TD ($ )Tj ET 1 1 1 rg BT/F4 7.6 Tf 133.68 117.2 TD (sudo python3 myping.py 127.0.0.1)Tj ET .933333 .933333 .933333 rg BT/F4 7.6 Tf 6 107.4 TD (PING 127.0.0.1 \(127.0.0.1\) 32 bytes of data.)Tj ET BT/F4 7.6 Tf 6 97.6 TD (32 )Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 19.68 97.6 TD (bytes from 127.0.0.1)Tj ET .933333 .933333 .933333 rg BT/F4 7.6 Tf 110.88 97.6 TD (: icmp_seq=1 ttl=64 time=0.015 ms)Tj ET BT/F4 7.6 Tf 6 87.8 TD (32 )Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 19.68 87.8 TD (bytes from 127.0.0.1)Tj ET .933333 .933333 .933333 rg BT/F4 7.6 Tf 110.88 87.8 TD (: icmp_seq=2 ttl=64 time=0.017 ms)Tj ET BT/F4 7.6 Tf 6 78 TD (32 )Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 19.68 78 TD (bytes from 127.0.0.1)Tj ET .933333 .933333 .933333 rg BT/F4 7.6 Tf 110.88 78 TD (: icmp_seq=3 ttl=64 time=0.023 ms)Tj ET BT/F4 7.6 Tf 6 68.2 TD (32 )Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 19.68 68.2 TD (bytes from 127.0.0.1)Tj ET .933333 .933333 .933333 rg BT/F4 7.6 Tf 110.88 68.2 TD (: icmp_seq=4 ttl=64 time=0.036 ms)Tj ET BT/F4 7.6 Tf 6 48.6 TD (--- 127.0.0.1 ping statistics ---)Tj ET BT/F4 7.6 Tf 6 38.8 TD (4 packets transmitted, 4 received, )Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 165.6 38.8 TD (0% packet loss)Tj ET .933333 .933333 .933333 rg BT/F4 7.6 Tf 6 29 TD (rtt min/avg/max = 0.015/0.023/0.036 ms)Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 6 19.2 TD[-3600]TJ (@)Tj[-3600]TJ (-VirtualBox)Tj ET .933333 .933333 .933333 rg BT/F4 7.6 Tf 115.44 19.2 TD (:)Tj ET .447059 .623529 .811765 rg BT/F4 7.6 Tf 120 19.2 TD (~)Tj ET .933333 .933333 .933333 rg BT/F4 7.6 Tf 124.56 19.2 TD ($ )Tj ET 1 1 1 rg BT/F4 7.6 Tf 133.68 19.2 TD (sudo python3 myping.py abc.invalid)Tj ET .933333 .933333 .933333 rg BT/F4 7.6 Tf 6 9.4 TD (ping: abc.invalid: Name or service not known)Tj ET Q q 1 0 0 1 56.69291 488.5969 cm .933333 .933333 .933333 rg 0 123 481.8898 -20.5 re f* q 1 0 0 1 6 106.5 cm 0 0 0 rg BT/F2 10 Tf 0 2.5 TD (Quantity)Tj ET Q q 1 0 0 1 246.9449 106.5 cm 0 0 0 rg BT/F2 10 Tf 0 2.5 TD (Value)Tj ET Q q 1 0 0 1 6 86 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Packets transmitted)Tj ET Q q 1 0 0 1 246.9449 86 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (4)Tj ET Q q 1 0 0 1 6 65.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Packets received)Tj ET Q q 1 0 0 1 246.9449 65.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (4)Tj ET Q q 1 0 0 1 6 45 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Packet loss)Tj ET Q q 1 0 0 1 246.9449 45 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (0%)Tj ET Q q 1 0 0 1 6 24.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Minimum / average / maximum RTT)Tj ET Q q 1 0 0 1 246.9449 24.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (0.015 / 0.023 / 0.036 ms)Tj ET Q q 1 0 0 1 6 4 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (TTL of reply)Tj ET Q q 1 0 0 1 246.9449 4 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (64 \(loopback address\))Tj ET Q q 0 0 0 RG 1 J 1 j .6 w 0 123 m 481.8898 123 l S 0 0 m 481.8898 0 l S 0 0 m 0 123 l S 481.8898 0 m 481.8898 123 l S 0 102.5 m 481.8898 102.5 l S 0 82 m 481.8898 82 l S 0 61.5 m 481.8898 61.5 l S 0 41 m 481.8898 41 l S 0 20.5 m 481.8898 20.5 l S 240.9449 0 m 240.9449 123 l S Q Q q 1 0 0 1 56.69291 454.5969 cm 0 0 0 RG 0 1.375 m 56.342 1.375 l S 0 0 0 rg BT/F2 13 Tf 0 3 TD (RESULT:)Tj ET Q q 1 0 0 1 56.69291 418.5969 cm 0 0 0 rg BT/F3 11 Tf 0 19 TD (Thus our own ping program was implemented using raw sockets. ICMP Echo Request packets were sent, the)Tj 0 -15 TD (Echo Replies were received and the round trip time and packet loss statistics were displayed successfully.)Tj ET Q Q
+
+q
+453.2427 800.62948 122.03287 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+q
+BT
+1 0 0 1 64.69291 754.4909 Tm /cour 6.5 Tf .87451 .858824 .823529 RG .87451 .858824 .823529 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.94891 754.4909 Tm /cour 6.5 Tf .87451 .858824 .823529 RG .87451 .858824 .823529 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 62.69291 739.47476 Tm /cour 5.6 Tf .541176 .886275 .203922 RG .541176 .886275 .203922 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 94.61291 739.47476 Tm /cour 5.6 Tf .541176 .886275 .203922 RG .541176 .886275 .203922 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 62.69291 641.47476 Tm /cour 5.6 Tf .541176 .886275 .203922 RG .541176 .886275 .203922 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 94.61291 641.47476 Tm /cour 5.6 Tf .541176 .886275 .203922 RG .541176 .886275 .203922 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 64.69291 754.4909 Tm /cour 6.5 Tf .87451 .858824 .823529 RG .87451 .858824 .823529 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.94891 754.4909 Tm /cour 6.5 Tf .87451 .858824 .823529 RG .87451 .858824 .823529 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 62.69291 739.47476 Tm /cour 5.6 Tf .541176 .886275 .203922 RG .541176 .886275 .203922 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 94.61291 739.47476 Tm /cour 5.6 Tf .541176 .886275 .203922 RG .541176 .886275 .203922 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 62.69291 641.47476 Tm /cour 5.6 Tf .541176 .886275 .203922 RG .541176 .886275 .203922 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 94.61291 641.47476 Tm /cour 5.6 Tf .541176 .886275 .203922 RG .541176 .886275 .203922 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 64.69291 754.4909 Tm /cour 6.5 Tf .87451 .858824 .823529 RG .87451 .858824 .823529 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.94891 754.4909 Tm /cour 6.5 Tf .87451 .858824 .823529 RG .87451 .858824 .823529 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 62.69291 739.47476 Tm /cour 5.6 Tf .541176 .886275 .203922 RG .541176 .886275 .203922 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 94.61291 739.47476 Tm /cour 5.6 Tf .541176 .886275 .203922 RG .541176 .886275 .203922 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 62.69291 641.47476 Tm /cour 5.6 Tf .541176 .886275 .203922 RG .541176 .886275 .203922 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 94.61291 641.47476 Tm /cour 5.6 Tf .541176 .886275 .203922 RG .541176 .886275 .203922 rg [<55534552>]TJ
+ET
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+20 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F7
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+>>
+endobj
+xref
+0 22
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000134 00000 n 
+0000000183 00000 n 
+0000000460 00000 n 
+0000005961 00000 n 
+0000006068 00000 n 
+0000006175 00000 n 
+0000006283 00000 n 
+0000006395 00000 n 
+0000006505 00000 n 
+0000006611 00000 n 
+0000006878 00000 n 
+0000011009 00000 n 
+0000011120 00000 n 
+0000011398 00000 n 
+0000015640 00000 n 
+0000015751 00000 n 
+0000016042 00000 n 
+0000022704 00000 n 
+0000022817 00000 n 
+trailer
+<<
+/Size 22
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+22913
+%%EOF

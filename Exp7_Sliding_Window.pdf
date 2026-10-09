@@ -1,0 +1,334 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 3
+/Kids [ 4 0 R 12 0 R 15 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 6209
+>>
+stream
+q
+q q BT/F3 10 Tf 295.1378 36 TD (1)Tj ET Q q q 1 0 0 1 64.2378 749.5898 cm 0 0 0 rg BT/F2 12 Tf (Exp No: 7)Tj ET Q q 1 0 0 1 154.2378 748.0898 cm 0 0 0 rg BT/F2 12 Tf 0 3 TD (Flow Control at Data Link Layer using Sliding Window Protocol)Tj ET Q q 1 0 0 1 58.2378 740.0898 cm 0 0 0 RG 1 J 1 j 0 31 m 478.8 31 l S 0 0 m 478.8 0 l S 0 0 m 0 31 l S 478.8 0 m 478.8 31 l S 90 0 m 90 31 l S Q Q q 1 0 0 1 70.8 704.0898 cm 0 0 0 RG 0 1.9375 m 29.85 1.9375 l S 0 0 0 rg BT/F2 12.5 Tf 0 3.5 TD (AIM:)Tj ET Q q 1 0 0 1 70.8 669.0898 cm 0 0 0 rg BT 1.735412 Tw/F3 11 Tf 0 19 TD (To write a program that implements flow control at the data link layer using the Sliding Window)Tj 0 Tw 0 -15 TD (Protocol \(Go-Back-N\) and to simulate the flow of frames from one node to another.)Tj ET Q q 1 0 0 1 70.8 643.0898 cm 0 0 0 RG 0 1.9375 m 173.6125 1.9375 l S 0 0 0 rg BT/F2 12.5 Tf 0 3.5 TD (ALGORITHM / PROCEDURE:)Tj ET Q q 1 0 0 1 70.8 608.0898 cm 0 0 0 rg BT/F1 10 Tf 4 19 TD (1.)Tj ET BT/F3 11 Tf 22 19 TD (Read the total number of frames and the window size N. The sender may send up to N frames)Tj 0 -15 TD (without waiting for an acknowledgement.)Tj ET Q q 1 0 0 1 70.8 575.0898 cm 0 0 0 rg BT/F1 10 Tf 4 19 TD (2.)Tj ET BT/F3 11 Tf 22 19 TD (Keep two pointers at the sender: )Tj/F4 9 Tf (base)Tj/F3 11 Tf ( \(oldest unacknowledged frame\) and )Tj/F4 9 Tf (nxt)Tj/F3 11 Tf ( \(next frame to)Tj 0 -15 TD (send\).)Tj ET Q q 1 0 0 1 70.8 557.0898 cm 0 0 0 rg BT/F1 10 Tf 4 4 TD (3.)Tj ET BT/F3 11 Tf 22 4 TD (While )Tj/F4 9 Tf (nxt < base + N)Tj/F3 11 Tf (, send frame number nxt and increase nxt.)Tj ET Q q 1 0 0 1 70.8 524.0898 cm 0 0 0 rg BT/F1 10 Tf 4 19 TD (4.)Tj ET BT/F3 11 Tf 22 19 TD (The receiver accepts frames in order. For each correct frame it sends an acknowledgement ACK)Tj 0 -15 TD (\(frame number + 1\).)Tj ET Q q 1 0 0 1 70.8 506.0898 cm 0 0 0 rg BT/F1 10 Tf 4 4 TD (5.)Tj ET BT/F3 11 Tf 22 4 TD (When the sender receives an ACK, the window slides forward by one position \(base = base + 1\).)Tj ET Q q 1 0 0 1 70.8 473.0898 cm 0 0 0 rg BT/F1 10 Tf 4 19 TD (6.)Tj ET BT/F3 11 Tf 22 19 TD (If a frame is lost the receiver discards the later frames, the sender times out and sends again from)Tj 0 -15 TD (the lost frame \(Go-Back-N\).)Tj ET Q q 1 0 0 1 70.8 455.0898 cm 0 0 0 rg BT/F1 10 Tf 4 4 TD (7.)Tj ET BT/F3 11 Tf 22 4 TD (Repeat until all the frames are acknowledged and display the sequence of events.)Tj ET Q q 1 0 0 1 70.8 431.0898 cm 0 0 0 rg BT/F2 10 Tf 127.2678 2 TD (Fig 1: Sender window over the frame sequence)Tj ET Q q[]0 d q[]0 d 1 0 0 1 70.8 313.0898 cm 1 1 1 rg 0 0 0 RG 40 45 44 28 re B* Q q 1 0 0 1 70.8 313.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 11 Tf 55.8895 55.7 TD (F0)Tj ET Q q[]0 d 1 0 0 1 70.8 313.0898 cm 1 1 1 rg 0 0 0 RG 88 45 44 28 re B* Q q 1 0 0 1 70.8 313.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 11 Tf 103.8895 55.7 TD (F1)Tj ET Q q[]0 d 1 0 0 1 70.8 313.0898 cm 1 1 1 rg 0 0 0 RG 136 45 44 28 re B* Q q 1 0 0 1 70.8 313.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 11 Tf 151.8895 55.7 TD (F2)Tj ET Q q[]0 d 1 0 0 1 70.8 313.0898 cm 1 1 1 rg 0 0 0 RG 184 45 44 28 re B* Q q 1 0 0 1 70.8 313.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 11 Tf 199.8895 55.7 TD (F3)Tj ET Q q[]0 d 1 0 0 1 70.8 313.0898 cm 1 1 1 rg 0 0 0 RG 232 45 44 28 re B* Q q 1 0 0 1 70.8 313.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 11 Tf 247.8895 55.7 TD (F4)Tj ET Q q[]0 d 1 0 0 1 70.8 313.0898 cm 1 1 1 rg 0 0 0 RG 280 45 44 28 re B* Q q 1 0 0 1 70.8 313.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 11 Tf 295.8895 55.7 TD (F5)Tj ET Q q[]0 d 1 0 0 1 70.8 313.0898 cm 1 1 1 rg 0 0 0 RG 328 45 44 28 re B* Q q 1 0 0 1 70.8 313.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 11 Tf 343.8895 55.7 TD (F6)Tj ET Q q[]0 d 1 0 0 1 70.8 313.0898 cm 1 1 1 rg 0 0 0 RG 376 45 44 28 re B* Q q 1 0 0 1 70.8 313.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 11 Tf 391.8895 55.7 TD (F7)Tj ET Q q[]0 d 1 0 0 1 70.8 313.0898 cm 0 0 0 RG 2.2 w 36 40 196 38 re S Q q 1 0 0 1 70.8 313.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 10 Tf 80.875 22 TD (Sender window \(size = 4\))Tj ET Q q Q q 1 0 0 1 70.8 313.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 8 Tf 306.888 88 TD (Frames F4 to F7 wait outside the window)Tj ET Q Q q 1 0 0 1 70.8 298.0898 cm 0 0 0 rg BT/F2 10 Tf 94.4978 2 TD (Fig 2: Frame and ACK exchange between sender and receiver)Tj ET Q q[]0 d q 1 0 0 1 70.8 100.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 11 Tf 77.692 175 TD (SENDER)Tj ET Q q 1 0 0 1 70.8 100.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 11 Tf 350.971 175 TD (RECEIVER)Tj ET Q q[]0 d 1 0 0 1 70.8 100.0898 cm 0 0 0 RG 1.2 w 100 165 m 100 10 l S Q q[]0 d 1 0 0 1 70.8 100.0898 cm 0 0 0 RG 1.2 w 380 165 m 380 10 l S Q q[]0 d 1 0 0 1 70.8 100.0898 cm 0 0 0 RG 100 150 m 380 136 l S Q q[]0 d 1 0 0 1 70.8 100.0898 cm 0 0 0 rg 0 0 0 RG 380 136 m 374.5972 138.6096 l 374.3638 133.9424 l h B* Q q 1 0 0 1 70.8 100.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 8 Tf 226.78 150 TD (Frame 0)Tj ET Q q[]0 d 1 0 0 1 70.8 100.0898 cm 0 0 0 RG 100 130 m 380 116 l S Q q[]0 d 1 0 0 1 70.8 100.0898 cm 0 0 0 rg 0 0 0 RG 380 116 m 374.5972 118.6096 l 374.3638 113.9424 l h B* Q q 1 0 0 1 70.8 100.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 8 Tf 226.78 130 TD (Frame 1)Tj ET Q q[]0 d 1 0 0 1 70.8 100.0898 cm 0 0 0 RG 100 110 m 380 96 l S Q q[]0 d 1 0 0 1 70.8 100.0898 cm 0 0 0 rg 0 0 0 RG 380 96 m 374.5972 98.60957 l 374.3638 93.94238 l h B* Q q 1 0 0 1 70.8 100.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 8 Tf 226.78 110 TD (Frame 2)Tj ET Q q[]0 d 1 0 0 1 70.8 100.0898 cm 0 0 0 RG 100 90 m 380 76 l S Q q[]0 d 1 0 0 1 70.8 100.0898 cm 0 0 0 rg 0 0 0 RG 380 76 m 374.5972 78.60957 l 374.3638 73.94238 l h B* Q q 1 0 0 1 70.8 100.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 8 Tf 226.78 90 TD (Frame 3)Tj ET Q q[3 2]0 d 1 0 0 1 70.8 100.0898 cm 0 0 0 RG 380 60 m 100 46 l S Q q[]0 d 1 0 0 1 70.8 100.0898 cm 0 0 0 rg 0 0 0 RG 100 46 m 105.6362 43.94238 l 105.4028 48.60957 l h B* Q q 1 0 0 1 70.8 100.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 8 Tf 280.556 62 TD (ACK 1, 2, 3)Tj ET Q q 1 0 0 1 70.8 100.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 153.5595 30 TD (Frame 3 lost -> timeout -> resend from Frame 3)Tj ET Q Q Q
+
+q
+445.1356 797.8798 130.13999 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+>>
+endobj
+12 0 obj
+<<
+/Type /Page
+/Contents 13 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+/cour 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 6561
+>>
+stream
+q
+q q BT/F3 10 Tf 295.1378 36 TD (2)Tj ET Q q 1 0 0 1 70.8 755.0898 cm 0 0 0 RG 0 1.9375 m 70.125 1.9375 l S 0 0 0 rg BT/F2 12.5 Tf 0 3.5 TD (PROGRAM:)Tj ET Q q q 1 0 0 1 66.2378 504.8898 cm 0 0 0 rg BT/F4 8.3 Tf 0 230.9 TD (# Sliding window protocol \(Go-Back-N\) simulation)Tj 0 -10.399994 TD (TOTAL, WINDOW = 8, 4)Tj T* (LOST = {3}                      # frame 3 is lost the first time it is sent)Tj 0 -20.799988 TD (base = nxt = 0)Tj 0 -10.399994 TD (lost_once = set\(LOST\))Tj T* (print\(f"Total frames = {TOTAL}, Window size = {WINDOW}\\n"\))Tj T* (while base < TOTAL:)Tj T* (    while nxt < base + WINDOW and nxt < TOTAL:)Tj T* (        print\(f"Sender   : Frame {nxt} sent   window=[{base}..{min\(base+WINDOW,TOTAL\)-1}]"\))Tj 0 -10.400002 TD (        nxt += 1)Tj T* (    expected = base)Tj T* (    for f in range\(base, nxt\):)Tj T* (        if f in lost_once:)Tj T* (            print\(f"Network  : Frame {f} LOST"\))Tj T* (            lost_once.discard\(f\))Tj T* (            print\(f"Sender   : Timeout for frame {f}, resending from frame {f}"\))Tj T* (            nxt = f)Tj T* (            break)Tj T* (        print\(f"Receiver : Frame {f} received, ACK {f + 1} sent"\))Tj 0 -10.4 TD (        print\(f"Sender   : ACK {f + 1} received, window slides"\))Tj T* (        base = f + 1)Tj T* (print\("\\nAll frames transmitted successfully."\))Tj ET Q q 1 0 0 1 58.2378 498.8898 cm 0 0 0 RG 1 J 1 j .8 w 0 251.2 m 478.8 251.2 l S 0 0 m 478.8 0 l S 0 0 m 0 251.2 l S 478.8 0 m 478.8 251.2 l S Q Q q 1 0 0 1 70.8 472.8898 cm 0 0 0 RG 0 1.9375 m 56.25 1.9375 l S 0 0 0 rg BT/F2 12.5 Tf 0 3.5 TD (OUTPUT:)Tj ET Q q 1 0 0 1 70.8 114.4898 cm .047059 .047059 .047059 rg 4 0 m 474.8 0 l 477.0112 0 478.8 1.7888 478.8 4 c 478.8 349.4 l 478.8 351.6112 477.0112 353.4 474.8 353.4 c 4 353.4 l 1.7888 353.4 0 351.6112 0 349.4 c 0 4 l 0 1.7888 1.7888 0 4 0 c h f* .176471 .176471 .176471 rg 4 338.4 m 474.8 338.4 l 477.0112 338.4 478.8 340.1888 478.8 342.4 c 478.8 349.4 l 478.8 351.6112 477.0112 353.4 474.8 353.4 c 4 353.4 l 1.7888 353.4 0 351.6112 0 349.4 c 0 342.4 l 0 340.1888 1.7888 338.4 4 338.4 c h f* 0 338.4 478.8 4 re f* 1 .372549 .337255 rg 12 345.9 m 12 347.5569 10.65685 348.9 9 348.9 c 7.343146 348.9 6 347.5569 6 345.9 c 6 344.2431 7.343146 342.9 9 342.9 c 10.65685 342.9 12 344.2431 12 345.9 c f* 1 .741176 .180392 rg 23 345.9 m 23 347.5569 21.65685 348.9 20 348.9 c 18.34315 348.9 17 347.5569 17 345.9 c 17 344.2431 18.34315 342.9 20 342.9 c 21.65685 342.9 23 344.2431 23 345.9 c f* .152941 .788235 .247059 rg 34 345.9 m 34 347.5569 32.65685 348.9 31 348.9 c 29.34315 348.9 28 347.5569 28 345.9 c 28 344.2431 29.34315 342.9 31 342.9 c 32.65685 342.9 34 344.2431 34 345.9 c f* .94902 .94902 .94902 rg BT/F1 7.5 Tf 178.7625 342.9 TD (Terminal - Sliding window simulation)Tj ET .305882 .878431 .419608 rg BT/F4 7.6 Tf 8 327.4 TD[-3600]TJ (@)Tj[-3600]TJ (-VirtualBox)Tj ET .372549 .701961 1 rg BT/F4 7.6 Tf 117.44 327.4 TD (:~$ )Tj ET .94902 .94902 .94902 rg BT/F4 7.6 Tf 135.68 327.4 TD (python3 exp7.py)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 8 317.2 TD (Total frames = 8, Window size = 4)Tj ET .247059 .835294 .878431 rg BT/F4 7.6 Tf 8 296.8 TD (Sender   : Frame 0 sent   window=[0..3])Tj ET BT/F4 7.6 Tf 8 286.6 TD (Sender   : Frame 1 sent   window=[0..3])Tj ET BT/F4 7.6 Tf 8 276.4 TD (Sender   : Frame 2 sent   window=[0..3])Tj ET BT/F4 7.6 Tf 8 266.2 TD (Sender   : Frame 3 sent   window=[0..3])Tj ET .305882 .878431 .419608 rg BT/F4 7.6 Tf 8 256 TD (Receiver : Frame 0 received, ACK 1 sent)Tj ET .247059 .835294 .878431 rg BT/F4 7.6 Tf 8 245.8 TD (Sender   : ACK 1 received, window slides)Tj ET .305882 .878431 .419608 rg BT/F4 7.6 Tf 8 235.6 TD (Receiver : Frame 1 received, ACK 2 sent)Tj ET .247059 .835294 .878431 rg BT/F4 7.6 Tf 8 225.4 TD (Sender   : ACK 2 received, window slides)Tj ET .305882 .878431 .419608 rg BT/F4 7.6 Tf 8 215.2 TD (Receiver : Frame 2 received, ACK 3 sent)Tj ET .247059 .835294 .878431 rg BT/F4 7.6 Tf 8 205 TD (Sender   : ACK 3 received, window slides)Tj ET 1 .372549 .372549 rg BT/F4 7.6 Tf 8 194.8 TD (Network  : Frame 3 LOST)Tj ET BT/F4 7.6 Tf 8 184.6 TD (Sender   : Timeout for frame 3, resending from frame 3)Tj ET .247059 .835294 .878431 rg BT/F4 7.6 Tf 8 174.4 TD (Sender   : Frame 3 sent   window=[3..6])Tj ET BT/F4 7.6 Tf 8 164.2 TD (Sender   : Frame 4 sent   window=[3..6])Tj ET BT/F4 7.6 Tf 8 154 TD (Sender   : Frame 5 sent   window=[3..6])Tj ET BT/F4 7.6 Tf 8 143.8 TD (Sender   : Frame 6 sent   window=[3..6])Tj ET .305882 .878431 .419608 rg BT/F4 7.6 Tf 8 133.6 TD (Receiver : Frame 3 received, ACK 4 sent)Tj ET .247059 .835294 .878431 rg BT/F4 7.6 Tf 8 123.4 TD (Sender   : ACK 4 received, window slides)Tj ET .305882 .878431 .419608 rg BT/F4 7.6 Tf 8 113.2 TD (Receiver : Frame 4 received, ACK 5 sent)Tj ET .247059 .835294 .878431 rg BT/F4 7.6 Tf 8 103 TD (Sender   : ACK 5 received, window slides)Tj ET .305882 .878431 .419608 rg BT/F4 7.6 Tf 8 92.8 TD (Receiver : Frame 5 received, ACK 6 sent)Tj ET .247059 .835294 .878431 rg BT/F4 7.6 Tf 8 82.6 TD (Sender   : ACK 6 received, window slides)Tj ET .305882 .878431 .419608 rg BT/F4 7.6 Tf 8 72.4 TD (Receiver : Frame 6 received, ACK 7 sent)Tj ET .247059 .835294 .878431 rg BT/F4 7.6 Tf 8 62.2 TD (Sender   : ACK 7 received, window slides)Tj ET BT/F4 7.6 Tf 8 52 TD (Sender   : Frame 7 sent   window=[7..7])Tj ET .305882 .878431 .419608 rg BT/F4 7.6 Tf 8 41.8 TD (Receiver : Frame 7 received, ACK 8 sent)Tj ET .247059 .835294 .878431 rg BT/F4 7.6 Tf 8 31.6 TD (Sender   : ACK 8 received, window slides)Tj ET .305882 .878431 .419608 rg BT/F4 7.6 Tf 8 11.2 TD (All frames transmitted successfully.)Tj ET Q Q
+
+q
+445.1356 797.8798 130.13999 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+q
+BT
+1 0 0 1 78.8 443.5676 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 110.72 443.5676 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 78.8 443.5676 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 110.72 443.5676 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 78.8 443.5676 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 110.72 443.5676 Tm /cour 5.6 Tf .305882 .878431 .419608 RG .305882 .878431 .419608 rg [<55534552>]TJ
+ET
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+>>
+endobj
+15 0 obj
+<<
+/Type /Page
+/Contents 16 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 742
+>>
+stream
+q
+q q BT/F3 10 Tf 295.1378 36 TD (3)Tj ET Q q 1 0 0 1 70.8 755.0898 cm 0 0 0 RG 0 1.9375 m 54.175 1.9375 l S 0 0 0 rg BT/F2 12.5 Tf 0 3.5 TD (RESULT:)Tj ET Q q 1 0 0 1 70.8 705.0898 cm 0 0 0 rg BT .487106 Tw/F3 11 Tf 0 34 TD (Thus the sliding window protocol was implemented and the transmission of 8 frames from the sender)Tj .153474 Tw 0 -15 TD (to the receiver was simulated successfully. The lost frame 3 was retransmitted after the timeout and all)Tj 0 Tw T* (frames were delivered in order.)Tj ET Q Q
+
+q
+445.1356 797.8798 130.13999 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000127 00000 n 
+0000000176 00000 n 
+0000000453 00000 n 
+0000006714 00000 n 
+0000006821 00000 n 
+0000006928 00000 n 
+0000007036 00000 n 
+0000007148 00000 n 
+0000007258 00000 n 
+0000007364 00000 n 
+0000007656 00000 n 
+0000014270 00000 n 
+0000014366 00000 n 
+0000014622 00000 n 
+trailer
+<<
+/Size 17
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+15416
+%%EOF

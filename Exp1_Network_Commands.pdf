@@ -1,0 +1,1295 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 5
+/Kids [ 4 0 R 11 0 R 15 0 R 17 0 R 19 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F2 7 0 R
+/F2-0 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 6218
+>>
+stream
+q
+q q BT/F3 10 Tf 295.1378 31.1811 TD (1)Tj ET Q q q 1 0 0 1 64.69291 765.3661 cm 0 0 0 rg BT/F2 13 Tf 0 3 TD (Exp No: 1)Tj ET Q q 1 0 0 1 155.40157 764.8661 cm 0 0 0 rg BT/F2 13 Tf 0 4 TD (Study of various Network commands used in Linux and Windows)Tj ET Q q 1 0 0 1 56.69291 755.8661 cm 0 0 0 RG 1 J 1 j 0 35 m 481.8898 35 l S 0 0 m 481.8898 0 l S 0 0 m 0 35 l S 481.8898 0 m 481.8898 35 l S 90.70866 0 m 90.70866 35 l S Q Q q 1 0 0 1 56.69291 720.8661 cm 0 0 0 RG 0 2.375 m 31.044 2.375 l S 0 0 0 rg BT/F2 13 Tf 0 4 TD (AIM:)Tj ET Q q 1 0 0 1 56.69291 681.8661 cm 0 0 0 rg BT/F3 12 Tf 0 22 TD (To study and practise the various network commands used in Linux and Windows operating)Tj 0 -17 TD (systems.)Tj ET Q q 1 0 0 1 56.69291 652.8661 cm 0 0 0 RG 0 2.375 m 180.557 2.375 l S 0 0 0 rg BT/F2 13 Tf 0 4 TD (ALGORITHM / PROCEDURE:)Tj ET Q q 1 0 0 1 56.69291 630.8661 cm 0 0 0 rg BT/F3 12 Tf 4 5 TD (1.)Tj ET BT/F3 12 Tf 24 5 TD (Open the Terminal in Linux and the Command Prompt \()Tj/F4 10.5 Tf (cmd)Tj/F3 12 Tf (\) in Windows.)Tj ET Q q 1 0 0 1 56.69291 610.8661 cm 0 0 0 rg BT/F3 12 Tf 4 5 TD (2.)Tj ET BT/F3 12 Tf 24 5 TD (Use )Tj/F4 10.5 Tf (hostname)Tj/F3 12 Tf ( to see the name of the computer.)Tj ET Q q 1 0 0 1 56.69291 573.8661 cm 0 0 0 rg BT/F3 12 Tf 4 22 TD (3.)Tj ET BT -.132445 Tw/F3 12 Tf 24 22 TD (Use )Tj/F4 10.5 Tf (ifconfig)Tj/F3 12 Tf ( \(Linux\) and )Tj/F4 10.5 Tf (ipconfig)Tj/F3 12 Tf ( \(Windows\) to see the IP address, subnet mask and MAC)Tj 0 Tw 0 -17 TD (address.)Tj ET Q q 1 0 0 1 56.69291 536.8661 cm 0 0 0 rg BT/F3 12 Tf 4 22 TD (4.)Tj ET BT/F3 12 Tf 24 22 TD (Use )Tj/F4 10.5 Tf (ping)Tj/F3 12 Tf ( to check whether the remote system is reachable. Note the packet loss and the time)Tj 0 -17 TD (taken.)Tj ET Q q 1 0 0 1 56.69291 516.8661 cm 0 0 0 rg BT/F3 12 Tf 4 5 TD (5.)Tj ET BT/F3 12 Tf 24 5 TD (Use )Tj/F4 10.5 Tf (traceroute)Tj/F3 12 Tf ( \(Linux\) and )Tj/F4 10.5 Tf (tracert)Tj/F3 12 Tf ( \(Windows\) to see the path taken by the packets.)Tj ET Q q 1 0 0 1 56.69291 496.8661 cm 0 0 0 rg BT/F3 12 Tf 4 5 TD (6.)Tj ET BT/F3 12 Tf 24 5 TD (Use )Tj/F4 10.5 Tf (nslookup)Tj/F3 12 Tf ( and )Tj/F4 10.5 Tf (dig)Tj/F3 12 Tf ( to find the IP address of a domain name.)Tj ET Q q 1 0 0 1 56.69291 476.8661 cm 0 0 0 rg BT/F3 12 Tf 4 5 TD (7.)Tj ET BT/F3 12 Tf 24 5 TD (Use )Tj/F4 10.5 Tf (netstat)Tj/F3 12 Tf ( to see the active connections and open ports.)Tj ET Q q 1 0 0 1 56.69291 456.8661 cm 0 0 0 rg BT/F3 12 Tf 4 5 TD (8.)Tj ET BT/F3 12 Tf 24 5 TD (Use )Tj/F4 10.5 Tf (arp -a)Tj/F3 12 Tf ( to see the IP address to MAC address table.)Tj ET Q q 1 0 0 1 56.69291 436.8661 cm 0 0 0 rg BT/F3 12 Tf 4 5 TD (9.)Tj ET BT/F3 12 Tf 24 5 TD (Use )Tj/F4 10.5 Tf (route)Tj/F3 12 Tf ( \(Linux\) and )Tj/F4 10.5 Tf (route print)Tj/F3 12 Tf ( \(Windows\) to see the routing table.)Tj ET Q q 1 0 0 1 56.69291 416.8661 cm 0 0 0 rg BT/F3 12 Tf 4 5 TD (10.)Tj ET BT/F3 12 Tf 26.2 5 TD (Note down the output of each command.)Tj ET Q q 1 0 0 1 56.69291 383.8661 cm 0 0 0 rg BT/F2 12 Tf 0 4 TD (Commands used:)Tj ET Q q q 1 0 0 1 62.69291 362.8661 cm 0 0 0 rg BT/F2 11.5 Tf 0 2.5 TD (Purpose)Tj ET Q q 1 0 0 1 204.4252 362.8661 cm 0 0 0 rg BT/F2 11.5 Tf 0 2.5 TD (Linux)Tj ET Q q 1 0 0 1 374.5039 362.8661 cm 0 0 0 rg BT/F2 11.5 Tf 0 2.5 TD (Windows)Tj ET Q q 1 0 0 1 62.69291 341.8661 cm 0 0 0 rg BT/F3 11.5 Tf 0 2.5 TD (Host name)Tj ET Q q 1 0 0 1 204.4252 341.8661 cm 0 0 0 rg BT/F4 9.5 Tf 0 4.5 TD (hostname)Tj ET Q q 1 0 0 1 374.5039 341.8661 cm 0 0 0 rg BT/F4 9.5 Tf 0 4.5 TD (hostname)Tj ET Q q 1 0 0 1 62.69291 320.8661 cm 0 0 0 rg BT/F3 11.5 Tf 0 2.5 TD (IP configuration)Tj ET Q q 1 0 0 1 204.4252 320.8661 cm 0 0 0 rg BT/F4 9.5 Tf 0 4.5 TD (ifconfig / ip addr)Tj ET Q q 1 0 0 1 374.5039 320.8661 cm 0 0 0 rg BT/F4 9.5 Tf 0 4.5 TD (ipconfig /all)Tj ET Q q 1 0 0 1 62.69291 299.8661 cm 0 0 0 rg BT/F3 11.5 Tf 0 2.5 TD (Check connectivity)Tj ET Q q 1 0 0 1 204.4252 299.8661 cm 0 0 0 rg BT/F4 9.5 Tf 0 4.5 TD (ping -c 4 google.com)Tj ET Q q 1 0 0 1 374.5039 299.8661 cm 0 0 0 rg BT/F4 9.5 Tf 0 4.5 TD (ping google.com)Tj ET Q q 1 0 0 1 62.69291 278.8661 cm 0 0 0 rg BT/F3 11.5 Tf 0 2.5 TD (Trace the route)Tj ET Q q 1 0 0 1 204.4252 278.8661 cm 0 0 0 rg BT/F4 9.5 Tf 0 4.5 TD (traceroute google.com)Tj ET Q q 1 0 0 1 374.5039 278.8661 cm 0 0 0 rg BT/F4 9.5 Tf 0 4.5 TD (tracert google.com)Tj ET Q q 1 0 0 1 62.69291 257.8661 cm 0 0 0 rg BT/F3 11.5 Tf 0 2.5 TD (DNS lookup)Tj ET Q q 1 0 0 1 204.4252 257.8661 cm 0 0 0 rg BT/F4 9.5 Tf 0 4.5 TD (nslookup / dig)Tj ET Q q 1 0 0 1 374.5039 257.8661 cm 0 0 0 rg BT/F4 9.5 Tf 0 4.5 TD (nslookup)Tj ET Q q 1 0 0 1 62.69291 236.8661 cm 0 0 0 rg BT/F3 11.5 Tf 0 2.5 TD (Active connections)Tj ET Q q 1 0 0 1 204.4252 236.8661 cm 0 0 0 rg BT/F4 9.5 Tf 0 4.5 TD (netstat -tuln)Tj ET Q q 1 0 0 1 374.5039 236.8661 cm 0 0 0 rg BT/F4 9.5 Tf 0 4.5 TD (netstat -an)Tj ET Q q 1 0 0 1 62.69291 215.8661 cm 0 0 0 rg BT/F3 11.5 Tf 0 2.5 TD (ARP table)Tj ET Q q 1 0 0 1 204.4252 215.8661 cm 0 0 0 rg BT/F4 9.5 Tf 0 4.5 TD (arp -a)Tj ET Q q 1 0 0 1 374.5039 215.8661 cm 0 0 0 rg BT/F4 9.5 Tf 0 4.5 TD (arp -a)Tj ET Q q 1 0 0 1 62.69291 194.8661 cm 0 0 0 rg BT/F3 11.5 Tf 0 2.5 TD (Routing table)Tj ET Q q 1 0 0 1 204.4252 194.8661 cm 0 0 0 rg BT/F4 9.5 Tf 0 4.5 TD (route -n)Tj ET Q q 1 0 0 1 374.5039 194.8661 cm 0 0 0 rg BT/F4 9.5 Tf 0 4.5 TD (route print)Tj ET Q q 1 0 0 1 62.69291 173.8661 cm 0 0 0 rg BT/F3 11.5 Tf 0 2.5 TD (MAC address)Tj ET Q q 1 0 0 1 204.4252 173.8661 cm 0 0 0 rg BT/F4 9.5 Tf 0 4.5 TD (ip link)Tj ET Q q 1 0 0 1 374.5039 173.8661 cm 0 0 0 rg BT/F4 9.5 Tf 0 4.5 TD (getmac)Tj ET Q q 1 0 0 1 56.69291 169.8661 cm 0 0 0 RG 1 J 1 j .8 w 0 210 m 481.8898 210 l S 0 0 m 481.8898 0 l S 0 0 m 0 210 l S 481.8898 0 m 481.8898 210 l S 0 189 m 481.8898 189 l S 0 168 m 481.8898 168 l S 0 147 m 481.8898 147 l S 0 126 m 481.8898 126 l S 0 105 m 481.8898 105 l S 0 84 m 481.8898 84 l S 0 63 m 481.8898 63 l S 0 42 m 481.8898 42 l S 0 21 m 481.8898 21 l S 141.7323 0 m 141.7323 210 l S 311.811 0 m 311.811 210 l S Q Q Q
+
+q
+444.9087 805.9577 130.36688 17.23499 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Contents 12 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 13 0 R
+/F1-0 6 0 R
+/F2 7 0 R
+/F2-0 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/cour 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 6746
+>>
+stream
+q
+q q BT/F3 10 Tf 295.1378 31.1811 TD (2)Tj ET Q q 1 0 0 1 56.69291 773.8661 cm 0 0 0 RG 0 2.375 m 69.316 2.375 l S 0 0 0 rg BT/F2 13 Tf 0 4 TD (DIAGRAM:)Tj ET Q q 1 0 0 1 56.69291 749.8661 cm 0 0 0 rg BT/F2 12 Tf 0 4 TD (Fig 1: Network commands and the layers they work in)Tj ET Q q 1 0 0 1 56.69291 558.7795 cm 0 0 0 RG 48.18898 148.8189 385.51185 38.267717 re S BT/F2 12 Tf 194.1089 171.4961 TD (Application Layer)Tj ET BT/F4 9.5 Tf 181.0949 157.3228 TD (nslookup, dig, telnet)Tj ET 240.9449 148.8189 m 240.9449 141.7323 l S 48.18898 103.4646 385.51185 38.267717 re S BT/F2 12 Tf 197.7809 126.1417 TD (Transport Layer)Tj ET BT/F4 9.5 Tf 209.5949 111.9685 TD (netstat, ss)Tj ET 240.9449 103.4646 m 240.9449 96.37795 l S 48.18898 58.11024 385.51185 38.26772 re S BT/F2 12 Tf 201.7889 80.7874 TD (Network Layer)Tj ET BT/F4 9.5 Tf 87.04488 66.61417 TD (ping, traceroute / tracert, ifconfig / ipconfig, route)Tj ET 240.9449 58.11024 m 240.9449 51.02362 l S 48.18898 12.75591 385.51185 38.26772 re S BT/F2 12 Tf 197.9429 35.43307 TD (Data Link Layer)Tj ET BT/F4 9.5 Tf 209.5949 21.25984 TD (arp, getmac)Tj ET Q q 1 0 0 1 56.69291 526.7795 cm 0 0 0 rg BT/F2 12 Tf 0 4 TD (Fig 2: Working of ping command)Tj ET Q q 1 0 0 1 56.69291 381.0472 cm 31.1811 116.2205 130.3937 25.511803 re S BT/F2 11 Tf 67.81645 125.2913 TD (Source \(PC\))Tj ET 96.37795 116.2205 m 96.37795 5.669291 l S 320.315 116.2205 130.3937 25.511803 re S BT/F2 11 Tf 338.0083 125.2913 TD (Destination \(Server\))Tj ET 385.5118 116.2205 m 385.5118 5.669291 l S 96.37795 82.20472 m 385.5118 82.20472 l S 385.5118 82.20472 m 377.5118 85.20472 l 377.5118 79.20472 l h B* BT/F3 11 Tf 190.2239 86.20472 TD (1. ICMP Echo Request)Tj ET 385.5118 45.35433 m 96.37795 45.35433 l S 96.37795 45.35433 m 104.378 48.35433 l 104.378 42.35433 l h B* BT/F3 11 Tf 194.8054 49.35433 TD (2. ICMP Echo Reply)Tj ET Q q 1 0 0 1 56.69291 352.0472 cm 0 0 0 RG 0 2.375 m 58.5 2.375 l S 0 0 0 rg BT/F2 13 Tf 0 4 TD (OUTPUT:)Tj ET Q q 1 0 0 1 56.69291 328.0472 cm 0 0 0 rg BT/F2 12 Tf 0 4 TD (Linux:)Tj ET Q q 1 0 0 1 56.69291 275.4472 cm .239216 .239216 .239216 rg 0 48.6 481.8898 -20 re f* .188235 .039216 .141176 rg 0 28.6 481.8898 -28.6 re f* q 1 0 0 1 7 33.6 cm 1 1 1 rg BT/F1 8.5 Tf 0 2.5 TD[-2334.0003]TJ (@)Tj[-2334.0003]TJ (-VirtualBox: ~)Tj ET Q q 1 0 0 1 7 5 cm .933333 .933333 .933333 rg BT/F4 7.8 Tf 0 11.8 TD[-3600]TJ (@)Tj[-3600]TJ (-VirtualBox:~$ hostname)Tj 0 -9.8 TD[-3600]TJ (-VirtualBox)Tj ET Q q .333333 .333333 .333333 RG 1 J 1 j .6 w 0 48.6 m 481.8898 48.6 l S 0 0 m 481.8898 0 l S 0 0 m 0 48.6 l S 481.8898 0 m 481.8898 48.6 l S Q Q q 1 0 0 1 56.69291 140.4472 cm .239216 .239216 .239216 rg 0 127 481.8898 -20 re f* .188235 .039216 .141176 rg 0 107 481.8898 -107 re f* q 1 0 0 1 7 112 cm 1 1 1 rg BT/F1 8.5 Tf 0 2.5 TD[-2334.0003]TJ (@)Tj[-2334.0003]TJ (-VirtualBox: ~)Tj ET Q q 1 0 0 1 7 5 cm .933333 .933333 .933333 rg BT/F4 7.8 Tf 0 90.2 TD[-3600]TJ (@)Tj[-3600]TJ (-VirtualBox:~$ ifconfig)Tj 0 -9.800003 TD (enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500)Tj T* (        inet 192.168.1.10  netmask 255.255.255.0  broadcast 192.168.1.255)Tj 0 -9.799999 TD (        inet6 fe80::a00:27ff:fe4e:66a1  prefixlen 64  scopeid 0x20<link>)Tj T* (        ether 08:00:27:4e:66:a1  txqueuelen 1000  \(Ethernet\))Tj T* (        RX packets 2543  bytes 2154321 \(2.1 MB\))Tj T* (        TX packets 1987  bytes 312456 \(312.4 KB\))Tj 0 -19.599999 TD (lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536)Tj 0 -9.8 TD (        inet 127.0.0.1  netmask 255.0.0.0)Tj ET Q q .333333 .333333 .333333 RG 1 J 1 j .6 w 0 127 m 481.8898 127 l S 0 0 m 481.8898 0 l S 0 0 m 0 127 l S 481.8898 0 m 481.8898 127 l S Q Q Q
+
+q
+444.9087 805.9577 130.36688 17.23499 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+q
+BT
+1 0 0 1 63.69291 314.1607 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 314.1607 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 293.9201 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 293.9201 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 284.12013 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 257.56074 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 257.56074 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 237.32012 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 237.32012 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 314.1607 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 314.1607 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 293.9201 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 293.9201 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 284.12013 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 257.56074 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 257.56074 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 237.32012 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 237.32012 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 314.1607 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 314.1607 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 293.9201 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 293.9201 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 284.12013 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 257.56074 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 257.56074 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 237.32012 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 237.32012 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55534552>]TJ
+ET
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+13 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+>>
+endobj
+15 0 obj
+<<
+/Type /Page
+/Contents 16 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 13 0 R
+/F1-0 6 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/cour 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 14866
+>>
+stream
+q
+q q BT/F3 10 Tf 295.1378 31.1811 TD (3)Tj ET Q q 1 0 0 1 56.69291 663.8661 cm .239216 .239216 .239216 rg 0 127 481.8898 -20 re f* .188235 .039216 .141176 rg 0 107 481.8898 -107 re f* q 1 0 0 1 7 112 cm 1 1 1 rg BT/F1 8.5 Tf 0 2.5 TD[-2334.0003]TJ (@)Tj[-2334.0003]TJ (-VirtualBox: ~)Tj ET Q q 1 0 0 1 7 5 cm .933333 .933333 .933333 rg BT/F4 7.8 Tf 0 90.2 TD[-3600]TJ (@)Tj[-3600]TJ (-VirtualBox:~$ ping -c 4 google.com)Tj 0 -9.800003 TD (PING google.com \(142.250.195.78\) 56\(84\) bytes of data.)Tj T* (64 bytes from maa03s45-in-f14.1e100.net \(142.250.195.78\): icmp_seq=1 ttl=117 time=14.2 ms)Tj 0 -9.799999 TD (64 bytes from maa03s45-in-f14.1e100.net \(142.250.195.78\): icmp_seq=2 ttl=117 time=14.8 ms)Tj T* (64 bytes from maa03s45-in-f14.1e100.net \(142.250.195.78\): icmp_seq=3 ttl=117 time=13.9 ms)Tj T* (64 bytes from maa03s45-in-f14.1e100.net \(142.250.195.78\): icmp_seq=4 ttl=117 time=15.2 ms)Tj 0 -19.599999 TD (--- google.com ping statistics ---)Tj 0 -9.8 TD (4 packets transmitted, 4 received, 0% packet loss, time 3005ms)Tj T* (rtt min/avg/max/mdev = 13.904/14.525/15.230/0.512 ms)Tj ET Q q .333333 .333333 .333333 RG 1 J 1 j .6 w 0 127 m 481.8898 127 l S 0 0 m 481.8898 0 l S 0 0 m 0 127 l S 481.8898 0 m 481.8898 127 l S Q Q q 1 0 0 1 56.69291 558.2661 cm .239216 .239216 .239216 rg 0 97.6 481.8898 -20 re f* .188235 .039216 .141176 rg 0 77.6 481.8898 -77.6 re f* q 1 0 0 1 7 82.6 cm 1 1 1 rg BT/F1 8.5 Tf 0 2.5 TD[-2334.0003]TJ (@)Tj[-2334.0003]TJ (-VirtualBox: ~)Tj ET Q q 1 0 0 1 7 5 cm .933333 .933333 .933333 rg BT/F4 7.8 Tf 0 60.8 TD[-3600]TJ (@)Tj[-3600]TJ (-VirtualBox:~$ traceroute google.com)Tj 0 -9.799999 TD (traceroute to google.com \(142.250.195.78\), 30 hops max, 60 byte packets)Tj T* ( 1  _gateway \(192.168.1.1\)  1.102 ms  1.045 ms  0.987 ms)Tj T* ( 2  10.20.0.1 \(10.20.0.1\)  4.321 ms  4.287 ms  4.410 ms)Tj T* ( 3  172.16.5.9 \(172.16.5.9\)  8.765 ms  8.801 ms  8.730 ms)Tj 0 -9.8 TD ( 4  72.14.215.85 \(72.14.215.85\)  12.543 ms  12.498 ms  12.610 ms)Tj T* ( 5  maa03s45-in-f14.1e100.net \(142.250.195.78\)  14.230 ms  14.187 ms  14.301 ms)Tj ET Q q .333333 .333333 .333333 RG 1 J 1 j .6 w 0 97.6 m 481.8898 97.6 l S 0 0 m 481.8898 0 l S 0 0 m 0 97.6 l S 481.8898 0 m 481.8898 97.6 l S Q Q q 1 0 0 1 56.69291 452.6661 cm .239216 .239216 .239216 rg 0 97.6 481.8898 -20 re f* .188235 .039216 .141176 rg 0 77.6 481.8898 -77.6 re f* q 1 0 0 1 7 82.6 cm 1 1 1 rg BT/F1 8.5 Tf 0 2.5 TD[-2334.0003]TJ (@)Tj[-2334.0003]TJ (-VirtualBox: ~)Tj ET Q q 1 0 0 1 7 5 cm .933333 .933333 .933333 rg BT/F4 7.8 Tf 0 60.8 TD[-3600]TJ (@)Tj[-3600]TJ (-VirtualBox:~$ nslookup google.com)Tj 0 -9.799999 TD (Server:         192.168.1.1)Tj T* (Address:        192.168.1.1#53)Tj 0 -19.599999 TD (Non-authoritative answer:)Tj 0 -9.8 TD (Name:   google.com)Tj T* (Address: 142.250.195.78)Tj ET Q q .333333 .333333 .333333 RG 1 J 1 j .6 w 0 97.6 m 481.8898 97.6 l S 0 0 m 481.8898 0 l S 0 0 m 0 97.6 l S 481.8898 0 m 481.8898 97.6 l S Q Q q 1 0 0 1 56.69291 396.0661 cm .239216 .239216 .239216 rg 0 48.6 481.8898 -20 re f* .188235 .039216 .141176 rg 0 28.6 481.8898 -28.6 re f* q 1 0 0 1 7 33.6 cm 1 1 1 rg BT/F1 8.5 Tf 0 2.5 TD[-2334.0003]TJ (@)Tj[-2334.0003]TJ (-VirtualBox: ~)Tj ET Q q 1 0 0 1 7 5 cm .933333 .933333 .933333 rg BT/F4 7.8 Tf 0 11.8 TD[-3600]TJ (@)Tj[-3600]TJ (-VirtualBox:~$ dig google.com +short)Tj 0 -9.8 TD (142.250.195.78)Tj ET Q q .333333 .333333 .333333 RG 1 J 1 j .6 w 0 48.6 m 481.8898 48.6 l S 0 0 m 481.8898 0 l S 0 0 m 0 48.6 l S 481.8898 0 m 481.8898 48.6 l S Q Q q 1 0 0 1 56.69291 290.4661 cm .239216 .239216 .239216 rg 0 97.6 481.8898 -20 re f* .188235 .039216 .141176 rg 0 77.6 481.8898 -77.6 re f* q 1 0 0 1 7 82.6 cm 1 1 1 rg BT/F1 8.5 Tf 0 2.5 TD[-2334.0003]TJ (@)Tj[-2334.0003]TJ (-VirtualBox: ~)Tj ET Q q 1 0 0 1 7 5 cm .933333 .933333 .933333 rg BT/F4 7.8 Tf 0 60.8 TD[-3600]TJ (@)Tj[-3600]TJ (-VirtualBox:~$ netstat -tuln)Tj 0 -9.799999 TD (Active Internet connections \(only servers\))Tj T* (Proto Recv-Q Send-Q Local Address           Foreign Address         State)Tj T* (tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN)Tj T* (tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN)Tj 0 -9.8 TD (tcp6       0      0 :::80                   :::*                    LISTEN)Tj T* (udp        0      0 0.0.0.0:68              0.0.0.0:*)Tj ET Q q .333333 .333333 .333333 RG 1 J 1 j .6 w 0 97.6 m 481.8898 97.6 l S 0 0 m 481.8898 0 l S 0 0 m 0 97.6 l S 481.8898 0 m 481.8898 97.6 l S Q Q q 1 0 0 1 56.69291 224.0661 cm .239216 .239216 .239216 rg 0 58.4 481.8898 -20 re f* .188235 .039216 .141176 rg 0 38.4 481.8898 -38.4 re f* q 1 0 0 1 7 43.4 cm 1 1 1 rg BT/F1 8.5 Tf 0 2.5 TD[-2334.0003]TJ (@)Tj[-2334.0003]TJ (-VirtualBox: ~)Tj ET Q q 1 0 0 1 7 5 cm .933333 .933333 .933333 rg BT/F4 7.8 Tf 0 21.6 TD[-3600]TJ (@)Tj[-3600]TJ (-VirtualBox:~$ arp -a)Tj 0 -9.8 TD (_gateway \(192.168.1.1\) at c4:e9:84:2a:5b:10 [ether] on enp0s3)Tj T* (? \(192.168.1.12\) at 3c:52:82:7d:11:9e [ether] on enp0s3)Tj ET Q q .333333 .333333 .333333 RG 1 J 1 j .6 w 0 58.4 m 481.8898 58.4 l S 0 0 m 481.8898 0 l S 0 0 m 0 58.4 l S 481.8898 0 m 481.8898 58.4 l S Q Q q 1 0 0 1 56.69291 138.0661 cm .239216 .239216 .239216 rg 0 78 481.8898 -20 re f* .188235 .039216 .141176 rg 0 58 481.8898 -58 re f* q 1 0 0 1 7 63 cm 1 1 1 rg BT/F1 8.5 Tf 0 2.5 TD[-2334.0003]TJ (@)Tj[-2334.0003]TJ (-VirtualBox: ~)Tj ET Q q 1 0 0 1 7 5 cm .933333 .933333 .933333 rg BT/F4 7.8 Tf 0 41.2 TD[-3600]TJ (@)Tj[-3600]TJ (-VirtualBox:~$ route -n)Tj 0 -9.799999 TD (Kernel IP routing table)Tj T* (Destination     Gateway         Genmask         Flags Metric Ref    Use Iface)Tj 0 -9.8 TD (0.0.0.0         192.168.1.1     0.0.0.0         UG    100    0        0 enp0s3)Tj T* (192.168.1.0     0.0.0.0         255.255.255.0   U     100    0        0 enp0s3)Tj ET Q q .333333 .333333 .333333 RG 1 J 1 j .6 w 0 78 m 481.8898 78 l S 0 0 m 481.8898 0 l S 0 0 m 0 78 l S 481.8898 0 m 481.8898 78 l S Q Q Q
+
+q
+444.9087 805.9577 130.36688 17.23499 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+q
+BT
+1 0 0 1 63.69291 780.9796 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 780.9796 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 760.739 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 760.739 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 645.9796 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 645.9796 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 625.739 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 625.739 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 540.37966 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 540.37966 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 520.13906 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 520.13906 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 434.77964 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 434.77964 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 414.539 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 414.539 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 378.1796 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 378.1796 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 357.93898 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 357.93898 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 272.57966 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 272.57966 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 252.33898 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 252.33898 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 206.17961 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 206.17961 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 185.93901 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 185.93901 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 780.9796 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 780.9796 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 760.739 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 760.739 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 645.9796 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 645.9796 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 625.739 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 625.739 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 540.37966 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 540.37966 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 520.13906 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 520.13906 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 434.77964 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 434.77964 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 414.539 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 414.539 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 378.1796 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 378.1796 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 357.93898 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 357.93898 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 272.57966 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 272.57966 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 252.33898 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 252.33898 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 206.17961 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 206.17961 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 185.93901 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 185.93901 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 780.9796 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 780.9796 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 760.739 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 760.739 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 645.9796 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 645.9796 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 625.739 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 625.739 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 540.37966 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 540.37966 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 520.13906 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 520.13906 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 434.77964 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 434.77964 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 414.539 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 414.539 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 378.1796 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 378.1796 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 357.93898 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 357.93898 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 272.57966 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 272.57966 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 252.33898 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 252.33898 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 206.17961 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 92.15941 206.17961 Tm /cour 7 Tf 1 1 1 RG 1 1 1 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 63.69291 185.93901 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 96.45291 185.93901 Tm /cour 5.8 Tf .933333 .933333 .933333 RG .933333 .933333 .933333 rg [<55534552>]TJ
+ET
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/Type /Page
+/Contents 18 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 13 0 R
+/F1-0 6 0 R
+/F2 7 0 R
+/F2-0 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/cour 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 6483
+>>
+stream
+q
+q q BT/F3 10 Tf 295.1378 31.1811 TD (4)Tj ET Q q 1 0 0 1 56.69291 774.8661 cm 0 0 0 rg BT/F2 12 Tf 0 4 TD (Windows:)Tj ET Q q 1 0 0 1 56.69291 722.2661 cm .909804 .909804 .909804 rg 0 48.6 481.8898 -20 re f* 0 0 0 rg 0 28.6 481.8898 -28.6 re f* q 1 0 0 1 7 33.6 cm BT/F1 8.5 Tf 0 2.5 TD (Command Prompt)Tj ET Q q 1 0 0 1 7 5 cm .8 .8 .8 rg BT/F4 7.8 Tf 0 11.8 TD (C:\\Users\\)Tj[-3600]TJ (>hostname)Tj 0 -9.8 TD (DESKTOP-)Tj ET Q q .333333 .333333 .333333 RG 1 J 1 j .6 w 0 48.6 m 481.8898 48.6 l S 0 0 m 481.8898 0 l S 0 0 m 0 48.6 l S 481.8898 0 m 481.8898 48.6 l S Q Q q 1 0 0 1 56.69291 508.8661 cm .909804 .909804 .909804 rg 0 205.4 481.8898 -20 re f* 0 0 0 rg 0 185.4 481.8898 -185.4 re f* q 1 0 0 1 7 190.4 cm BT/F1 8.5 Tf 0 2.5 TD (Command Prompt)Tj ET Q q 1 0 0 1 7 5 cm .8 .8 .8 rg BT/F4 7.8 Tf 0 168.6 TD (C:\\Users\\)Tj[-3600]TJ (>ipconfig /all)Tj 0 -19.600007 TD (Windows IP Configuration)Tj T* (   Host Name . . . . . . . . . . . . : DESKTOP-)Tj 0 -9.800003 TD (   Primary Dns Suffix  . . . . . . . :)Tj T* (   Node Type . . . . . . . . . . . . : Hybrid)Tj T* (   IP Routing Enabled. . . . . . . . : No)Tj 0 -19.600007 TD (Ethernet adapter Ethernet:)Tj 0 -19.600003 TD (   Physical Address. . . . . . . . . : 00-1A-2B-3C-4D-5E)Tj 0 -9.799999 TD (   DHCP Enabled. . . . . . . . . . . : Yes)Tj T* (   IPv4 Address. . . . . . . . . . . : 192.168.1.25\(Preferred\))Tj T* (   Subnet Mask . . . . . . . . . . . : 255.255.255.0)Tj T* (   Default Gateway . . . . . . . . . : 192.168.1.1)Tj 0 -9.8 TD (   DHCP Server . . . . . . . . . . . : 192.168.1.1)Tj T* (   DNS Servers . . . . . . . . . . . : 8.8.8.8)Tj ET Q q .333333 .333333 .333333 RG 1 J 1 j .6 w 0 205.4 m 481.8898 205.4 l S 0 0 m 481.8898 0 l S 0 0 m 0 205.4 l S 481.8898 0 m 481.8898 205.4 l S Q Q q 1 0 0 1 56.69291 354.2661 cm .909804 .909804 .909804 rg 0 146.6 481.8898 -20 re f* 0 0 0 rg 0 126.6 481.8898 -126.6 re f* q 1 0 0 1 7 131.6 cm BT/F1 8.5 Tf 0 2.5 TD (Command Prompt)Tj ET Q q 1 0 0 1 7 5 cm .8 .8 .8 rg BT/F4 7.8 Tf 0 109.8 TD (C:\\Users\\)Tj[-3600]TJ (>ping google.com)Tj 0 -19.600007 TD (Pinging google.com [142.250.195.78] with 32 bytes of data:)Tj 0 -9.800003 TD (Reply from 142.250.195.78: bytes=32 time=15ms TTL=117)Tj T* (Reply from 142.250.195.78: bytes=32 time=14ms TTL=117)Tj 0 -9.799999 TD (Reply from 142.250.195.78: bytes=32 time=14ms TTL=117)Tj T* (Reply from 142.250.195.78: bytes=32 time=16ms TTL=117)Tj 0 -19.599999 TD (Ping statistics for 142.250.195.78:)Tj 0 -9.799999 TD (    Packets: Sent = 4, Received = 4, Lost = 0 \(0% loss\),)Tj 0 -9.8 TD (Approximate round trip times in milli-seconds:)Tj T* (    Minimum = 14ms, Maximum = 16ms, Average = 14ms)Tj ET Q q .333333 .333333 .333333 RG 1 J 1 j .6 w 0 146.6 m 481.8898 146.6 l S 0 0 m 481.8898 0 l S 0 0 m 0 146.6 l S 481.8898 0 m 481.8898 146.6 l S Q Q q 1 0 0 1 56.69291 199.6661 cm .909804 .909804 .909804 rg 0 146.6 481.8898 -20 re f* 0 0 0 rg 0 126.6 481.8898 -126.6 re f* q 1 0 0 1 7 131.6 cm BT/F1 8.5 Tf 0 2.5 TD (Command Prompt)Tj ET Q q 1 0 0 1 7 5 cm .8 .8 .8 rg BT/F4 7.8 Tf 0 109.8 TD (C:\\Users\\)Tj[-3600]TJ (>tracert google.com)Tj 0 -19.600007 TD (Tracing route to google.com [142.250.195.78])Tj 0 -9.800003 TD (over a maximum of 30 hops:)Tj 0 -19.600003 TD (  1    <1 ms    <1 ms    <1 ms  192.168.1.1)Tj 0 -9.799999 TD (  2     4 ms     4 ms     4 ms  10.20.0.1)Tj T* (  3     9 ms     8 ms     9 ms  172.16.5.9)Tj T* (  4    13 ms    12 ms    12 ms  72.14.215.85)Tj T* (  5    14 ms    14 ms    15 ms  142.250.195.78)Tj 0 -19.6 TD (Trace complete.)Tj ET Q q .333333 .333333 .333333 RG 1 J 1 j .6 w 0 146.6 m 481.8898 146.6 l S 0 0 m 481.8898 0 l S 0 0 m 0 146.6 l S 481.8898 0 m 481.8898 146.6 l S Q Q q 1 0 0 1 56.69291 94.06614 cm .909804 .909804 .909804 rg 0 97.6 481.8898 -20 re f* 0 0 0 rg 0 77.6 481.8898 -77.6 re f* q 1 0 0 1 7 82.6 cm BT/F1 8.5 Tf 0 2.5 TD (Command Prompt)Tj ET Q q 1 0 0 1 7 5 cm .8 .8 .8 rg BT/F4 7.8 Tf 0 60.8 TD (C:\\Users\\)Tj[-3600]TJ (>nslookup google.com)Tj 0 -9.799999 TD (Server:  dns.google)Tj T* (Address:  8.8.8.8)Tj 0 -19.599999 TD (Non-authoritative answer:)Tj 0 -9.8 TD (Name:    google.com)Tj T* (Address:  142.250.195.78)Tj ET Q q .333333 .333333 .333333 RG 1 J 1 j .6 w 0 97.6 m 481.8898 97.6 l S 0 0 m 481.8898 0 l S 0 0 m 0 97.6 l S 481.8898 0 m 481.8898 97.6 l S Q Q Q
+
+q
+444.9087 805.9577 130.36688 17.23499 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+q
+BT
+1 0 0 1 105.81291 740.739 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 101.13291 730.939 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 684.13906 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 283.65278 644.93899 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 470.739 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 316.13905 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 161.53905 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 740.739 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 101.13291 730.939 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 684.13906 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 283.65278 644.93899 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 470.739 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 316.13905 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 161.53905 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 740.739 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 101.13291 730.939 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 684.13906 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 283.65278 644.93899 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 470.739 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 316.13905 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 161.53905 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55534552>]TJ
+ET
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+19 0 obj
+<<
+/Type /Page
+/Contents 20 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 13 0 R
+/F1-0 6 0 R
+/F2 7 0 R
+/F2-0 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/cour 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 4760
+>>
+stream
+q
+q q BT/F3 10 Tf 295.1378 31.1811 TD (5)Tj ET Q q 1 0 0 1 56.69291 673.6661 cm .909804 .909804 .909804 rg 0 117.2 481.8898 -20 re f* 0 0 0 rg 0 97.2 481.8898 -97.2 re f* q 1 0 0 1 7 102.2 cm BT/F1 8.5 Tf 0 2.5 TD (Command Prompt)Tj ET Q q 1 0 0 1 7 5 cm .8 .8 .8 rg BT/F4 7.8 Tf 0 80.4 TD (C:\\Users\\)Tj[-3600]TJ (>netstat -an)Tj 0 -19.600003 TD (Active Connections)Tj 0 -19.599999 TD (  Proto  Local Address          Foreign Address        State)Tj 0 -9.799999 TD (  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING)Tj T* (  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING)Tj 0 -9.8 TD (  TCP    192.168.1.25:50234     142.250.195.78:443     ESTABLISHED)Tj T* (  UDP    0.0.0.0:5353           *:*)Tj ET Q q .333333 .333333 .333333 RG 1 J 1 j .6 w 0 117.2 m 481.8898 117.2 l S 0 0 m 481.8898 0 l S 0 0 m 0 117.2 l S 481.8898 0 m 481.8898 117.2 l S Q Q q 1 0 0 1 56.69291 577.8661 cm .909804 .909804 .909804 rg 0 87.8 481.8898 -20 re f* 0 0 0 rg 0 67.8 481.8898 -67.8 re f* q 1 0 0 1 7 72.8 cm BT/F1 8.5 Tf 0 2.5 TD (Command Prompt)Tj ET Q q 1 0 0 1 7 5 cm .8 .8 .8 rg BT/F4 7.8 Tf 0 51 TD (C:\\Users\\)Tj[-3600]TJ (>arp -a)Tj 0 -19.599999 TD (Interface: 192.168.1.25 --- 0x8)Tj 0 -9.799999 TD (  Internet Address      Physical Address      Type)Tj 0 -9.8 TD (  192.168.1.1           c4-e9-84-2a-5b-10     dynamic)Tj T* (  192.168.1.255         ff-ff-ff-ff-ff-ff     static)Tj ET Q q .333333 .333333 .333333 RG 1 J 1 j .6 w 0 87.8 m 481.8898 87.8 l S 0 0 m 481.8898 0 l S 0 0 m 0 87.8 l S 481.8898 0 m 481.8898 87.8 l S Q Q q 1 0 0 1 56.69291 452.6661 cm .909804 .909804 .909804 rg 0 117.2 481.8898 -20 re f* 0 0 0 rg 0 97.2 481.8898 -97.2 re f* q 1 0 0 1 7 102.2 cm BT/F1 8.5 Tf 0 2.5 TD (Command Prompt)Tj ET Q q 1 0 0 1 7 5 cm .8 .8 .8 rg BT/F4 7.8 Tf 0 80.4 TD (C:\\Users\\)Tj[-3600]TJ (>route print)Tj 0 -19.600003 TD (IPv4 Route Table)Tj 0 -9.799999 TD (===========================================================================)Tj T* (Active Routes:)Tj T* (Network Destination        Netmask          Gateway       Interface  Metric)Tj T* (          0.0.0.0          0.0.0.0      192.168.1.1    192.168.1.25     25)Tj 0 -9.8 TD (        127.0.0.0        255.0.0.0         On-link         127.0.0.1    331)Tj T* (      192.168.1.0    255.255.255.0         On-link      192.168.1.25    281)Tj ET Q q .333333 .333333 .333333 RG 1 J 1 j .6 w 0 117.2 m 481.8898 117.2 l S 0 0 m 481.8898 0 l S 0 0 m 0 117.2 l S 481.8898 0 m 481.8898 117.2 l S Q Q q 1 0 0 1 56.69291 366.6661 cm .909804 .909804 .909804 rg 0 78 481.8898 -20 re f* 0 0 0 rg 0 58 481.8898 -58 re f* q 1 0 0 1 7 63 cm BT/F1 8.5 Tf 0 2.5 TD (Command Prompt)Tj ET Q q 1 0 0 1 7 5 cm .8 .8 .8 rg BT/F4 7.8 Tf 0 41.2 TD (C:\\Users\\)Tj[-3600]TJ (>getmac)Tj 0 -19.599999 TD (Physical Address    Transport Name)Tj 0 -9.8 TD (=================== ==========================================================)Tj T* (00-1A-2B-3C-4D-5E   \\Device\\Tcpip_{8F3A21B0-5C6D-4E7F-9A1B-2C3D4E5F6A7B})Tj ET Q q .333333 .333333 .333333 RG 1 J 1 j .6 w 0 78 m 481.8898 78 l S 0 0 m 481.8898 0 l S 0 0 m 0 78 l S 481.8898 0 m 481.8898 78 l S Q Q q 1 0 0 1 56.69291 329.6661 cm 0 0 0 RG 0 2.375 m 56.342 2.375 l S 0 0 0 rg BT/F2 13 Tf 0 4 TD (RESULT:)Tj ET Q q 1 0 0 1 56.69291 290.6661 cm 0 0 0 rg BT/F3 12 Tf 0 22 TD (Thus the various network commands used in Linux and Windows were studied and executed)Tj 0 -17 TD (successfully.)Tj ET Q Q
+
+q
+444.9087 805.9577 130.36688 17.23499 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+q
+BT
+1 0 0 1 105.81291 760.739 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 635.539 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 539.739 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 414.53904 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 760.739 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 635.539 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 539.739 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 414.53904 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<75736572>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 760.739 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 635.539 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 539.739 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55534552>]TJ
+ET
+Q
+
+q
+BT
+1 0 0 1 105.81291 414.53904 Tm /cour 5.8 Tf .8 .8 .8 RG .8 .8 .8 rg [<55534552>]TJ
+ET
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000141 00000 n 
+0000000190 00000 n 
+0000000454 00000 n 
+0000006724 00000 n 
+0000006831 00000 n 
+0000006939 00000 n 
+0000007051 00000 n 
+0000007160 00000 n 
+0000007266 00000 n 
+0000007558 00000 n 
+0000014357 00000 n 
+0000014465 00000 n 
+0000014561 00000 n 
+0000014841 00000 n 
+0000029761 00000 n 
+0000030053 00000 n 
+0000036589 00000 n 
+0000036881 00000 n 
+trailer
+<<
+/Size 21
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+41694
+%%EOF

@@ -1,0 +1,301 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 3
+/Kids [ 4 0 R 13 0 R 15 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 6331
+>>
+stream
+q
+q q BT/F3 10 Tf 295.1378 36 TD (1)Tj ET Q q q 1 0 0 1 64.2378 742.0898 cm 0 0 0 rg BT/F2 12 Tf (Exp No: 8)Tj ET Q q 1 0 0 1 154.2378 733.0898 cm 0 0 0 rg BT/F2 12 Tf 0 18 TD (NMAP to Discover Live Hosts using Nmap Scans \(ARP, ICMP,)Tj 0 -15 TD (TCP/UDP\) on the TryHackMe Platform)Tj ET Q q 1 0 0 1 58.2378 725.0898 cm 0 0 0 RG 1 J 1 j 0 46 m 478.8 46 l S 0 0 m 478.8 0 l S 0 0 m 0 46 l S 478.8 0 m 478.8 46 l S 90 0 m 90 46 l S Q Q q 1 0 0 1 70.8 689.0898 cm 0 0 0 RG 0 1.9375 m 29.85 1.9375 l S 0 0 0 rg BT/F2 12.5 Tf 0 3.5 TD (AIM:)Tj ET Q q 1 0 0 1 70.8 654.0898 cm 0 0 0 rg BT 1.417858 Tw/F3 11 Tf 0 19 TD (To use the Nmap tool on the TryHackMe platform to discover live hosts in a network using ARP,)Tj 0 Tw 0 -15 TD (ICMP, TCP and UDP ping scans.)Tj ET Q q 1 0 0 1 70.8 628.0898 cm 0 0 0 RG 0 1.9375 m 173.6125 1.9375 l S 0 0 0 rg BT/F2 12.5 Tf 0 3.5 TD (ALGORITHM / PROCEDURE:)Tj ET Q q 1 0 0 1 70.8 593.0898 cm 0 0 0 rg BT/F1 10 Tf 4 19 TD (1.)Tj ET BT/F3 11 Tf 22 19 TD (Log in to the TryHackMe website, open the )Tj/F4 11 Tf (Nmap Live Host Discovery)Tj/F3 11 Tf ( room and click )Tj/F4 11 Tf (Start)Tj 0 -15 TD (AttackBox)Tj/F3 11 Tf (. Click )Tj/F4 11 Tf (Start Machine)Tj/F3 11 Tf ( to deploy the target.)Tj ET Q q 1 0 0 1 70.8 575.0898 cm 0 0 0 rg BT/F1 10 Tf 4 4 TD (2.)Tj ET BT/F3 11 Tf 22 4 TD (Open the terminal in the AttackBox and note the IP address of the AttackBox using )Tj/F5 9 Tf (ip a)Tj/F3 11 Tf (.)Tj ET Q q 1 0 0 1 70.8 557.0898 cm 0 0 0 rg BT/F1 10 Tf 4 4 TD (3.)Tj ET BT/F3 11 Tf 22 4 TD (ARP scan: run )Tj/F5 9 Tf (nmap -PR -sn 10.10.5.0/24)Tj/F3 11 Tf (. ARP works only for hosts on the same subnet.)Tj ET Q q 1 0 0 1 70.8 539.0898 cm 0 0 0 rg BT/F1 10 Tf 4 4 TD (4.)Tj ET BT/F3 11 Tf 22 4 TD (ICMP scan: run )Tj/F5 9 Tf (nmap -PE -sn 10.10.5.0/24)Tj/F3 11 Tf ( to send ICMP echo requests \(ping\).)Tj ET Q q 1 0 0 1 70.8 521.0898 cm 0 0 0 rg BT/F1 10 Tf 4 4 TD (5.)Tj ET BT/F3 11 Tf 22 4 TD (TCP scan: run )Tj/F5 9 Tf (nmap -PS22,80,443 -sn)Tj/F3 11 Tf ( \(SYN ping\) and )Tj/F5 9 Tf (nmap -PA80 -sn)Tj/F3 11 Tf ( \(ACK ping\).)Tj ET Q q 1 0 0 1 70.8 503.0898 cm 0 0 0 rg BT/F1 10 Tf 4 4 TD (6.)Tj ET BT/F3 11 Tf 22 4 TD (UDP scan: run )Tj/F5 9 Tf (nmap -PU53,161 -sn)Tj/F3 11 Tf ( to send empty UDP packets to the given ports.)Tj ET Q q 1 0 0 1 70.8 485.0898 cm 0 0 0 rg BT/F1 10 Tf 4 4 TD (7.)Tj ET BT/F3 11 Tf 22 4 TD (Note the hosts reported as "up" and compare the results of the four scan types.)Tj ET Q q 1 0 0 1 70.8 461.0898 cm 0 0 0 rg BT/F2 10 Tf 112.4078 2 TD (Fig 1: Host discovery probes sent from the AttackBox)Tj ET Q q[]0 d q[]0 d 1 0 0 1 70.8 303.0898 cm 1 1 1 rg 0 0 0 RG 5 20 110 110 re B* Q q 1 0 0 1 70.8 303.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 10 Tf 41.12 90 TD (Attacker)Tj ET Q q 1 0 0 1 70.8 303.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 10 Tf 33.615 78 TD (TryHackMe)Tj ET Q q 1 0 0 1 70.8 303.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 10 Tf 37.225 66 TD (AttackBox)Tj ET Q q 1 0 0 1 70.8 303.0898 cm 0 0 0 rg 0 0 0 RG BT/F2 10 Tf 38.75 54 TD (10.10.5.10)Tj ET Q q[]0 d 1 0 0 1 70.8 303.0898 cm 1 1 1 rg 0 0 0 RG 345 20 130 110 re B* Q q 1 0 0 1 70.8 303.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 10 Tf 379.315 102 TD (Target network)Tj ET Q q 1 0 0 1 70.8 303.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 10 Tf 384.86 90 TD (10.10.5.0/24)Tj ET Q q Q q 1 0 0 1 70.8 303.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 10 Tf 387.23 66 TD (.1 Gateway)Tj ET Q q 1 0 0 1 70.8 303.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 10 Tf 389.45 54 TD (.17 Target)Tj ET Q q 1 0 0 1 70.8 303.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 10 Tf 381.53 42 TD (.23 Other host)Tj ET Q q[]0 d 1 0 0 1 70.8 303.0898 cm 0 0 0 RG 115 118 m 345 118 l S Q q[]0 d 1 0 0 1 70.8 303.0898 cm 0 0 0 rg 0 0 0 RG 345 118 m 339.4736 120.3365 l 339.4736 115.6635 l h B* Q q 1 0 0 1 70.8 303.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 196.0025 121 TD (ARP request \(-PR\))Tj ET Q q[]0 d 1 0 0 1 70.8 303.0898 cm 0 0 0 RG 115 93 m 345 93 l S Q q[]0 d 1 0 0 1 70.8 303.0898 cm 0 0 0 rg 0 0 0 RG 345 93 m 339.4736 95.33651 l 339.4736 90.66349 l h B* Q q 1 0 0 1 70.8 303.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 184.3835 96 TD (ICMP echo request \(-PE\))Tj ET Q q[]0 d 1 0 0 1 70.8 303.0898 cm 0 0 0 RG 115 68 m 345 68 l S Q q[]0 d 1 0 0 1 70.8 303.0898 cm 0 0 0 rg 0 0 0 RG 345 68 m 339.4736 70.33651 l 339.4736 65.66349 l h B* Q q 1 0 0 1 70.8 303.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 178.4975 71 TD (TCP SYN / ACK \(-PS, -PA\))Tj ET Q q[]0 d 1 0 0 1 70.8 303.0898 cm 0 0 0 RG 115 43 m 345 43 l S Q q[]0 d 1 0 0 1 70.8 303.0898 cm 0 0 0 rg 0 0 0 RG 345 43 m 339.4736 45.33651 l 339.4736 40.66349 l h B* Q q 1 0 0 1 70.8 303.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 198.257 46 TD (UDP probe \(-PU\))Tj ET Q Q q 1 0 0 1 70.8 288.0898 cm 0 0 0 rg BT/F2 10 Tf 142.5328 2 TD (Fig 2: Working of a host discovery scan)Tj ET Q q[]0 d q[]0 d 1 0 0 1 70.8 220.0898 cm 1 1 1 rg 0 0 0 RG 10 12 95 36 re B* Q q 1 0 0 1 70.8 220.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 37.1285 27.3 TD (Send probe)Tj ET Q q[]0 d 1 0 0 1 70.8 220.0898 cm 1 1 1 rg 0 0 0 RG 128 12 95 36 re B* Q q 1 0 0 1 70.8 220.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 162.7515 27.3 TD (Reply?)Tj ET Q q[]0 d 1 0 0 1 70.8 220.0898 cm 0 0 0 RG 105 30 m 128 30 l S Q q[]0 d 1 0 0 1 70.8 220.0898 cm 0 0 0 rg 0 0 0 RG 128 30 m 122.4736 32.33651 l 122.4736 27.66349 l h B* Q q[]0 d 1 0 0 1 70.8 220.0898 cm 1 1 1 rg 0 0 0 RG 246 12 95 36 re B* Q q 1 0 0 1 70.8 220.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 275.1265 32.7 TD (Mark host)Tj ET Q q 1 0 0 1 70.8 220.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 270.253 21.7 TD (UP / DOWN)Tj ET Q q[]0 d 1 0 0 1 70.8 220.0898 cm 0 0 0 RG 223 30 m 246 30 l S Q q[]0 d 1 0 0 1 70.8 220.0898 cm 0 0 0 rg 0 0 0 RG 246 30 m 240.4736 32.33651 l 240.4736 27.66349 l h B* Q q[]0 d 1 0 0 1 70.8 220.0898 cm 1 1 1 rg 0 0 0 RG 364 12 95 36 re B* Q q 1 0 0 1 70.8 220.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 402.7475 32.7 TD (Print)Tj ET Q q 1 0 0 1 70.8 220.0898 cm 0 0 0 rg 0 0 0 RG BT/F3 9 Tf 391.6325 21.7 TD (scan report)Tj ET Q q[]0 d 1 0 0 1 70.8 220.0898 cm 0 0 0 RG 341 30 m 364 30 l S Q q[]0 d 1 0 0 1 70.8 220.0898 cm 0 0 0 rg 0 0 0 RG 364 30 m 358.4736 32.33651 l 358.4736 27.66349 l h B* Q Q Q
+
+q
+445.1356 797.8798 130.13999 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Times-Italic
+/Encoding /WinAnsiEncoding
+/Name /F4
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F5
+>>
+endobj
+13 0 obj
+<<
+/Type /Page
+/Contents 14 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 9537
+>>
+stream
+q
+q q BT/F3 10 Tf 295.1378 36 TD (2)Tj ET Q q 1 0 0 1 70.8 755.0898 cm 0 0 0 RG 0 1.9375 m 92.7125 1.9375 l S 0 0 0 rg BT/F2 12.5 Tf 0 3.5 TD (Commands used:)Tj ET Q q q 1 0 0 1 66.037799 733.0898 cm 0 0 0 rg BT/F2 10 Tf 0 2 TD (Scan type)Tj ET Q q 1 0 0 1 195.6378 733.0898 cm 0 0 0 rg BT/F2 10 Tf 0 2 TD (Option)Tj ET Q q 1 0 0 1 260.4378 733.0898 cm 0 0 0 rg BT/F2 10 Tf 0 2 TD (Command)Tj ET Q q 1 0 0 1 66.037799 711.0898 cm 0 0 0 rg BT/F3 10 Tf 0 2 TD (ARP ping)Tj ET Q q 1 0 0 1 195.6378 711.0898 cm 0 0 0 rg BT/F5 9 Tf 0 3 TD (-PR)Tj ET Q q 1 0 0 1 260.4378 711.0898 cm 0 0 0 rg BT/F5 9 Tf 0 3 TD (nmap -PR -sn 10.10.5.0/24)Tj ET Q q 1 0 0 1 66.037799 689.0898 cm 0 0 0 rg BT/F3 10 Tf 0 2 TD (ICMP echo ping)Tj ET Q q 1 0 0 1 195.6378 689.0898 cm 0 0 0 rg BT/F5 9 Tf 0 3 TD (-PE)Tj ET Q q 1 0 0 1 260.4378 689.0898 cm 0 0 0 rg BT/F5 9 Tf 0 3 TD (nmap -PE -sn 10.10.5.0/24)Tj ET Q q 1 0 0 1 66.037799 667.0898 cm 0 0 0 rg BT/F3 10 Tf 0 2 TD (TCP SYN ping)Tj ET Q q 1 0 0 1 195.6378 667.0898 cm 0 0 0 rg BT/F5 9 Tf 0 3 TD (-PS)Tj ET Q q 1 0 0 1 260.4378 667.0898 cm 0 0 0 rg BT/F5 9 Tf 0 3 TD (nmap -PS22,80,443 -sn 10.10.5.0/24)Tj ET Q q 1 0 0 1 66.037799 645.0898 cm 0 0 0 rg BT/F3 10 Tf 0 2 TD (TCP ACK ping)Tj ET Q q 1 0 0 1 195.6378 645.0898 cm 0 0 0 rg BT/F5 9 Tf 0 3 TD (-PA)Tj ET Q q 1 0 0 1 260.4378 645.0898 cm 0 0 0 rg BT/F5 9 Tf 0 3 TD (nmap -PA80 -sn 10.10.5.0/24)Tj ET Q q 1 0 0 1 66.037799 623.0898 cm 0 0 0 rg BT/F3 10 Tf 0 2 TD (UDP ping)Tj ET Q q 1 0 0 1 195.6378 623.0898 cm 0 0 0 rg BT/F5 9 Tf 0 3 TD (-PU)Tj ET Q q 1 0 0 1 260.4378 623.0898 cm 0 0 0 rg BT/F5 9 Tf 0 3 TD (nmap -PU53,161 -sn 10.10.5.0/24)Tj ET Q q 1 0 0 1 66.037799 601.0898 cm 0 0 0 rg BT/F3 10 Tf 0 2 TD (List scan \(no probes\))Tj ET Q q 1 0 0 1 195.6378 601.0898 cm 0 0 0 rg BT/F5 9 Tf 0 3 TD (-sL)Tj ET Q q 1 0 0 1 260.4378 601.0898 cm 0 0 0 rg BT/F5 9 Tf 0 3 TD (nmap -sL 10.10.5.0/24)Tj ET Q q 1 0 0 1 60.0378 596.0898 cm 0 0 0 RG 1 J 1 j .8 w 0 154 m 475.2 154 l S 0 0 m 475.2 0 l S 0 0 m 0 154 l S 475.2 0 m 475.2 154 l S 0 132 m 475.2 132 l S 0 110 m 475.2 110 l S 0 88 m 475.2 88 l S 0 66 m 475.2 66 l S 0 44 m 475.2 44 l S 0 22 m 475.2 22 l S 129.6 0 m 129.6 154 l S 194.4 0 m 194.4 154 l S Q Q q 1 0 0 1 70.8 570.0898 cm 0 0 0 RG 0 1.9375 m 56.25 1.9375 l S 0 0 0 rg BT/F2 12.5 Tf 0 3.5 TD (OUTPUT:)Tj ET Q q 1 0 0 1 70.8 395.2898 cm .047059 .047059 .047059 rg 4 0 m 474.8 0 l 477.0112 0 478.8 1.7888 478.8 4 c 478.8 165.8 l 478.8 168.0112 477.0112 169.8 474.8 169.8 c 4 169.8 l 1.7888 169.8 0 168.0112 0 165.8 c 0 4 l 0 1.7888 1.7888 0 4 0 c h f* .176471 .176471 .176471 rg 4 154.8 m 474.8 154.8 l 477.0112 154.8 478.8 156.5888 478.8 158.8 c 478.8 165.8 l 478.8 168.0112 477.0112 169.8 474.8 169.8 c 4 169.8 l 1.7888 169.8 0 168.0112 0 165.8 c 0 158.8 l 0 156.5888 1.7888 154.8 4 154.8 c h f* 0 154.8 478.8 4 re f* 1 .372549 .337255 rg 12 162.3 m 12 163.9569 10.65685 165.3 9 165.3 c 7.343146 165.3 6 163.9569 6 162.3 c 6 160.6431 7.343146 159.3 9 159.3 c 10.65685 159.3 12 160.6431 12 162.3 c f* 1 .741176 .180392 rg 23 162.3 m 23 163.9569 21.65685 165.3 20 165.3 c 18.34315 165.3 17 163.9569 17 162.3 c 17 160.6431 18.34315 159.3 20 159.3 c 21.65685 159.3 23 160.6431 23 162.3 c f* .152941 .788235 .247059 rg 34 162.3 m 34 163.9569 32.65685 165.3 31 165.3 c 29.34315 165.3 28 163.9569 28 162.3 c 28 160.6431 29.34315 159.3 31 159.3 c 32.65685 159.3 34 160.6431 34 162.3 c f* .94902 .94902 .94902 rg BT/F1 7.5 Tf 188.1337 159.3 TD (AttackBox terminal - ARP scan)Tj ET 1 .372549 .372549 rg BT/F5 7.6 Tf 8 143.8 TD (root@ip-10-10-5-10:~# )Tj ET .94902 .94902 .94902 rg BT/F5 7.6 Tf 108.32 143.8 TD (nmap -PR -sn 10.10.5.0/24)Tj ET .94902 .827451 .294118 rg BT/F5 7.6 Tf 8 133.6 TD (Starting Nmap 7.80 \( https://nmap.org \) at 2026-10-07 10:42 BST)Tj ET BT/F5 7.6 Tf 8 123.4 TD (Nmap scan report for 10.10.5.1)Tj ET .305882 .878431 .419608 rg BT/F5 7.6 Tf 8 113.2 TD (Host is up \(0.00031s latency\).)Tj ET .878431 .482353 .941176 rg BT/F5 7.6 Tf 8 103 TD (MAC Address: 02:2B:6C:41:9A:01 \(Unknown\))Tj ET .94902 .827451 .294118 rg BT/F5 7.6 Tf 8 92.8 TD (Nmap scan report for 10.10.5.17)Tj ET .305882 .878431 .419608 rg BT/F5 7.6 Tf 8 82.6 TD (Host is up \(0.00045s latency\).)Tj ET .878431 .482353 .941176 rg BT/F5 7.6 Tf 8 72.4 TD (MAC Address: 02:7E:D3:08:5C:17 \(Unknown\))Tj ET .94902 .827451 .294118 rg BT/F5 7.6 Tf 8 62.2 TD (Nmap scan report for 10.10.5.23)Tj ET .305882 .878431 .419608 rg BT/F5 7.6 Tf 8 52 TD (Host is up \(0.00052s latency\).)Tj ET .878431 .482353 .941176 rg BT/F5 7.6 Tf 8 41.8 TD (MAC Address: 02:19:A4:F2:70:23 \(Unknown\))Tj ET .94902 .827451 .294118 rg BT/F5 7.6 Tf 8 31.6 TD (Nmap scan report for 10.10.5.10)Tj ET .305882 .878431 .419608 rg BT/F5 7.6 Tf 8 21.4 TD (Host is up.)Tj ET BT/F5 7.6 Tf 8 11.2 TD (Nmap done: 256 IP addresses \(4 hosts up\) scanned in 2.87 seconds)Tj ET Q q 1 0 0 1 70.8 248.0898 cm .047059 .047059 .047059 rg 4 0 m 474.8 0 l 477.0112 0 478.8 1.7888 478.8 4 c 478.8 135.2 l 478.8 137.4112 477.0112 139.2 474.8 139.2 c 4 139.2 l 1.7888 139.2 0 137.4112 0 135.2 c 0 4 l 0 1.7888 1.7888 0 4 0 c h f* .176471 .176471 .176471 rg 4 124.2 m 474.8 124.2 l 477.0112 124.2 478.8 125.9888 478.8 128.2 c 478.8 135.2 l 478.8 137.4112 477.0112 139.2 474.8 139.2 c 4 139.2 l 1.7888 139.2 0 137.4112 0 135.2 c 0 128.2 l 0 125.9888 1.7888 124.2 4 124.2 c h f* 0 124.2 478.8 4 re f* 1 .372549 .337255 rg 12 131.7 m 12 133.3569 10.65685 134.7 9 134.7 c 7.343146 134.7 6 133.3569 6 131.7 c 6 130.0431 7.343146 128.7 9 128.7 c 10.65685 128.7 12 130.0431 12 131.7 c f* 1 .741176 .180392 rg 23 131.7 m 23 133.3569 21.65685 134.7 20 134.7 c 18.34315 134.7 17 133.3569 17 131.7 c 17 130.0431 18.34315 128.7 20 128.7 c 21.65685 128.7 23 130.0431 23 131.7 c f* .152941 .788235 .247059 rg 34 131.7 m 34 133.3569 32.65685 134.7 31 134.7 c 29.34315 134.7 28 133.3569 28 131.7 c 28 130.0431 29.34315 128.7 31 128.7 c 32.65685 128.7 34 130.0431 34 131.7 c f* .94902 .94902 .94902 rg BT/F1 7.5 Tf 177.2963 128.7 TD (AttackBox terminal - ICMP echo scan)Tj ET 1 .372549 .372549 rg BT/F5 7.6 Tf 8 113.2 TD (root@ip-10-10-5-10:~# )Tj ET .94902 .94902 .94902 rg BT/F5 7.6 Tf 108.32 113.2 TD (nmap -PE -sn 10.10.5.0/24)Tj ET .94902 .827451 .294118 rg BT/F5 7.6 Tf 8 103 TD (Starting Nmap 7.80 \( https://nmap.org \) at 2026-10-07 10:44 BST)Tj ET BT/F5 7.6 Tf 8 92.8 TD (Nmap scan report for 10.10.5.1)Tj ET .305882 .878431 .419608 rg BT/F5 7.6 Tf 8 82.6 TD (Host is up \(0.00029s latency\).)Tj ET .878431 .482353 .941176 rg BT/F5 7.6 Tf 8 72.4 TD (MAC Address: 02:2B:6C:41:9A:01 \(Unknown\))Tj ET .94902 .827451 .294118 rg BT/F5 7.6 Tf 8 62.2 TD (Nmap scan report for 10.10.5.17)Tj ET .305882 .878431 .419608 rg BT/F5 7.6 Tf 8 52 TD (Host is up \(0.00041s latency\).)Tj ET .878431 .482353 .941176 rg BT/F5 7.6 Tf 8 41.8 TD (MAC Address: 02:7E:D3:08:5C:17 \(Unknown\))Tj ET .94902 .827451 .294118 rg BT/F5 7.6 Tf 8 31.6 TD (Nmap scan report for 10.10.5.10)Tj ET .305882 .878431 .419608 rg BT/F5 7.6 Tf 8 21.4 TD (Host is up.)Tj ET BT/F5 7.6 Tf 8 11.2 TD (Nmap done: 256 IP addresses \(3 hosts up\) scanned in 3.11 seconds)Tj ET Q q 1 0 0 1 70.8 100.8898 cm .047059 .047059 .047059 rg 4 0 m 474.8 0 l 477.0112 0 478.8 1.7888 478.8 4 c 478.8 135.2 l 478.8 137.4112 477.0112 139.2 474.8 139.2 c 4 139.2 l 1.7888 139.2 0 137.4112 0 135.2 c 0 4 l 0 1.7888 1.7888 0 4 0 c h f* .176471 .176471 .176471 rg 4 124.2 m 474.8 124.2 l 477.0112 124.2 478.8 125.9888 478.8 128.2 c 478.8 135.2 l 478.8 137.4112 477.0112 139.2 474.8 139.2 c 4 139.2 l 1.7888 139.2 0 137.4112 0 135.2 c 0 128.2 l 0 125.9888 1.7888 124.2 4 124.2 c h f* 0 124.2 478.8 4 re f* 1 .372549 .337255 rg 12 131.7 m 12 133.3569 10.65685 134.7 9 134.7 c 7.343146 134.7 6 133.3569 6 131.7 c 6 130.0431 7.343146 128.7 9 128.7 c 10.65685 128.7 12 130.0431 12 131.7 c f* 1 .741176 .180392 rg 23 131.7 m 23 133.3569 21.65685 134.7 20 134.7 c 18.34315 134.7 17 133.3569 17 131.7 c 17 130.0431 18.34315 128.7 20 128.7 c 21.65685 128.7 23 130.0431 23 131.7 c f* .152941 .788235 .247059 rg 34 131.7 m 34 133.3569 32.65685 134.7 31 134.7 c 29.34315 134.7 28 133.3569 28 131.7 c 28 130.0431 29.34315 128.7 31 128.7 c 32.65685 128.7 34 130.0431 34 131.7 c f* .94902 .94902 .94902 rg BT/F1 7.5 Tf 180.4238 128.7 TD (AttackBox terminal - TCP SYN ping)Tj ET 1 .372549 .372549 rg BT/F5 7.6 Tf 8 113.2 TD (root@ip-10-10-5-10:~# )Tj ET .94902 .94902 .94902 rg BT/F5 7.6 Tf 108.32 113.2 TD (nmap -PS22,80,443 -sn 10.10.5.0/24)Tj ET .94902 .827451 .294118 rg BT/F5 7.6 Tf 8 103 TD (Starting Nmap 7.80 \( https://nmap.org \) at 2026-10-07 10:46 BST)Tj ET BT/F5 7.6 Tf 8 92.8 TD (Nmap scan report for 10.10.5.17)Tj ET .305882 .878431 .419608 rg BT/F5 7.6 Tf 8 82.6 TD (Host is up \(0.00038s latency\).)Tj ET .878431 .482353 .941176 rg BT/F5 7.6 Tf 8 72.4 TD (MAC Address: 02:7E:D3:08:5C:17 \(Unknown\))Tj ET .94902 .827451 .294118 rg BT/F5 7.6 Tf 8 62.2 TD (Nmap scan report for 10.10.5.23)Tj ET .305882 .878431 .419608 rg BT/F5 7.6 Tf 8 52 TD (Host is up \(0.00049s latency\).)Tj ET .878431 .482353 .941176 rg BT/F5 7.6 Tf 8 41.8 TD (MAC Address: 02:19:A4:F2:70:23 \(Unknown\))Tj ET .94902 .827451 .294118 rg BT/F5 7.6 Tf 8 31.6 TD (Nmap scan report for 10.10.5.10)Tj ET .305882 .878431 .419608 rg BT/F5 7.6 Tf 8 21.4 TD (Host is up.)Tj ET BT/F5 7.6 Tf 8 11.2 TD (Nmap done: 256 IP addresses \(3 hosts up\) scanned in 3.04 seconds)Tj ET Q Q
+
+q
+445.1356 797.8798 130.13999 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+15 0 obj
+<<
+/Type /Page
+/Contents 16 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 4743
+>>
+stream
+q
+q q BT/F3 10 Tf 295.1378 36 TD (3)Tj ET Q q 1 0 0 1 70.8 662.4898 cm .047059 .047059 .047059 rg 4 0 m 474.8 0 l 477.0112 0 478.8 1.7888 478.8 4 c 478.8 104.6 l 478.8 106.8112 477.0112 108.6 474.8 108.6 c 4 108.6 l 1.7888 108.6 0 106.8112 0 104.6 c 0 4 l 0 1.7888 1.7888 0 4 0 c h f* .176471 .176471 .176471 rg 4 93.6 m 474.8 93.6 l 477.0112 93.6 478.8 95.3888 478.8 97.6 c 478.8 104.6 l 478.8 106.8112 477.0112 108.6 474.8 108.6 c 4 108.6 l 1.7888 108.6 0 106.8112 0 104.6 c 0 97.6 l 0 95.3888 1.7888 93.6 4 93.6 c h f* 0 93.6 478.8 4 re f* 1 .372549 .337255 rg 12 101.1 m 12 102.7569 10.65685 104.1 9 104.1 c 7.343146 104.1 6 102.7569 6 101.1 c 6 99.44315 7.343146 98.1 9 98.1 c 10.65685 98.1 12 99.44315 12 101.1 c f* 1 .741176 .180392 rg 23 101.1 m 23 102.7569 21.65685 104.1 20 104.1 c 18.34315 104.1 17 102.7569 17 101.1 c 17 99.44315 18.34315 98.1 20 98.1 c 21.65685 98.1 23 99.44315 23 101.1 c f* .152941 .788235 .247059 rg 34 101.1 m 34 102.7569 32.65685 104.1 31 104.1 c 29.34315 104.1 28 102.7569 28 101.1 c 28 99.44315 29.34315 98.1 31 98.1 c 32.65685 98.1 34 99.44315 34 101.1 c f* .94902 .94902 .94902 rg BT/F1 7.5 Tf 180.4238 98.1 TD (AttackBox terminal - TCP ACK ping)Tj ET 1 .372549 .372549 rg BT/F5 7.6 Tf 8 82.6 TD (root@ip-10-10-5-10:~# )Tj ET .94902 .94902 .94902 rg BT/F5 7.6 Tf 108.32 82.6 TD (nmap -PA80 -sn 10.10.5.0/24)Tj ET .94902 .827451 .294118 rg BT/F5 7.6 Tf 8 72.4 TD (Starting Nmap 7.80 \( https://nmap.org \) at 2026-10-07 10:47 BST)Tj ET BT/F5 7.6 Tf 8 62.2 TD (Nmap scan report for 10.10.5.17)Tj ET .305882 .878431 .419608 rg BT/F5 7.6 Tf 8 52 TD (Host is up \(0.00036s latency\).)Tj ET .878431 .482353 .941176 rg BT/F5 7.6 Tf 8 41.8 TD (MAC Address: 02:7E:D3:08:5C:17 \(Unknown\))Tj ET .94902 .827451 .294118 rg BT/F5 7.6 Tf 8 31.6 TD (Nmap scan report for 10.10.5.10)Tj ET .305882 .878431 .419608 rg BT/F5 7.6 Tf 8 21.4 TD (Host is up.)Tj ET BT/F5 7.6 Tf 8 11.2 TD (Nmap done: 256 IP addresses \(2 hosts up\) scanned in 3.02 seconds)Tj ET Q q 1 0 0 1 70.8 545.8898 cm .047059 .047059 .047059 rg 4 0 m 474.8 0 l 477.0112 0 478.8 1.7888 478.8 4 c 478.8 104.6 l 478.8 106.8112 477.0112 108.6 474.8 108.6 c 4 108.6 l 1.7888 108.6 0 106.8112 0 104.6 c 0 4 l 0 1.7888 1.7888 0 4 0 c h f* .176471 .176471 .176471 rg 4 93.6 m 474.8 93.6 l 477.0112 93.6 478.8 95.3888 478.8 97.6 c 478.8 104.6 l 478.8 106.8112 477.0112 108.6 474.8 108.6 c 4 108.6 l 1.7888 108.6 0 106.8112 0 104.6 c 0 97.6 l 0 95.3888 1.7888 93.6 4 93.6 c h f* 0 93.6 478.8 4 re f* 1 .372549 .337255 rg 12 101.1 m 12 102.7569 10.65685 104.1 9 104.1 c 7.343146 104.1 6 102.7569 6 101.1 c 6 99.44315 7.343146 98.1 9 98.1 c 10.65685 98.1 12 99.44315 12 101.1 c f* 1 .741176 .180392 rg 23 101.1 m 23 102.7569 21.65685 104.1 20 104.1 c 18.34315 104.1 17 102.7569 17 101.1 c 17 99.44315 18.34315 98.1 20 98.1 c 21.65685 98.1 23 99.44315 23 101.1 c f* .152941 .788235 .247059 rg 34 101.1 m 34 102.7569 32.65685 104.1 31 104.1 c 29.34315 104.1 28 102.7569 28 101.1 c 28 99.44315 29.34315 98.1 31 98.1 c 32.65685 98.1 34 99.44315 34 101.1 c f* .94902 .94902 .94902 rg BT/F1 7.5 Tf 188.76 98.1 TD (AttackBox terminal - UDP ping)Tj ET 1 .372549 .372549 rg BT/F5 7.6 Tf 8 82.6 TD (root@ip-10-10-5-10:~# )Tj ET .94902 .94902 .94902 rg BT/F5 7.6 Tf 108.32 82.6 TD (nmap -PU53,161 -sn 10.10.5.0/24)Tj ET .94902 .827451 .294118 rg BT/F5 7.6 Tf 8 72.4 TD (Starting Nmap 7.80 \( https://nmap.org \) at 2026-10-07 10:49 BST)Tj ET BT/F5 7.6 Tf 8 62.2 TD (Nmap scan report for 10.10.5.17)Tj ET .305882 .878431 .419608 rg BT/F5 7.6 Tf 8 52 TD (Host is up \(0.00044s latency\).)Tj ET .878431 .482353 .941176 rg BT/F5 7.6 Tf 8 41.8 TD (MAC Address: 02:7E:D3:08:5C:17 \(Unknown\))Tj ET .94902 .827451 .294118 rg BT/F5 7.6 Tf 8 31.6 TD (Nmap scan report for 10.10.5.10)Tj ET .305882 .878431 .419608 rg BT/F5 7.6 Tf 8 21.4 TD (Host is up.)Tj ET BT/F5 7.6 Tf 8 11.2 TD (Nmap done: 256 IP addresses \(2 hosts up\) scanned in 3.15 seconds)Tj ET Q q 1 0 0 1 70.8 519.8898 cm 0 0 0 RG 0 1.9375 m 54.175 1.9375 l S 0 0 0 rg BT/F2 12.5 Tf 0 3.5 TD (RESULT:)Tj ET Q q 1 0 0 1 70.8 454.8898 cm 0 0 0 rg BT -.038671 Tw/F3 11 Tf 0 49 TD (Thus the live hosts in the network were discovered using Nmap with ARP, ICMP, TCP and UDP scans)Tj .372922 Tw 0 -15 TD (on the TryHackMe platform. The ARP scan found the most hosts \(4\) because it works at the data link)Tj .763422 Tw T* (layer and cannot be blocked by a firewall on the same subnet, while the ICMP, TCP and UDP scans)Tj 0 Tw T* (depended on how the target responded to each probe.)Tj ET Q Q
+
+q
+445.1356 797.8798 130.13999 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000127 00000 n 
+0000000176 00000 n 
+0000000464 00000 n 
+0000006847 00000 n 
+0000006954 00000 n 
+0000007061 00000 n 
+0000007169 00000 n 
+0000007281 00000 n 
+0000007391 00000 n 
+0000007502 00000 n 
+0000007608 00000 n 
+0000007887 00000 n 
+0000017477 00000 n 
+0000017756 00000 n 
+trailer
+<<
+/Size 17
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+22552
+%%EOF

@@ -1,0 +1,429 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 5
+/Kids [ 4 0 R 12 0 R 15 0 R 17 0 R 19 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 7256
+>>
+stream
+q
+q BT/F3 9 Tf 295.3878 31.1811 TD (1)Tj ET q q 1 0 0 1 62.69291 764.1969 cm 0 0 0 rg BT/F2 11.5 Tf 0 .5 TD (Exp No: 11)Tj ET Q q 1 0 0 1 159.0709 763.1969 cm 0 0 0 rg BT/F2 11.5 Tf 0 2.5 TD (Routing at Network Layer - Static Routing and RIP)Tj ET Q q 1 0 0 1 56.69291 755.1969 cm 0 0 0 RG 1 J 1 j 0 30 m 481.8898 30 l S 0 0 m 481.8898 0 l S 0 0 m 0 30 l S 481.8898 0 m 481.8898 30 l S 96.37795 0 m 96.37795 30 l S Q Q q 1 0 0 1 56.69291 721.1969 cm 0 0 0 RG 0 1.375 m 31.044 1.375 l S 0 0 0 rg BT/F2 13 Tf 0 3 TD (AIM:)Tj ET Q q 1 0 0 1 56.69291 700.1969 cm 0 0 0 rg BT/F3 11 Tf 0 4 TD (To simulate static routing and the RIP dynamic routing protocol configuration using Cisco Packet Tracer.)Tj ET Q q 1 0 0 1 56.69291 674.1969 cm 0 0 0 RG 0 1.375 m 180.557 1.375 l S 0 0 0 rg BT/F2 13 Tf 0 3 TD (ALGORITHM / PROCEDURE:)Tj ET Q q 1 0 0 1 56.69291 652.1969 cm 0 0 0 rg BT/F2 11.5 Tf 0 2.5 TD (\(a\) Static routing)Tj ET Q q 1 0 0 1 56.69291 618.1969 cm 0 0 0 rg BT/F1 10 Tf 6 19 TD (1.)Tj ET BT/F3 11 Tf 24 19 TD (Place 3 routers \(2911 with HWIC-2T serial card\) and 2 PCs. Connect PC0 to R1 and PC1 to R3 with a)Tj 0 -15 TD (crossover cable, and connect the routers using )Tj/F2 11 Tf (serial DCE)Tj/F3 11 Tf ( cables \(R1-R2 and R2-R3\).)Tj ET Q q 1 0 0 1 56.69291 585.1969 cm 0 0 0 rg BT/F1 10 Tf 6 19 TD (2.)Tj ET BT -.051907 Tw/F3 11 Tf 24 19 TD (Assign IP addresses to all the router interfaces and the PCs as shown in the address table. Set the default)Tj 0 Tw 0 -15 TD (gateways \()Tj/F4 9.5 Tf (192.168.1.1)Tj/F3 11 Tf ( and )Tj/F4 9.5 Tf (192.168.2.1)Tj/F3 11 Tf (\).)Tj ET Q q 1 0 0 1 56.69291 567.1969 cm 0 0 0 rg BT/F1 10 Tf 6 4 TD (3.)Tj ET BT/F3 11 Tf 24 4 TD (On the DCE side of each serial link give )Tj/F4 9.5 Tf (clock rate 64000)Tj/F3 11 Tf ( and use )Tj/F4 9.5 Tf (no shutdown)Tj/F3 11 Tf ( on all interfaces.)Tj ET Q q 1 0 0 1 56.69291 549.1969 cm 0 0 0 rg BT/F1 10 Tf 6 4 TD (4.)Tj ET BT/F3 11 Tf 24 4 TD (Ping from PC0 to PC1. It fails because the routers do not know the remote networks.)Tj ET Q q 1 0 0 1 56.69291 516.1969 cm 0 0 0 rg BT/F1 10 Tf 6 19 TD (5.)Tj ET BT/F3 11 Tf 24 19 TD (On each router add a static route for every network that is not directly connected: )Tj/F4 9.5 Tf (ip route)Tj 0 -15 TD (<)Tj (network)Tj (> <)Tj (mask)Tj (> <)Tj (next-hop)Tj (>)Tj ET Q q 1 0 0 1 56.69291 498.1969 cm 0 0 0 rg BT/F1 10 Tf 6 4 TD (6.)Tj ET BT/F3 11 Tf 24 4 TD (Verify with )Tj/F4 9.5 Tf (show ip route)Tj/F3 11 Tf ( and ping PC0 to PC1 again. Use )Tj/F4 9.5 Tf (tracert)Tj/F3 11 Tf ( to see the path.)Tj ET Q q 1 0 0 1 56.69291 476.1969 cm 0 0 0 rg BT/F2 11.5 Tf 0 2.5 TD (\(b\) RIP \(Routing Information Protocol\))Tj ET Q q 1 0 0 1 56.69291 457.1969 cm 0 0 0 rg BT/F1 10 Tf 6 4 TD (1.)Tj ET BT/F3 11 Tf 24 4 TD (Remove the static routes using )Tj/F4 9.5 Tf (no ip route ...)Tj/F3 11 Tf ( \(or build the same topology again\).)Tj ET Q q 1 0 0 1 56.69291 439.1969 cm 0 0 0 rg BT/F1 10 Tf 6 4 TD (2.)Tj ET BT/F3 11 Tf 24 4 TD (On every router enter RIP configuration mode with )Tj/F4 9.5 Tf (router rip)Tj/F3 11 Tf ( and )Tj/F4 9.5 Tf (version 2)Tj/F3 11 Tf (.)Tj ET Q q 1 0 0 1 56.69291 406.1969 cm 0 0 0 rg BT/F1 10 Tf 6 19 TD (3.)Tj ET BT/F3 11 Tf 24 19 TD (Advertise the directly connected networks using the )Tj/F4 9.5 Tf (network <)Tj (address)Tj (>)Tj/F3 11 Tf ( command and disable auto)Tj 0 -15 TD (summary using )Tj/F4 9.5 Tf (no auto-summary)Tj/F3 11 Tf (.)Tj ET Q q 1 0 0 1 56.69291 373.1969 cm 0 0 0 rg BT/F1 10 Tf 6 19 TD (4.)Tj ET BT/F3 11 Tf 24 19 TD (Wait for about 30 seconds \(RIP update timer\). Check the learnt routes with )Tj/F4 9.5 Tf (show ip route)Tj/F3 11 Tf ( and )Tj/F4 9.5 Tf (show)Tj 0 -15 TD (ip protocols)Tj/F3 11 Tf (.)Tj ET Q q 1 0 0 1 56.69291 355.1969 cm 0 0 0 rg BT/F1 10 Tf 6 4 TD (5.)Tj ET BT/F3 11 Tf 24 4 TD (Ping PC0 to PC1 and trace the path.)Tj ET Q q 1 0 0 1 56.69291 167.6969 cm .933333 .933333 .933333 rg 0 184.5 481.8898 -20.5 re f* q 1 0 0 1 6 168 cm 0 0 0 rg BT/F2 10 Tf 0 2.5 TD (Device)Tj ET Q q 1 0 0 1 78.28346 168 cm 0 0 0 rg BT/F2 10 Tf 0 2.5 TD (Interface)Tj ET Q q 1 0 0 1 198.7559 168 cm 0 0 0 rg BT/F2 10 Tf 0 2.5 TD (IP address)Tj ET Q q 1 0 0 1 343.3228 168 cm 0 0 0 rg BT/F2 10 Tf 0 2.5 TD (Subnet mask)Tj ET Q q 1 0 0 1 6 147.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (R1)Tj ET Q q 1 0 0 1 78.28346 147.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Gig0/0)Tj ET Q q 1 0 0 1 198.7559 148.25 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (192.168.1.1)Tj ET Q q 1 0 0 1 343.3228 148.25 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (255.255.255.0)Tj ET Q q 1 0 0 1 6 127 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (R1)Tj ET Q q 1 0 0 1 78.28346 127 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Se0/0/0 \(DCE\))Tj ET Q q 1 0 0 1 198.7559 127.75 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (10.0.0.1)Tj ET Q q 1 0 0 1 343.3228 127.75 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (255.255.255.252)Tj ET Q q 1 0 0 1 6 106.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (R2)Tj ET Q q 1 0 0 1 78.28346 106.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Se0/0/0)Tj ET Q q 1 0 0 1 198.7559 107.25 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (10.0.0.2)Tj ET Q q 1 0 0 1 343.3228 107.25 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (255.255.255.252)Tj ET Q q 1 0 0 1 6 86 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (R2)Tj ET Q q 1 0 0 1 78.28346 86 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Se0/0/1 \(DCE\))Tj ET Q q 1 0 0 1 198.7559 86.75 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (10.0.0.5)Tj ET Q q 1 0 0 1 343.3228 86.75 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (255.255.255.252)Tj ET Q q 1 0 0 1 6 65.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (R3)Tj ET Q q 1 0 0 1 78.28346 65.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Se0/0/1)Tj ET Q q 1 0 0 1 198.7559 66.25 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (10.0.0.6)Tj ET Q q 1 0 0 1 343.3228 66.25 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (255.255.255.252)Tj ET Q q 1 0 0 1 6 45 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (R3)Tj ET Q q 1 0 0 1 78.28346 45 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Gig0/0)Tj ET Q q 1 0 0 1 198.7559 45.75 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (192.168.2.1)Tj ET Q q 1 0 0 1 343.3228 45.75 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (255.255.255.0)Tj ET Q q 1 0 0 1 6 24.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (PC0)Tj ET Q q 1 0 0 1 78.28346 24.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (NIC)Tj ET Q q 1 0 0 1 198.7559 25.25 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (192.168.1.2)Tj ET Q q 1 0 0 1 343.3228 25.25 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (255.255.255.0)Tj ET Q q 1 0 0 1 6 4 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (PC1)Tj ET Q q 1 0 0 1 78.28346 4 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (NIC)Tj ET Q q 1 0 0 1 198.7559 4.75 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (192.168.2.2)Tj ET Q q 1 0 0 1 343.3228 4.75 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (255.255.255.0)Tj ET Q q 0 0 0 RG 1 J 1 j .6 w 0 184.5 m 481.8898 184.5 l S 0 0 m 481.8898 0 l S 0 0 m 0 184.5 l S 481.8898 0 m 481.8898 184.5 l S 0 164 m 481.8898 164 l S 0 143.5 m 481.8898 143.5 l S 0 123 m 481.8898 123 l S 0 102.5 m 481.8898 102.5 l S 0 82 m 481.8898 82 l S 0 61.5 m 481.8898 61.5 l S 0 41 m 481.8898 41 l S 0 20.5 m 481.8898 20.5 l S 72.28346 0 m 72.28346 184.5 l S 192.7559 0 m 192.7559 184.5 l S 337.3228 0 m 337.3228 184.5 l S Q Q Q
+
+q
+453.2427 800.62948 122.03287 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+>>
+endobj
+12 0 obj
+<<
+/Type /Page
+/Contents 13 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 11623
+>>
+stream
+q
+q BT/F3 9 Tf 295.3878 31.1811 TD (2)Tj ET q 1 0 0 1 56.69291 771.1969 cm 0 0 0 rg BT/F2 11.5 Tf 0 2.5 TD (Commands used)Tj ET Q q 1 0 0 1 56.69291 566.6969 cm .933333 .933333 .933333 rg 0 200.5 481.8898 -20.5 re f* q 1 0 0 1 6 184 cm 0 0 0 rg BT/F2 10 Tf 0 2.5 TD (Static routing)Tj ET Q q 1 0 0 1 256.5827 184 cm 0 0 0 rg BT/F2 10 Tf 0 2.5 TD (RIP)Tj ET Q q 1 0 0 1 6 154 cm 0 0 0 rg BT/F4 8.3 Tf 0 13.7 TD (R1\(config\)#ip route 192.168.2.0 255.255.255.0)Tj 0 -11 TD (10.0.0.2)Tj ET Q q 1 0 0 1 256.5827 159.5 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (R1\(config\)#router rip)Tj ET Q q 1 0 0 1 6 124 cm 0 0 0 rg BT/F4 8.3 Tf 0 13.7 TD (R1\(config\)#ip route 10.0.0.4 255.255.255.252)Tj 0 -11 TD (10.0.0.2)Tj ET Q q 1 0 0 1 256.5827 129.5 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (R1\(config-router\)#version 2)Tj ET Q q 1 0 0 1 6 94 cm 0 0 0 rg BT/F4 8.3 Tf 0 13.7 TD (R2\(config\)#ip route 192.168.1.0 255.255.255.0)Tj 0 -11 TD (10.0.0.1)Tj ET Q q 1 0 0 1 256.5827 99.5 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (R1\(config-router\)#network 192.168.1.0)Tj ET Q q 1 0 0 1 6 64 cm 0 0 0 rg BT/F4 8.3 Tf 0 13.7 TD (R2\(config\)#ip route 192.168.2.0 255.255.255.0)Tj 0 -11 TD (10.0.0.6)Tj ET Q q 1 0 0 1 256.5827 69.5 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (R1\(config-router\)#network 10.0.0.0)Tj ET Q q 1 0 0 1 6 34 cm 0 0 0 rg BT/F4 8.3 Tf 0 13.7 TD (R3\(config\)#ip route 192.168.1.0 255.255.255.0)Tj 0 -11 TD (10.0.0.5)Tj ET Q q 1 0 0 1 256.5827 39.5 cm 0 0 0 rg BT/F4 8.3 Tf 0 2.7 TD (R1\(config-router\)#no auto-summary)Tj ET Q q 1 0 0 1 6 4 cm 0 0 0 rg BT/F4 8.3 Tf 0 13.7 TD (R3\(config\)#ip route 10.0.0.0 255.255.255.252)Tj 0 -11 TD (10.0.0.5)Tj ET Q q 1 0 0 1 256.5827 4 cm 0 0 0 rg BT/F4 8.3 Tf 0 13.7 TD (\(similar for R2: 10.0.0.0 and R3:)Tj 0 -11 TD (192.168.2.0\))Tj ET Q q 0 0 0 RG 1 J 1 j .6 w 0 200.5 m 481.8898 200.5 l S 0 0 m 481.8898 0 l S 0 0 m 0 200.5 l S 481.8898 0 m 481.8898 200.5 l S 0 180 m 481.8898 180 l S 0 150 m 481.8898 150 l S 0 120 m 481.8898 120 l S 0 90 m 481.8898 90 l S 0 60 m 481.8898 60 l S 0 30 m 481.8898 30 l S 250.5827 0 m 250.5827 200.5 l S Q Q q 1 0 0 1 56.69291 540.6969 cm 0 0 0 RG 0 1.375 m 69.316 1.375 l S 0 0 0 rg BT/F2 13 Tf 0 3 TD (DIAGRAM:)Tj ET Q q[]0 d q[3 2]0 d 1 0 0 1 56.69291 349.6969 cm 0 0 0 RG 35 70 m 125 130 l S Q q[3 2]0 d 1 0 0 1 56.69291 349.6969 cm 0 0 0 RG 125 130 m 235 130 l S Q q[3 2]0 d 1 0 0 1 56.69291 349.6969 cm 0 0 0 RG 235 130 m 345 130 l S Q q[3 2]0 d 1 0 0 1 56.69291 349.6969 cm 0 0 0 RG 345 130 m 435 70 l S Q q[]0 d 1 0 0 1 56.69291 349.6969 cm 1 1 1 rg 0 0 0 RG 22 68 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 349.6969 cm 1 1 1 rg 0 0 0 RG .5 w 24.5 70.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 349.6969 cm 1 1 1 rg 0 0 0 RG 26 61 18 6 re B* Q q 1 0 0 1 56.69291 349.6969 cm 0 0 0 rg 0 0 0 RG BT/F3 6 Tf 31.331 74 TD (PC)Tj ET Q q 1 0 0 1 56.69291 349.6969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 28.12625 48 TD (PC0)Tj ET Q q 1 0 0 1 56.69291 349.6969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 19.5625 39 TD (192.168.1.2)Tj ET Q q[]0 d 1 0 0 1 56.69291 349.6969 cm 1 1 1 rg 0 0 0 RG 140 130 m 140 138.2843 133.2843 145 125 145 c 116.7157 145 110 138.2843 110 130 c 110 121.7157 116.7157 115 125 115 c 133.2843 115 140 121.7157 140 130 c B* Q q 1 0 0 1 56.69291 349.6969 cm 0 0 0 rg 0 0 0 RG BT/F2 10 Tf 121.39 127 TD (R)Tj ET Q q 1 0 0 1 56.69291 349.6969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 120.4175 100 TD (R1)Tj ET Q q 1 0 0 1 56.69291 349.6969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 99.7215 91 TD (Gig0/0 192.168.1.1)Tj ET Q q 1 0 0 1 56.69291 349.6969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 103.693 82.5 TD (Se0/0/0 10.0.0.1)Tj ET Q q[]0 d 1 0 0 1 56.69291 349.6969 cm 1 1 1 rg 0 0 0 RG 250 130 m 250 138.2843 243.2843 145 235 145 c 226.7157 145 220 138.2843 220 130 c 220 121.7157 226.7157 115 235 115 c 243.2843 115 250 121.7157 250 130 c B* Q q 1 0 0 1 56.69291 349.6969 cm 0 0 0 rg 0 0 0 RG BT/F2 10 Tf 231.39 127 TD (R)Tj ET Q q 1 0 0 1 56.69291 349.6969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 230.4175 100 TD (R2)Tj ET Q q 1 0 0 1 56.69291 349.6969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 213.693 91 TD (Se0/0/0 10.0.0.2)Tj ET Q q 1 0 0 1 56.69291 349.6969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 213.693 82.5 TD (Se0/0/1 10.0.0.5)Tj ET Q q[]0 d 1 0 0 1 56.69291 349.6969 cm 1 1 1 rg 0 0 0 RG 360 130 m 360 138.2843 353.2843 145 345 145 c 336.7157 145 330 138.2843 330 130 c 330 121.7157 336.7157 115 345 115 c 353.2843 115 360 121.7157 360 130 c B* Q q 1 0 0 1 56.69291 349.6969 cm 0 0 0 rg 0 0 0 RG BT/F2 10 Tf 341.39 127 TD (R)Tj ET Q q 1 0 0 1 56.69291 349.6969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 340.4175 100 TD (R3)Tj ET Q q 1 0 0 1 56.69291 349.6969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 323.693 91 TD (Se0/0/1 10.0.0.6)Tj ET Q q 1 0 0 1 56.69291 349.6969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 319.7215 82.5 TD (Gig0/0 192.168.2.1)Tj ET Q q[]0 d 1 0 0 1 56.69291 349.6969 cm 1 1 1 rg 0 0 0 RG 422 68 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 349.6969 cm 1 1 1 rg 0 0 0 RG .5 w 424.5 70.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 349.6969 cm 1 1 1 rg 0 0 0 RG 426 61 18 6 re B* Q q 1 0 0 1 56.69291 349.6969 cm 0 0 0 rg 0 0 0 RG BT/F3 6 Tf 431.331 74 TD (PC)Tj ET Q q 1 0 0 1 56.69291 349.6969 cm 0 0 0 rg 0 0 0 RG BT/F2 7.5 Tf 428.1263 48 TD (PC1)Tj ET Q q 1 0 0 1 56.69291 349.6969 cm 0 0 0 rg 0 0 0 RG BT/F3 6.5 Tf 419.5625 39 TD (192.168.2.2)Tj ET Q Q q 1 0 0 1 56.69291 334.6969 cm 0 0 0 rg BT/F2 10 Tf 82.33988 2 TD (Fig 1: Three routers connected by serial links \(dotted lines are serial links\))Tj ET Q q 1 0 0 1 56.69291 308.6969 cm 0 0 0 RG 0 1.375 m 58.5 1.375 l S 0 0 0 rg BT/F2 13 Tf 0 3 TD (OUTPUT:)Tj ET Q q 1 0 0 1 56.69291 286.6969 cm 0 0 0 rg BT/F2 11.5 Tf 0 2.5 TD (Part \(a\) - Static routing)Tj ET Q q[]0 d q[]0 d 1 0 0 1 56.69291 81.69685 cm 1 1 1 rg .333333 .333333 .333333 RG 0 0 470 201 re B* Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .121569 .372549 .658824 rg 0 0 0 RG 0 w 0 185 470 16 re B* Q q 1 0 0 1 56.69291 81.69685 cm 1 1 1 rg 0 0 0 RG BT/F5 8 Tf 8 190 TD (Cisco Packet Tracer - static_routing.pkt)Tj ET Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .956863 .964706 .980392 rg 0 0 0 RG 0 w 1 1 468 184 re B* Q q[3 2]0 d 1 0 0 1 56.69291 81.69685 cm .129412 .129412 .129412 RG 1.2 w 35 70 m 125 130 l S Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 48 77.2 m 48 78.41503 47.01503 79.4 45.8 79.4 c 44.58497 79.4 43.6 78.41503 43.6 77.2 c 43.6 75.98497 44.58497 75 45.8 75 c 47.01503 75 48 75.98497 48 77.2 c B* Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 116.4 122.8 m 116.4 124.015 115.415 125 114.2 125 c 112.985 125 112 124.015 112 122.8 c 112 121.585 112.985 120.6 114.2 120.6 c 115.415 120.6 116.4 121.585 116.4 122.8 c B* Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .827451 .184314 .184314 RG 1.4 w 125 130 m 176 134 l S Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .827451 .184314 .184314 RG 1.4 w 176 134 m 184 126 l S Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .827451 .184314 .184314 RG 1.4 w 184 126 m 235 130 l S Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .827451 .184314 .184314 RG 1.4 w 235 130 m 286 134 l S Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .827451 .184314 .184314 RG 1.4 w 286 134 m 294 126 l S Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .827451 .184314 .184314 RG 1.4 w 294 126 m 345 130 l S Q q[3 2]0 d 1 0 0 1 56.69291 81.69685 cm .129412 .129412 .129412 RG 1.2 w 345 130 m 435 70 l S Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 358 122.8 m 358 124.015 357.015 125 355.8 125 c 354.585 125 353.6 124.015 353.6 122.8 c 353.6 121.585 354.585 120.6 355.8 120.6 c 357.015 120.6 358 121.585 358 122.8 c B* Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .180392 .490196 .196078 rg 0 0 0 RG .3 w 426.4 77.2 m 426.4 78.41503 425.415 79.4 424.2 79.4 c 422.985 79.4 422 78.41503 422 77.2 c 422 75.98497 422.985 75 424.2 75 c 425.415 75 426.4 75.98497 426.4 77.2 c B* Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .215686 .278431 .309804 rg 0 0 0 RG 22 68 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .309804 .764706 .968627 rg 0 0 0 RG .5 w 24.5 70.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .690196 .745098 .772549 rg 0 0 0 RG 26 61 18 6 re B* Q q 1 0 0 1 56.69291 81.69685 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 27.70625 48 TD (PC0)Tj ET Q q 1 0 0 1 56.69291 81.69685 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 17.8335 39 TD (192.168.1.2)Tj ET Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .117647 .533333 .898039 rg 0 0 0 RG 140 130 m 140 138.2843 133.2843 145 125 145 c 116.7157 145 110 138.2843 110 130 c 110 121.7157 116.7157 115 125 115 c 133.2843 115 140 121.7157 140 130 c B* Q q[]0 d 1 0 0 1 56.69291 81.69685 cm 1 1 1 RG 1.4 w 122.6 130 m 117 130 l S Q q[]0 d 1 0 0 1 56.69291 81.69685 cm 1 1 1 RG 1.4 w 127.4 130 m 133 130 l S Q q[]0 d 1 0 0 1 56.69291 81.69685 cm 1 1 1 RG 1.4 w 125 132.4 m 125 138 l S Q q[]0 d 1 0 0 1 56.69291 81.69685 cm 1 1 1 RG 1.4 w 125 127.6 m 125 122 l S Q q 1 0 0 1 56.69291 81.69685 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 120.2075 100 TD (R1)Tj ET Q q 1 0 0 1 56.69291 81.69685 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 97.3555 91 TD (Gig0/0 192.168.1.1)Tj ET Q q 1 0 0 1 56.69291 81.69685 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 101.1482 82.5 TD (Se0/0/0 10.0.0.1)Tj ET Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .117647 .533333 .898039 rg 0 0 0 RG 250 130 m 250 138.2843 243.2843 145 235 145 c 226.7157 145 220 138.2843 220 130 c 220 121.7157 226.7157 115 235 115 c 243.2843 115 250 121.7157 250 130 c B* Q q[]0 d 1 0 0 1 56.69291 81.69685 cm 1 1 1 RG 1.4 w 232.6 130 m 227 130 l S Q q[]0 d 1 0 0 1 56.69291 81.69685 cm 1 1 1 RG 1.4 w 237.4 130 m 243 130 l S Q q[]0 d 1 0 0 1 56.69291 81.69685 cm 1 1 1 RG 1.4 w 235 132.4 m 235 138 l S Q q[]0 d 1 0 0 1 56.69291 81.69685 cm 1 1 1 RG 1.4 w 235 127.6 m 235 122 l S Q q 1 0 0 1 56.69291 81.69685 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 230.2075 100 TD (R2)Tj ET Q q 1 0 0 1 56.69291 81.69685 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 211.1482 91 TD (Se0/0/0 10.0.0.2)Tj ET Q q 1 0 0 1 56.69291 81.69685 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 211.1482 82.5 TD (Se0/0/1 10.0.0.5)Tj ET Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .117647 .533333 .898039 rg 0 0 0 RG 360 130 m 360 138.2843 353.2843 145 345 145 c 336.7157 145 330 138.2843 330 130 c 330 121.7157 336.7157 115 345 115 c 353.2843 115 360 121.7157 360 130 c B* Q q[]0 d 1 0 0 1 56.69291 81.69685 cm 1 1 1 RG 1.4 w 342.6 130 m 337 130 l S Q q[]0 d 1 0 0 1 56.69291 81.69685 cm 1 1 1 RG 1.4 w 347.4 130 m 353 130 l S Q q[]0 d 1 0 0 1 56.69291 81.69685 cm 1 1 1 RG 1.4 w 345 132.4 m 345 138 l S Q q[]0 d 1 0 0 1 56.69291 81.69685 cm 1 1 1 RG 1.4 w 345 127.6 m 345 122 l S Q q 1 0 0 1 56.69291 81.69685 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 340.2075 100 TD (R3)Tj ET Q q 1 0 0 1 56.69291 81.69685 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 321.1483 91 TD (Se0/0/1 10.0.0.6)Tj ET Q q 1 0 0 1 56.69291 81.69685 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 317.3555 82.5 TD (Gig0/0 192.168.2.1)Tj ET Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .215686 .278431 .309804 rg 0 0 0 RG 422 68 26 18 re B* Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .309804 .764706 .968627 rg 0 0 0 RG .5 w 424.5 70.5 21 13 re B* Q q[]0 d 1 0 0 1 56.69291 81.69685 cm .690196 .745098 .772549 rg 0 0 0 RG 426 61 18 6 re B* Q q 1 0 0 1 56.69291 81.69685 cm 0 0 0 rg 0 0 0 RG BT/F1 7.5 Tf 427.7063 48 TD (PC1)Tj ET Q q 1 0 0 1 56.69291 81.69685 cm 0 0 0 rg 0 0 0 RG BT/F1 6.5 Tf 417.8335 39 TD (192.168.2.2)Tj ET Q Q q 1 0 0 1 56.69291 66.69685 cm 0 0 0 rg BT/F2 10 Tf 123.7299 2 TD (Packet Tracer view \(red lightning lines are serial links\))Tj ET Q Q
+
+q
+453.2427 800.62948 122.03287 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F5
+>>
+endobj
+15 0 obj
+<<
+/Type /Page
+/Contents 16 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 7 0 R
+/F2 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 4171
+>>
+stream
+q
+q BT/F3 9 Tf 295.3878 31.1811 TD (3)Tj ET q 1 0 0 1 56.69291 652.3969 cm .047059 .047059 .047059 rg .533333 .533333 .533333 RG .8 w 0 0 481.8898 132.8 re B* 1 1 1 rg 0 117.8 481.8898 15 re f* 0 0 0 rg BT/F5 8 Tf 8 122.3 TD (PC0 - Command Prompt \(before static routes\))Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 6 107.4 TD (C:\\>)Tj ET 1 1 1 rg BT/F4 7.6 Tf 24.24 107.4 TD (ping 192.168.2.2)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 6 87.8 TD (Pinging 192.168.2.2 with 32 bytes of data:)Tj ET BT/F4 7.6 Tf 6 68.2 TD (Reply from 192.168.1.1: )Tj ET 1 .419608 .419608 rg BT/F4 7.6 Tf 115.44 68.2 TD (Destination host unreachable)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 243.12 68.2 TD (.)Tj ET BT/F4 7.6 Tf 6 58.4 TD (Reply from 192.168.1.1: )Tj ET 1 .419608 .419608 rg BT/F4 7.6 Tf 115.44 58.4 TD (Destination host unreachable)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 243.12 58.4 TD (.)Tj ET BT/F4 7.6 Tf 6 48.6 TD (Reply from 192.168.1.1: )Tj ET 1 .419608 .419608 rg BT/F4 7.6 Tf 115.44 48.6 TD (Destination host unreachable)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 243.12 48.6 TD (.)Tj ET BT/F4 7.6 Tf 6 38.8 TD (Reply from 192.168.1.1: )Tj ET 1 .419608 .419608 rg BT/F4 7.6 Tf 115.44 38.8 TD (Destination host unreachable)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 243.12 38.8 TD (.)Tj ET BT/F4 7.6 Tf 6 19.2 TD (Ping statistics for 192.168.2.2:)Tj ET BT/F4 7.6 Tf 6 9.4 TD (    Packets: Sent = 4, Received = 0, Lost = 4 \(100% loss\),)Tj ET Q q 1 0 0 1 56.69291 520.3969 cm 0 0 0 rg 0 0 481.8898 123 re f* .172549 .435294 .733333 rg 0 108 481.8898 15 re f* 1 1 1 rg 0 0 0 RG BT/F5 8 Tf 8 112.5 TD (R1 - CLI)Tj ET BT/F4 7.6 Tf 6 97.6 TD (R1#)Tj ET 1 1 .4 scn BT/F4 7.6 Tf 19.68 97.6 TD (show ip route)Tj ET .909804 .909804 .909804 rg BT/F4 7.6 Tf 6 87.8 TD (Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP)Tj ET BT/F4 7.6 Tf 6 68.2 TD (Gateway of last resort is not set)Tj ET BT/F4 7.6 Tf 6 48.6 TD (     10.0.0.0/30 is subnetted, 2 subnets)Tj ET BT/F4 7.6 Tf 6 38.8 TD (C       10.0.0.0 is directly connected, Serial0/0/0)Tj ET BT/F4 7.6 Tf 6 29 TD (S       10.0.0.4 [1/0] via 10.0.0.2)Tj ET BT/F4 7.6 Tf 6 19.2 TD (C    192.168.1.0/24 is directly connected, GigabitEthernet0/0)Tj ET BT/F4 7.6 Tf 6 9.4 TD (S    192.168.2.0/24 [1/0] via 10.0.0.2)Tj ET Q q 1 0 0 1 56.69291 270.7969 cm .047059 .047059 .047059 rg .533333 .533333 .533333 RG .8 w 0 0 481.8898 240.6 re B* 1 1 1 rg 0 225.6 481.8898 15 re f* 0 0 0 rg BT/F5 8 Tf 8 230.1 TD (PC0 - Command Prompt \(after static routes\))Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 6 215.2 TD (C:\\>)Tj ET 1 1 1 rg BT/F4 7.6 Tf 24.24 215.2 TD (ping 192.168.2.2)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 6 195.6 TD (Pinging 192.168.2.2 with 32 bytes of data:)Tj ET 1 .419608 .419608 rg BT/F4 7.6 Tf 6 176 TD (Request timed out)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 83.52 176 TD (.)Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 6 166.2 TD (Reply from 192.168.2.2: bytes)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 138.24 166.2 TD (=32 time=3ms TTL=125)Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 6 156.4 TD (Reply from 192.168.2.2: bytes)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 138.24 156.4 TD (=32 time=2ms TTL=125)Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 6 146.6 TD (Reply from 192.168.2.2: bytes)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 138.24 146.6 TD (=32 time=2ms TTL=125)Tj ET BT/F4 7.6 Tf 6 127 TD (Ping statistics for 192.168.2.2:)Tj ET BT/F4 7.6 Tf 6 117.2 TD (    Packets: Sent = 4, Received = 3, Lost = 1 \(25% loss\),)Tj ET BT/F4 7.6 Tf 6 97.6 TD (C:\\>)Tj ET 1 1 1 rg BT/F4 7.6 Tf 24.24 97.6 TD (tracert 192.168.2.2)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 6 78 TD (Tracing route to 192.168.2.2 over a maximum of 30 hops:)Tj ET BT/F4 7.6 Tf 6 58.4 TD (  1   0 ms      0 ms      0 ms      192.168.1.1)Tj ET BT/F4 7.6 Tf 6 48.6 TD (  2   1 ms      1 ms      0 ms      10.0.0.2)Tj ET BT/F4 7.6 Tf 6 38.8 TD (  3   2 ms      1 ms      2 ms      10.0.0.6)Tj ET BT/F4 7.6 Tf 6 29 TD (  4   2 ms      2 ms      1 ms      192.168.2.2)Tj ET BT/F4 7.6 Tf 6 9.4 TD (Trace complete.)Tj ET Q Q
+
+q
+453.2427 800.62948 122.03287 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/Type /Page
+/Contents 18 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 9162
+>>
+stream
+q
+q BT/F3 9 Tf 295.3878 31.1811 TD (4)Tj ET q 1 0 0 1 56.69291 771.1969 cm 0 0 0 rg BT/F2 11.5 Tf 0 2.5 TD (Part \(b\) - RIP)Tj ET Q q 1 0 0 1 56.69291 477.5969 cm 0 0 0 rg 0 0 481.8898 289.6 re f* .172549 .435294 .733333 rg 0 274.6 481.8898 15 re f* 1 1 1 rg 0 0 0 RG BT/F5 8 Tf 8 279.1 TD (R1 - CLI)Tj ET BT/F4 7.6 Tf 6 264.2 TD (R1\(config\)#)Tj ET 1 1 .4 scn BT/F4 7.6 Tf 56.16 264.2 TD (router rip)Tj ET 1 1 1 scn BT/F4 7.6 Tf 6 254.4 TD (R1\(config-router\)#)Tj ET 1 1 .4 scn BT/F4 7.6 Tf 88.08 254.4 TD (version 2)Tj ET 1 1 1 scn BT/F4 7.6 Tf 6 244.6 TD (R1\(config-router\)#)Tj ET 1 1 .4 scn BT/F4 7.6 Tf 88.08 244.6 TD (network 192.168.1.0)Tj ET 1 1 1 scn BT/F4 7.6 Tf 6 234.8 TD (R1\(config-router\)#)Tj ET 1 1 .4 scn BT/F4 7.6 Tf 88.08 234.8 TD (network 10.0.0.0)Tj ET 1 1 1 scn BT/F4 7.6 Tf 6 225 TD (R1\(config-router\)#)Tj ET 1 1 .4 scn BT/F4 7.6 Tf 88.08 225 TD (no auto-summary)Tj ET 1 1 1 scn BT/F4 7.6 Tf 6 215.2 TD (R1\(config-router\)#)Tj ET 1 1 .4 scn BT/F4 7.6 Tf 88.08 215.2 TD (end)Tj ET 1 1 1 scn BT/F4 7.6 Tf 6 205.4 TD (R1#)Tj ET 1 1 .4 scn BT/F4 7.6 Tf 19.68 205.4 TD (show ip route rip)Tj ET .909804 .909804 .909804 rg BT/F4 7.6 Tf 6 195.6 TD (     10.0.0.0/30 is subnetted, 2 subnets)Tj ET BT/F4 7.6 Tf 6 185.8 TD (R       10.0.0.4 [120/1] via 10.0.0.2, 00:00:12, Serial0/0/0)Tj ET BT/F4 7.6 Tf 6 176 TD (R    192.168.2.0/24 [120/2] via 10.0.0.2, 00:00:12, Serial0/0/0)Tj ET 1 1 1 rg BT/F4 7.6 Tf 6 166.2 TD (R1#)Tj ET 1 1 .4 scn BT/F4 7.6 Tf 19.68 166.2 TD (show ip protocols)Tj ET .909804 .909804 .909804 rg BT/F4 7.6 Tf 6 156.4 TD (Routing Protocol is "rip")Tj ET BT/F4 7.6 Tf 6 146.6 TD ( Sending updates every 30 seconds, next due in 17 seconds)Tj ET BT/F4 7.6 Tf 6 136.8 TD ( Invalid after 180 seconds, hold down 180, flushed after 240)Tj ET BT/F4 7.6 Tf 6 127 TD ( Outgoing update filter list for all interfaces is not set)Tj ET BT/F4 7.6 Tf 6 117.2 TD ( Incoming update filter list for all interfaces is not set)Tj ET BT/F4 7.6 Tf 6 107.4 TD ( Redistributing: rip)Tj ET BT/F4 7.6 Tf 6 97.6 TD ( Default version control: send version 2, receive 2)Tj ET BT/F4 7.6 Tf 6 87.8 TD ( Automatic network summarization is not in effect)Tj ET BT/F4 7.6 Tf 6 78 TD ( Maximum path: 4)Tj ET BT/F4 7.6 Tf 6 68.2 TD ( Routing for Networks:)Tj ET BT/F4 7.6 Tf 6 58.4 TD (   10.0.0.0)Tj ET BT/F4 7.6 Tf 6 48.6 TD (   192.168.1.0)Tj ET BT/F4 7.6 Tf 6 38.8 TD ( Routing Information Sources:)Tj ET BT/F4 7.6 Tf 6 29 TD (   Gateway         Distance      Last Update)Tj ET BT/F4 7.6 Tf 6 19.2 TD (   10.0.0.2             120      00:00:12)Tj ET BT/F4 7.6 Tf 6 9.4 TD ( Distance: \(default is 120\))Tj ET Q q 1 0 0 1 56.69291 335.7969 cm .047059 .047059 .047059 rg .533333 .533333 .533333 RG .8 w 0 0 481.8898 132.8 re B* 1 1 1 rg 0 117.8 481.8898 15 re f* 0 0 0 rg BT/F5 8 Tf 8 122.3 TD (PC0 - Command Prompt)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 6 107.4 TD (C:\\>)Tj ET 1 1 1 rg BT/F4 7.6 Tf 24.24 107.4 TD (ping 192.168.2.2)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 6 87.8 TD (Pinging 192.168.2.2 with 32 bytes of data:)Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 6 68.2 TD (Reply from 192.168.2.2: bytes)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 138.24 68.2 TD (=32 time=2ms TTL=125)Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 6 58.4 TD (Reply from 192.168.2.2: bytes)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 138.24 58.4 TD (=32 time=2ms TTL=125)Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 6 48.6 TD (Reply from 192.168.2.2: bytes)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 138.24 48.6 TD (=32 time=1ms TTL=125)Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 6 38.8 TD (Reply from 192.168.2.2: bytes)Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 138.24 38.8 TD (=32 time=2ms TTL=125)Tj ET BT/F4 7.6 Tf 6 19.2 TD (Ping statistics for 192.168.2.2:)Tj ET BT/F4 7.6 Tf 6 9.4 TD (    Packets: Sent = 4, Received = 4, Lost = 0 )Tj ET .541176 .886275 .203922 rg BT/F4 7.6 Tf 215.76 9.4 TD (\(0% loss\))Tj ET .8 .8 .8 rg BT/F4 7.6 Tf 256.8 9.4 TD (,)Tj ET Q q 1 0 0 1 90.4252 235.7969 cm .85098 .886275 .952941 rg 0 91 414.4252 -13 re f* .784314 .901961 .788235 rg 24.09449 78 57.826776 -13 re f* .298039 .686275 .313725 rg 231.3071 78 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 65 57.826776 -13 re f* .298039 .686275 .313725 rg 231.3071 65 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 52 57.826776 -13 re f* .298039 .686275 .313725 rg 231.3071 52 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 39 57.826776 -13 re f* .298039 .686275 .313725 rg 231.3071 39 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 26 57.826776 -13 re f* 1 .596078 0 rg 231.3071 26 38.551179 -13 re f* .784314 .901961 .788235 rg 24.09449 13 57.826776 -13 re f* 1 .596078 0 rg 231.3071 13 38.551179 -13 re f* 0 0 0 rg BT/F5 7.5 Tf 3 81.5 TD (Fire)Tj ET BT 27.09449 81.5 TD (Last Status)Tj ET BT 84.92126 81.5 TD (Source)Tj ET BT 133.1102 81.5 TD (Destination)Tj ET BT 195.7559 81.5 TD (Type)Tj ET BT 234.3071 81.5 TD (Color)Tj ET BT 272.8583 81.5 TD (Time\(sec\))Tj ET BT 330.685 81.5 TD (Periodic)Tj ET BT 378.874 81.5 TD (Num)Tj ET BT/F1 7.5 Tf 27.09449 68.5 TD (Successful)Tj ET BT 84.92126 68.5 TD (PC0)Tj ET BT 133.1102 68.5 TD (R1)Tj ET BT 195.7559 68.5 TD (ICMP)Tj ET BT 272.8583 68.5 TD (0.000)Tj ET BT 330.685 68.5 TD (N)Tj ET BT 378.874 68.5 TD (0)Tj ET BT 27.09449 55.5 TD (Successful)Tj ET BT 84.92126 55.5 TD (R1)Tj ET BT 133.1102 55.5 TD (R2)Tj ET BT 195.7559 55.5 TD (ICMP)Tj ET BT 272.8583 55.5 TD (0.001)Tj ET BT 330.685 55.5 TD (N)Tj ET BT 378.874 55.5 TD (1)Tj ET BT 27.09449 42.5 TD (Successful)Tj ET BT 84.92126 42.5 TD (R2)Tj ET BT 133.1102 42.5 TD (R3)Tj ET BT 195.7559 42.5 TD (ICMP)Tj ET BT 272.8583 42.5 TD (0.002)Tj ET BT 330.685 42.5 TD (N)Tj ET BT 378.874 42.5 TD (2)Tj ET BT 27.09449 29.5 TD (Successful)Tj ET BT 84.92126 29.5 TD (R3)Tj ET BT 133.1102 29.5 TD (PC1)Tj ET BT 195.7559 29.5 TD (ICMP)Tj ET BT 272.8583 29.5 TD (0.003)Tj ET BT 330.685 29.5 TD (N)Tj ET BT 378.874 29.5 TD (3)Tj ET BT 27.09449 16.5 TD (Successful)Tj ET BT 84.92126 16.5 TD (R1)Tj ET BT 133.1102 16.5 TD (R2)Tj ET BT 195.7559 16.5 TD (RIP)Tj ET BT 272.8583 16.5 TD (30.000)Tj ET BT 330.685 16.5 TD (N)Tj ET BT 378.874 16.5 TD (4)Tj ET BT 27.09449 3.5 TD (Successful)Tj ET BT 84.92126 3.5 TD (R2)Tj ET BT 133.1102 3.5 TD (R3)Tj ET BT 195.7559 3.5 TD (RIP)Tj ET BT 272.8583 3.5 TD (30.001)Tj ET BT 330.685 3.5 TD (N)Tj ET BT 378.874 3.5 TD (5)Tj ET q .533333 .533333 .533333 RG 1 J 1 j .4 w 0 91 m 414.4252 91 l S 0 0 m 414.4252 0 l S 0 0 m 0 91 l S 414.4252 0 m 414.4252 91 l S 0 78 m 414.4252 78 l S 0 65 m 414.4252 65 l S 0 52 m 414.4252 52 l S 0 39 m 414.4252 39 l S 0 26 m 414.4252 26 l S 0 13 m 414.4252 13 l S 24.09449 0 m 24.09449 91 l S 81.92126 0 m 81.92126 91 l S 130.1102 0 m 130.1102 91 l S 192.7559 0 m 192.7559 91 l S 231.3071 0 m 231.3071 91 l S 269.8583 0 m 269.8583 91 l S 327.685 0 m 327.685 91 l S 375.874 0 m 375.874 91 l S Q Q q 1 0 0 1 56.69291 71.79685 cm .933333 .933333 .933333 rg 0 156 481.8898 -20.5 re f* q 1 0 0 1 6 139.5 cm 0 0 0 rg BT/F2 10 Tf 0 2.5 TD (Point)Tj ET Q q 1 0 0 1 140.9291 139.5 cm 0 0 0 rg BT/F2 10 Tf 0 2.5 TD (Static routing)Tj ET Q q 1 0 0 1 314.4094 139.5 cm 0 0 0 rg BT/F2 10 Tf 0 2.5 TD (RIP)Tj ET Q q 1 0 0 1 6 112.75 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Route entry)Tj ET Q q 1 0 0 1 140.9291 112.75 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Typed manually by the admin \(S\))Tj ET Q q 1 0 0 1 314.4094 106.5 cm 0 0 0 rg BT/F3 10 Tf 0 15 TD (Learnt automatically from neighbours)Tj 0 -12.5 TD (\(R\))Tj ET Q q 1 0 0 1 6 86 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Administrative distance)Tj ET Q q 1 0 0 1 140.9291 86 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (1)Tj ET Q q 1 0 0 1 314.4094 86 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (120)Tj ET Q q 1 0 0 1 6 65.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Updates)Tj ET Q q 1 0 0 1 140.9291 65.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (None)Tj ET Q q 1 0 0 1 314.4094 65.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Every 30 seconds)Tj ET Q q 1 0 0 1 6 45 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Link failure)Tj ET Q q 1 0 0 1 140.9291 45 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Admin has to change the route)Tj ET Q q 1 0 0 1 314.4094 45 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Finds another path automatically)Tj ET Q q 1 0 0 1 6 24.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Metric)Tj ET Q q 1 0 0 1 140.9291 24.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Not used)Tj ET Q q 1 0 0 1 314.4094 24.5 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Hop count \(max 15\))Tj ET Q q 1 0 0 1 6 4 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Best for)Tj ET Q q 1 0 0 1 140.9291 4 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Small and stable networks)Tj ET Q q 1 0 0 1 314.4094 4 cm 0 0 0 rg BT/F3 10 Tf 0 2.5 TD (Small to medium networks)Tj ET Q q 0 0 0 RG 1 J 1 j .6 w 0 156 m 481.8898 156 l S 0 0 m 481.8898 0 l S 0 0 m 0 156 l S 481.8898 0 m 481.8898 156 l S 0 135.5 m 481.8898 135.5 l S 0 102.5 m 481.8898 102.5 l S 0 82 m 481.8898 82 l S 0 61.5 m 481.8898 61.5 l S 0 41 m 481.8898 41 l S 0 20.5 m 481.8898 20.5 l S 134.9291 0 m 134.9291 156 l S 308.4094 0 m 308.4094 156 l S Q Q Q
+
+q
+453.2427 800.62948 122.03287 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+19 0 obj
+<<
+/Type /Page
+/Contents 20 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 714
+>>
+stream
+q
+q BT/F3 9 Tf 295.3878 31.1811 TD (5)Tj ET q 1 0 0 1 56.69291 769.1969 cm 0 0 0 RG 0 1.375 m 56.342 1.375 l S 0 0 0 rg BT/F2 13 Tf 0 3 TD (RESULT:)Tj ET Q q 1 0 0 1 56.69291 718.1969 cm 0 0 0 rg BT/F3 11 Tf 0 34 TD (Thus static routing and RIP were configured and simulated in Cisco Packet Tracer. Ping between the two)Tj 0 -15 TD (remote networks failed without routes and became successful after configuring the static routes and also after)Tj T* (configuring RIP.)Tj ET Q Q
+
+q
+453.2427 800.62948 122.03287 15.84998 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 459.1156 817.8898 Tm
+(ELANGO G 241501055) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000141 00000 n 
+0000000190 00000 n 
+0000000467 00000 n 
+0000007775 00000 n 
+0000007882 00000 n 
+0000007989 00000 n 
+0000008097 00000 n 
+0000008209 00000 n 
+0000008319 00000 n 
+0000008425 00000 n 
+0000008715 00000 n 
+0000020392 00000 n 
+0000020505 00000 n 
+0000020771 00000 n 
+0000024995 00000 n 
+0000025285 00000 n 
+0000034500 00000 n 
+0000034756 00000 n 
+trailer
+<<
+/Size 21
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+35522
+%%EOF
